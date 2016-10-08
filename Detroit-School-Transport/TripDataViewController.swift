@@ -10,6 +10,12 @@ import Foundation
 import Firebase
 import UIKit
 
+/*
+ FCFDAF - Yellow
+ F4989C - Red
+ 60E1E0 - Blue
+ D1FFC6 - Green
+ */
 class TripDataViewController: UIViewController {
     
     @IBOutlet weak var headerBackground: UIView!
@@ -23,17 +29,16 @@ class TripDataViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        instantiateBackground(backgroundView: headerBackground)
         instantiateBackground(backgroundView: startBackground)
         instantiateBackground(backgroundView: lineBackground)
         instantiateBackground(backgroundView: stopBackground)
         instantiateBackground(backgroundView: endBackground)
         
-        headerBackground.backgroundColor = UIColor.init(hexString: "F4989C")
+        headerBackground.backgroundColor = UIColor.init(hexString: "C7EBF0")
     }
     
     func instantiateBackground(backgroundView: UIView) {
-        backgroundView.layer.cornerRadius = 5
+        backgroundView.layer.cornerRadius = 10
         backgroundView.backgroundColor = UIColor.gray
     }
 }

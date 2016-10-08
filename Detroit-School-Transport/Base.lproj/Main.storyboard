@@ -80,7 +80,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d0a-JG-fQX">
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="60" id="pnt-yF-aiL"/>
+                                            <constraint firstAttribute="height" constant="80" id="pnt-yF-aiL"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TDs-Zf-dwP">
@@ -98,7 +98,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="viy-i3-xFu">
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="60" id="LLR-Hp-7ms"/>
+                                            <constraint firstAttribute="height" constant="80" id="LLR-Hp-7ms"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -106,7 +106,7 @@
                                     <constraint firstItem="Erz-pw-7fb" firstAttribute="leading" secondItem="b4W-fm-wGg" secondAttribute="leading" constant="19" id="9sf-av-FQl"/>
                                     <constraint firstAttribute="trailing" secondItem="d0a-JG-fQX" secondAttribute="trailing" constant="20" id="Cca-p3-71P"/>
                                     <constraint firstItem="d0a-JG-fQX" firstAttribute="top" secondItem="b4W-fm-wGg" secondAttribute="top" constant="20" id="Dqx-tY-agk"/>
-                                    <constraint firstAttribute="trailing" secondItem="viy-i3-xFu" secondAttribute="trailing" constant="21" id="FlI-rr-V45"/>
+                                    <constraint firstAttribute="trailing" secondItem="viy-i3-xFu" secondAttribute="trailing" constant="20" id="FlI-rr-V45"/>
                                     <constraint firstItem="Erz-pw-7fb" firstAttribute="top" secondItem="TDs-Zf-dwP" secondAttribute="bottom" constant="20" id="OsN-Xu-bcF"/>
                                     <constraint firstItem="viy-i3-xFu" firstAttribute="top" secondItem="Erz-pw-7fb" secondAttribute="bottom" constant="20" id="OvK-Fe-cc9"/>
                                     <constraint firstItem="viy-i3-xFu" firstAttribute="leading" secondItem="b4W-fm-wGg" secondAttribute="leading" constant="20" id="bLL-Zt-UbD"/>
