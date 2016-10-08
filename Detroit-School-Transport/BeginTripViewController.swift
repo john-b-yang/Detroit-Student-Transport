@@ -20,7 +20,7 @@ class BeginTripViewController: UIViewController, CLLocationManagerDelegate {
     //Location Management and Trip History
     var locationManager: CLLocationManager!
     var timeArray = [String]()
-    var locationArray = [String]()
+    var locationDictionary:Dictionary = [String: [String: Double]()]()
     
     //Firebase Database Reference
     var ref: FIRDatabaseReference!
@@ -45,7 +45,6 @@ class BeginTripViewController: UIViewController, CLLocationManagerDelegate {
         locationManager.startUpdatingLocation()
         
         trackButton.titleLabel?.text = "Begin Tracking"
-        trackButton.layer.borderColor = UIColor.blue.cgColor
     }
     
     /*
@@ -69,10 +68,10 @@ class BeginTripViewController: UIViewController, CLLocationManagerDelegate {
         
         //Artificially populate timeArray and locationArray since they are blank
         timeArray = [String(describing: Date()), String(describing: Date()), String(describing: Date())]
-        locationArray = [String(describing: CLLocationCoordinate2D()), String(describing: CLLocationCoordinate2D()), String(describing: CLLocationCoordinate2D())]
+        locationDictionary = ["0": ["lat": 40, "long": 50], "1": ["lat": 60, "long": 70]]
         
         self.ref.child("users/John/times").setValue(timeArray as NSArray)
-        self.ref.child("users/John/locations").setValue(locationArray as NSArray)
+        self.ref.child("users/John/locations").setValue(locationDictionary as NSDictionary)
     }
     
     //To be amended
@@ -83,12 +82,14 @@ class BeginTripViewController: UIViewController, CLLocationManagerDelegate {
         for element in test {
             let latDifference = abs(Double((currentLocation?.coordinate.latitude)!) - element[0]) //Must be amended later
             let longDifference = abs(Double((currentLocation?.coordinate.longitude)!) - element[1]) //Must be amended later
+            
             let epsilon: Double = 20 //Error margin of coordinates
+            
             if (latDifference < epsilon && longDifference < epsilon) {
                 timeArray[counter] = (String(describing: currentLocation?.timestamp))
-                locationArray[counter] = (String(describing: currentLocation?.coordinate))
+                locationDictionary[String(counter)] = ["lat": Double((currentLocation?.coordinate.latitude)!), "long": Double((currentLocation?.coordinate.longitude)!)]
+                counter += 1
             }
-            counter += 1
         }
     }
 }
