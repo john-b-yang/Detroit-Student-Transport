@@ -78,9 +78,19 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b4W-fm-wGg">
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d0a-JG-fQX">
+                                        <subviews>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Choose Location" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RRK-QK-q96">
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
+                                            <constraint firstItem="RRK-QK-q96" firstAttribute="leading" secondItem="d0a-JG-fQX" secondAttribute="leading" constant="50" id="mWp-cL-PQ2"/>
                                             <constraint firstAttribute="height" constant="80" id="pnt-yF-aiL"/>
+                                            <constraint firstAttribute="trailing" secondItem="RRK-QK-q96" secondAttribute="trailing" constant="50" id="xGw-32-fzX"/>
+                                            <constraint firstItem="RRK-QK-q96" firstAttribute="centerY" secondItem="d0a-JG-fQX" secondAttribute="centerY" id="yaD-ES-XHq"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TDs-Zf-dwP">
@@ -161,7 +171,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9PY-f5-9yK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="733.60000000000002" y="36.431784107946029"/>
+            <point key="canvasLocation" x="953" y="103"/>
         </scene>
     </scenes>
 </document>

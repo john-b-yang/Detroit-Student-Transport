@@ -9,6 +9,7 @@ target 'Detroit-School-Transport' do
   pod 'Firebase/Core'
   pod 'Firebase/Database'
   pod 'SwiftHEXColors'
+  pod 'IQDropDownTextField'
 
   target 'Detroit-School-TransportTests' do
     inherit! :search_paths

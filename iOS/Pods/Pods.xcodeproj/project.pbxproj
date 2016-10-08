@@ -7,65 +7,126 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		061B32496494EB190A45A849102AC26D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		2757B9C3A72D230545E156EC10E915A6 /* Pods-Detroit-School-Transport-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4593AE5714C804B7ADD95D334DA6FF3D /* Pods-Detroit-School-Transport-dummy.m */; };
+		0A0DA2B884C569A10CBE9A8E062078CF /* SwiftHEXColors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6C9856E92B523231F12E0E70D86E3D /* SwiftHEXColors-dummy.m */; };
+		4A86A1C4E28D1A733D6888682EAF9FB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		51CED3A104B08775686BEB32220A09BE /* SwiftHEXColors.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BBDADA5AA3DD3BDF5390AEE8B2DC041 /* SwiftHEXColors.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5E455B53A204B5CD83C6A924938193B2 /* Pods-Detroit-School-TransportUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C61368A79F41EFB7D5E96B9BEEC30E63 /* Pods-Detroit-School-TransportUITests-dummy.m */; };
-		65CE32DA90BAEA21AEDFD7BB266A18C8 /* Pods-Detroit-School-Transport-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB458FA94A8B2FD9CE202581DAEBEC5B /* Pods-Detroit-School-Transport-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F4C0C1F6B3763A08AA20CC5E1DBD7BF /* Pods-Detroit-School-Transport-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB458FA94A8B2FD9CE202581DAEBEC5B /* Pods-Detroit-School-Transport-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		749B03FE44D78BAE5382E657C9E2A4AF /* Pods-Detroit-School-Transport-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4593AE5714C804B7ADD95D334DA6FF3D /* Pods-Detroit-School-Transport-dummy.m */; };
+		88262F72C35382C4759ABE6AB7A49AA0 /* IQDropDownTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A55893E7BB16A48578F339A146126E6 /* IQDropDownTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F92FA88C376D8CF62A10362D839D51D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		97D4DFE19536DB8636007003C39AC2F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		A8F7FDF49CDB30037BA00EA2F32CB285 /* Pods-Detroit-School-TransportUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69BD3A9803BFC42D3AFAA9397D49A792 /* Pods-Detroit-School-TransportUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8F8946A6F64129C417D88F89A2BAEB0 /* IQDropDownTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DECB46010E3BDC8FAD32F9C89AE927A /* IQDropDownTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A8F929A4BA5B6A928A614A56FB13046D /* Pods-Detroit-School-TransportTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6723C672238ECBE6D073736352570A7B /* Pods-Detroit-School-TransportTests-dummy.m */; };
+		BBCCB33035E0DCFE918E763DCD4A7945 /* IQDropDownTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F2641A9645190112A2CFDD86FF881A /* IQDropDownTextField-dummy.m */; };
 		BF6D352686B33C73BD0FB91EF5FFC50A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		D64C143AFE0A5C567CF03C822E44C3BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		D8BD2CD7BD44B23BC420A65A42772AD4 /* SwiftHEXColors-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDE6EB38F52AF43783C423EAF579AC74 /* SwiftHEXColors-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9AC5AA0AA4150AE78D54A89E32A772A /* SwiftHEXColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D77F5F3ACE41C9DA9EB766CFD4A783 /* SwiftHEXColors.swift */; };
+		F385107C2E0C111A61F2AFDAB8F9E4FA /* IQDropDownTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8A20160F1BB43B5CD212A9035BFEDC /* IQDropDownTextField.m */; };
 		F6C48ACDDF1F3C2E53580F1EDEF212F0 /* Pods-Detroit-School-TransportTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02FF0652E64765A9B163D5E06A8B3BEE /* Pods-Detroit-School-TransportTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1300A1A4A5E406B233DCCD86845F4D5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FED819C1B07DCB8DBA72205F1E6A9A5;
+			remoteInfo = SwiftHEXColors;
+		};
+		C89BEAD612566D7D69C907BEDF105B87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3511258FF1DED3401C4B456024D5FA41;
+			remoteInfo = IQDropDownTextField;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0035D6A0340A2420A3269A25AB1B2575 /* Pods-Detroit-School-TransportUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Detroit-School-TransportUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		02FF0652E64765A9B163D5E06A8B3BEE /* Pods-Detroit-School-TransportTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Detroit-School-TransportTests-umbrella.h"; sourceTree = "<group>"; };
 		0B2A7BE424A28934B8D8C467DCF645DC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		178D8FDE0929AB101863CECBB5EF70A0 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
-		1FCB3A499DF94478620BA9B527F342FC /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		0BBDADA5AA3DD3BDF5390AEE8B2DC041 /* SwiftHEXColors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftHEXColors.h; path = Sources/SwiftHEXColors.h; sourceTree = "<group>"; };
+		122698D5BC2630F4E008CC693CFA94DF /* Pods_Detroit_School_Transport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Detroit_School_Transport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		154203154286F0B70929DFE5F6C16334 /* SwiftHEXColors.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftHEXColors.modulemap; sourceTree = "<group>"; };
 		31B3B852E78895644DA7D796D174EAFD /* Pods-Detroit-School-Transport-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Detroit-School-Transport-frameworks.sh"; sourceTree = "<group>"; };
+		34BC3EA9BAC435AC83DCBEEB4806EEB8 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		35E0C77D7A7732435519C8B93D1B70A5 /* SwiftHEXColors.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftHEXColors.xcconfig; sourceTree = "<group>"; };
+		3A62FA7A45B2345DAF460593AB5A7FFC /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
 		3AC276073ABCBEE927551A2EB5DA2E32 /* Pods-Detroit-School-TransportTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Detroit-School-TransportTests.release.xcconfig"; sourceTree = "<group>"; };
+		3B6C9856E92B523231F12E0E70D86E3D /* SwiftHEXColors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftHEXColors-dummy.m"; sourceTree = "<group>"; };
+		43A701F63E03F01ED0B6986635A494C6 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
 		4593AE5714C804B7ADD95D334DA6FF3D /* Pods-Detroit-School-Transport-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Detroit-School-Transport-dummy.m"; sourceTree = "<group>"; };
 		459524C3834FDC43373160B9A23E9478 /* Pods-Detroit-School-TransportTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Detroit-School-TransportTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		486200D765E2463223E413A4E1D9F1D4 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
-		4887DCF8C52E71EEF6A62032B8921EFC /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
 		55AB95F4E14F05B321ACBBAB4D6E06F9 /* Pods-Detroit-School-TransportTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Detroit-School-TransportTests.debug.xcconfig"; sourceTree = "<group>"; };
-		568D1007AAD032B4FAD98B34D33BCE5D /* Pods_Detroit_School_TransportTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Detroit_School_TransportTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		635A2DE4CB5BBF807D6E131F6036CE0D /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		6579BC4A041851EB3A7B702D8746359A /* SwiftHEXColors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftHEXColors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6723C672238ECBE6D073736352570A7B /* Pods-Detroit-School-TransportTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Detroit-School-TransportTests-dummy.m"; sourceTree = "<group>"; };
 		69BD3A9803BFC42D3AFAA9397D49A792 /* Pods-Detroit-School-TransportUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Detroit-School-TransportUITests-umbrella.h"; sourceTree = "<group>"; };
 		6C604853A712DEEBACC7B684EFBED361 /* Pods-Detroit-School-TransportTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Detroit-School-TransportTests.modulemap"; sourceTree = "<group>"; };
 		7136E8292E1D28521431EA11B18CBD3F /* Pods-Detroit-School-Transport.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Detroit-School-Transport.modulemap"; sourceTree = "<group>"; };
-		74C51A9EBABEEC7921C23234BB8F638A /* Pods_Detroit_School_TransportUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Detroit_School_TransportUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7685E98568F9907C0494730FD87C24DD /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		720D89700A953E49F0690F270E78A67B /* IQDropDownTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQDropDownTextField.xcconfig; sourceTree = "<group>"; };
+		78681140E3D9A13E45EDD4EFD6B857A7 /* Pods_Detroit_School_TransportTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Detroit_School_TransportTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78DD6C87030527282D6119D371509056 /* Pods-Detroit-School-Transport-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Detroit-School-Transport-acknowledgements.markdown"; sourceTree = "<group>"; };
+		790F25AF4BAD7D5E69C0E27388A92E94 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CB8F542E193D2856E4BA3161503CBB2 /* Pods-Detroit-School-Transport-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Detroit-School-Transport-resources.sh"; sourceTree = "<group>"; };
 		7DC2F3BAFE508DE3A9D3A02F86763AF4 /* Pods-Detroit-School-TransportTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Detroit-School-TransportTests-resources.sh"; sourceTree = "<group>"; };
 		8481E2337571C0C84AD9946FA7030C30 /* Pods-Detroit-School-TransportUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Detroit-School-TransportUITests.modulemap"; sourceTree = "<group>"; };
+		84D77F5F3ACE41C9DA9EB766CFD4A783 /* SwiftHEXColors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftHEXColors.swift; path = Sources/SwiftHEXColors.swift; sourceTree = "<group>"; };
+		8FF267B55C88789BD2E165A9C890702D /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		973C888101FF05229E011E9A620A1728 /* IQDropDownTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IQDropDownTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A55893E7BB16A48578F339A146126E6 /* IQDropDownTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQDropDownTextField-umbrella.h"; sourceTree = "<group>"; };
 		9ACBC03842276D6193A09FF919BB5FD7 /* Pods-Detroit-School-TransportUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Detroit-School-TransportUITests-resources.sh"; sourceTree = "<group>"; };
 		9AEB66ADD8DC33C25930DC1B4698DB1A /* Pods-Detroit-School-TransportUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Detroit-School-TransportUITests.release.xcconfig"; sourceTree = "<group>"; };
-		A5C079CB703AA07D9D332A786334C71D /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
-		B9CD055AFA4DA18F03D376A33D28D2BA /* Pods_Detroit_School_Transport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Detroit_School_Transport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA9DD2105C15856CCF750CDD57CFF890 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
+		9D0A9F30B0D9F5784765FE553161D13C /* IQDropDownTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = IQDropDownTextField.modulemap; sourceTree = "<group>"; };
+		9DECB46010E3BDC8FAD32F9C89AE927A /* IQDropDownTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQDropDownTextField.h; path = IQDropDownTextField/IQDropDownTextField.h; sourceTree = "<group>"; };
+		A6F4F390C193EB4977BE400E32E880A4 /* Pods_Detroit_School_TransportUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Detroit_School_TransportUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A95FA840BFE94B6505E4E772DC998688 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
+		AEFFAFC7667A1A18E03CC4DC5BF75418 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		B0898A065EC293071996C7C73AF4123F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC817E18E304D349A07588E9FEAE08C0 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
 		BDAA7DB9A0443943DF901509D056C0F8 /* Pods-Detroit-School-TransportUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Detroit-School-TransportUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C24A56C37F3AAB325568734A5E788BC6 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
 		C61368A79F41EFB7D5E96B9BEEC30E63 /* Pods-Detroit-School-TransportUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Detroit-School-TransportUITests-dummy.m"; sourceTree = "<group>"; };
 		C6B666E67DBA29B4287658B957FA6A2F /* Pods-Detroit-School-TransportTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Detroit-School-TransportTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C85B84F663A37815E1B19C605556B6CF /* Pods-Detroit-School-Transport-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Detroit-School-Transport-acknowledgements.plist"; sourceTree = "<group>"; };
 		CE21D5895C5666BCD2E4E1B658DD90A2 /* Pods-Detroit-School-TransportUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Detroit-School-TransportUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE8A20160F1BB43B5CD212A9035BFEDC /* IQDropDownTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQDropDownTextField.m; path = IQDropDownTextField/IQDropDownTextField.m; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D4327E7248A233EBEDF33BE8206DDFC8 /* Pods-Detroit-School-Transport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Detroit-School-Transport.release.xcconfig"; sourceTree = "<group>"; };
 		D57244E5A3BA747D7AB5B775999FD82A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB458FA94A8B2FD9CE202581DAEBEC5B /* Pods-Detroit-School-Transport-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Detroit-School-Transport-umbrella.h"; sourceTree = "<group>"; };
+		E857829384CDA7C0879FB0818231052F /* IQDropDownTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQDropDownTextField-prefix.pch"; sourceTree = "<group>"; };
 		E8C74807802B3C6BB11583CF65D3540F /* Pods-Detroit-School-Transport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Detroit-School-Transport.debug.xcconfig"; sourceTree = "<group>"; };
-		E9AC004E2CFEAE37F2BE33D001FBFA95 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
 		EA379241258D19798F6FE3AF46DCAB0A /* Pods-Detroit-School-TransportUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Detroit-School-TransportUITests-frameworks.sh"; sourceTree = "<group>"; };
+		EDE6EB38F52AF43783C423EAF579AC74 /* SwiftHEXColors-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftHEXColors-umbrella.h"; sourceTree = "<group>"; };
+		F1B67442D030EA7DC7945E4175518C57 /* SwiftHEXColors-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftHEXColors-prefix.pch"; sourceTree = "<group>"; };
 		F1DB4BA3E604FB636FAD28244007D0FC /* Pods-Detroit-School-TransportTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Detroit-School-TransportTests-frameworks.sh"; sourceTree = "<group>"; };
 		F3B1B87939B99C5BF6A638F5B7227296 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3F2641A9645190112A2CFDD86FF881A /* IQDropDownTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQDropDownTextField-dummy.m"; sourceTree = "<group>"; };
+		FF3BE8A60BD33403F64C05B60639E79E /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		069C7F3D87D15B937BEEB611C31A3C74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97D4DFE19536DB8636007003C39AC2F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DFA6827ED0608942CB6981B01D78136 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F92FA88C376D8CF62A10362D839D51D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		80C5E6A4EE7B8645C0986E7AF4C6F6A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -74,11 +135,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		865E4F625BDB46BD52A0C8EE012FFC72 /* Frameworks */ = {
+		92B00176538B0C4FA7FF69ACEFA674C3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				061B32496494EB190A45A849102AC26D /* Foundation.framework in Frameworks */,
+				4A86A1C4E28D1A733D6888682EAF9FB6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,12 +154,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		07A4F2A2C2461BC26EE06966C0D3F14A /* Frameworks */ = {
+		07887199C1879750155D173180478A8F /* FirebaseDatabase */ = {
 			isa = PBXGroup;
 			children = (
-				1FCB3A499DF94478620BA9B527F342FC /* FirebaseDatabase.framework */,
+				E898C360F9691AEB982241FD7773F25D /* Frameworks */,
+			);
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		112F7A154CE00DC1703DC0A60A11635A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FF267B55C88789BD2E165A9C890702D /* GoogleUtilities.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11E78E630CA1BFB6FAAA52DA89174DBB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0898A065EC293071996C7C73AF4123F /* Info.plist */,
+				154203154286F0B70929DFE5F6C16334 /* SwiftHEXColors.modulemap */,
+				35E0C77D7A7732435519C8B93D1B70A5 /* SwiftHEXColors.xcconfig */,
+				3B6C9856E92B523231F12E0E70D86E3D /* SwiftHEXColors-dummy.m */,
+				F1B67442D030EA7DC7945E4175518C57 /* SwiftHEXColors-prefix.pch */,
+				EDE6EB38F52AF43783C423EAF579AC74 /* SwiftHEXColors-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftHEXColors";
 			sourceTree = "<group>";
 		};
 		1FF62BFACC5599FA6E2696C783E4FC28 /* Pods-Detroit-School-TransportUITests */ = {
@@ -119,12 +202,12 @@
 			path = "Target Support Files/Pods-Detroit-School-TransportUITests";
 			sourceTree = "<group>";
 		};
-		287BE78D8600CD87035294A4084914D0 /* FirebaseCore */ = {
+		29327899F75D61B3EC0BD6663B2D7224 /* GoogleInterchangeUtilities */ = {
 			isa = PBXGroup;
 			children = (
-				DF8F1B3D597FFD34A3CAB0A06C38D0E6 /* Frameworks */,
+				50781F6A6D825EF25830B28FF0E681C0 /* Frameworks */,
 			);
-			path = FirebaseCore;
+			path = GoogleInterchangeUtilities;
 			sourceTree = "<group>";
 		};
 		2BC3259018824B4D82CACFE0E88A5DA2 /* Pods-Detroit-School-Transport */ = {
@@ -145,12 +228,37 @@
 			path = "Target Support Files/Pods-Detroit-School-Transport";
 			sourceTree = "<group>";
 		};
-		2FC0F1C37D8F50D0B1F68C879B1AA62B /* Firebase */ = {
+		2DFAEB74C09A73A7D1A189D6983CDD1E /* Firebase */ = {
 			isa = PBXGroup;
 			children = (
-				DDE3B337C8578A76F10821ACE0A9F65F /* Core */,
+				818001F73066AD57F6D10DDB612E486D /* Core */,
 			);
 			path = Firebase;
+			sourceTree = "<group>";
+		};
+		2E3FA5EF685F6D0AAA5B2BA10C2841FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DFAEB74C09A73A7D1A189D6983CDD1E /* Firebase */,
+				4E2DAECF7273F425670792AFD0FBF313 /* FirebaseAnalytics */,
+				86CB7A6BD18DC6BB86A334AB915B3FA6 /* FirebaseCore */,
+				07887199C1879750155D173180478A8F /* FirebaseDatabase */,
+				61847435866EEE41F7FF30128129BD8F /* FirebaseInstanceID */,
+				29327899F75D61B3EC0BD6663B2D7224 /* GoogleInterchangeUtilities */,
+				3CF78D0E7968820E44EBDF8FC6C8DE3C /* GoogleSymbolUtilities */,
+				7E7AB05ED581BF2ECB54F1E3C3C6360C /* GoogleUtilities */,
+				7979C349A6072FCDF9FACE1102EEF08B /* IQDropDownTextField */,
+				A885C7626CF35AA5CF2C7AB0CCFF1698 /* SwiftHEXColors */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3CF78D0E7968820E44EBDF8FC6C8DE3C /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				ECDA0ACA7E19CFCB09143DE47D7EB24E /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
 			sourceTree = "<group>";
 		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
@@ -161,27 +269,28 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		48FD774D2F83585DABBA5DD5F8C85CC9 /* Pods */ = {
+		49D1C6E82F1E3D2D31C03A8E006C4D74 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2FC0F1C37D8F50D0B1F68C879B1AA62B /* Firebase */,
-				D450F243880AB69B199FC79EFC589084 /* FirebaseAnalytics */,
-				287BE78D8600CD87035294A4084914D0 /* FirebaseCore */,
-				D10B9443E34023ED81E6FF80404E62AD /* FirebaseDatabase */,
-				F72444E6FB034C662874AAE6855C2DE7 /* FirebaseInstanceID */,
-				4B0922A8CACB4982081B8A5A6B8A21EE /* GoogleInterchangeUtilities */,
-				B4CCC169E8311EB6B6EC60C481266F54 /* GoogleSymbolUtilities */,
-				C36470E2B25450A3431AADE159BDB7AF /* GoogleUtilities */,
+				34BC3EA9BAC435AC83DCBEEB4806EEB8 /* FirebaseInstanceID.framework */,
 			);
-			name = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4B0922A8CACB4982081B8A5A6B8A21EE /* GoogleInterchangeUtilities */ = {
+		4E2DAECF7273F425670792AFD0FBF313 /* FirebaseAnalytics */ = {
 			isa = PBXGroup;
 			children = (
-				DBC51C109E679867F7225A67CF38EB30 /* Frameworks */,
+				D08A38F969A02C72E2EB2FD6D8E14E8E /* Frameworks */,
 			);
-			path = GoogleInterchangeUtilities;
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		50781F6A6D825EF25830B28FF0E681C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C24A56C37F3AAB325568734A5E788BC6 /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		55F24E25222E9157E8F83213BB9B7C0B /* Targets Support Files */ = {
@@ -194,22 +303,43 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5609B4E3EA5FABBD45B816891F2CD45F /* Products */ = {
+		61847435866EEE41F7FF30128129BD8F /* FirebaseInstanceID */ = {
 			isa = PBXGroup;
 			children = (
-				B9CD055AFA4DA18F03D376A33D28D2BA /* Pods_Detroit_School_Transport.framework */,
-				568D1007AAD032B4FAD98B34D33BCE5D /* Pods_Detroit_School_TransportTests.framework */,
-				74C51A9EBABEEC7921C23234BB8F638A /* Pods_Detroit_School_TransportUITests.framework */,
+				A95FA840BFE94B6505E4E772DC998688 /* FIRInstanceID.h */,
+				49D1C6E82F1E3D2D31C03A8E006C4D74 /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		62883890868542D226DDA8ECE3DBE1CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				973C888101FF05229E011E9A620A1728 /* IQDropDownTextField.framework */,
+				122698D5BC2630F4E008CC693CFA94DF /* Pods_Detroit_School_Transport.framework */,
+				78681140E3D9A13E45EDD4EFD6B857A7 /* Pods_Detroit_School_TransportTests.framework */,
+				A6F4F390C193EB4977BE400E32E880A4 /* Pods_Detroit_School_TransportUITests.framework */,
+				6579BC4A041851EB3A7B702D8746359A /* SwiftHEXColors.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		69556186FCFF1D07B57EBB7D4836CBDD /* Frameworks */ = {
+		78434B7E41B3205C0E7FB9865E9A17EA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7685E98568F9907C0494730FD87C24DD /* FirebaseAnalytics.framework */,
+				FF3BE8A60BD33403F64C05B60639E79E /* FirebaseCore.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7979C349A6072FCDF9FACE1102EEF08B /* IQDropDownTextField */ = {
+			isa = PBXGroup;
+			children = (
+				9DECB46010E3BDC8FAD32F9C89AE927A /* IQDropDownTextField.h */,
+				CE8A20160F1BB43B5CD212A9035BFEDC /* IQDropDownTextField.m */,
+				861E2AD90D60BBC348B1BFFC1350CB81 /* Support Files */,
+			);
+			path = IQDropDownTextField;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -217,10 +347,48 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				48FD774D2F83585DABBA5DD5F8C85CC9 /* Pods */,
-				5609B4E3EA5FABBD45B816891F2CD45F /* Products */,
+				2E3FA5EF685F6D0AAA5B2BA10C2841FE /* Pods */,
+				62883890868542D226DDA8ECE3DBE1CF /* Products */,
 				55F24E25222E9157E8F83213BB9B7C0B /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		7E7AB05ED581BF2ECB54F1E3C3C6360C /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				112F7A154CE00DC1703DC0A60A11635A /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		818001F73066AD57F6D10DDB612E486D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				BC817E18E304D349A07588E9FEAE08C0 /* Firebase.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		861E2AD90D60BBC348B1BFFC1350CB81 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				790F25AF4BAD7D5E69C0E27388A92E94 /* Info.plist */,
+				9D0A9F30B0D9F5784765FE553161D13C /* IQDropDownTextField.modulemap */,
+				720D89700A953E49F0690F270E78A67B /* IQDropDownTextField.xcconfig */,
+				F3F2641A9645190112A2CFDD86FF881A /* IQDropDownTextField-dummy.m */,
+				E857829384CDA7C0879FB0818231052F /* IQDropDownTextField-prefix.pch */,
+				9A55893E7BB16A48578F339A146126E6 /* IQDropDownTextField-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IQDropDownTextField";
+			sourceTree = "<group>";
+		};
+		86CB7A6BD18DC6BB86A334AB915B3FA6 /* FirebaseCore */ = {
+			isa = PBXGroup;
+			children = (
+				78434B7E41B3205C0E7FB9865E9A17EA /* Frameworks */,
+			);
+			path = FirebaseCore;
 			sourceTree = "<group>";
 		};
 		8F15C96E6D0EEADCAF60CFAE96CA8D5D /* Pods-Detroit-School-TransportTests */ = {
@@ -241,28 +409,14 @@
 			path = "Target Support Files/Pods-Detroit-School-TransportTests";
 			sourceTree = "<group>";
 		};
-		92C8D4F899496CC1CA829ACA83A08072 /* Frameworks */ = {
+		A885C7626CF35AA5CF2C7AB0CCFF1698 /* SwiftHEXColors */ = {
 			isa = PBXGroup;
 			children = (
-				4887DCF8C52E71EEF6A62032B8921EFC /* FirebaseInstanceID.framework */,
+				0BBDADA5AA3DD3BDF5390AEE8B2DC041 /* SwiftHEXColors.h */,
+				84D77F5F3ACE41C9DA9EB766CFD4A783 /* SwiftHEXColors.swift */,
+				11E78E630CA1BFB6FAAA52DA89174DBB /* Support Files */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		990D0E0AFA4EEDD4D3D21DD571ECEB7D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				178D8FDE0929AB101863CECBB5EF70A0 /* GoogleUtilities.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		B4CCC169E8311EB6B6EC60C481266F54 /* GoogleSymbolUtilities */ = {
-			isa = PBXGroup;
-			children = (
-				C4D33C99AE2550164071F9BFAD50F842 /* Frameworks */,
-			);
-			path = GoogleSymbolUtilities;
+			path = SwiftHEXColors;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -273,79 +427,39 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C36470E2B25450A3431AADE159BDB7AF /* GoogleUtilities */ = {
+		D08A38F969A02C72E2EB2FD6D8E14E8E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				990D0E0AFA4EEDD4D3D21DD571ECEB7D /* Frameworks */,
-			);
-			path = GoogleUtilities;
-			sourceTree = "<group>";
-		};
-		C4D33C99AE2550164071F9BFAD50F842 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				635A2DE4CB5BBF807D6E131F6036CE0D /* GoogleSymbolUtilities.framework */,
+				3A62FA7A45B2345DAF460593AB5A7FFC /* FirebaseAnalytics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D10B9443E34023ED81E6FF80404E62AD /* FirebaseDatabase */ = {
+		E898C360F9691AEB982241FD7773F25D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				07A4F2A2C2461BC26EE06966C0D3F14A /* Frameworks */,
-			);
-			path = FirebaseDatabase;
-			sourceTree = "<group>";
-		};
-		D450F243880AB69B199FC79EFC589084 /* FirebaseAnalytics */ = {
-			isa = PBXGroup;
-			children = (
-				69556186FCFF1D07B57EBB7D4836CBDD /* Frameworks */,
-			);
-			path = FirebaseAnalytics;
-			sourceTree = "<group>";
-		};
-		DBC51C109E679867F7225A67CF38EB30 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				486200D765E2463223E413A4E1D9F1D4 /* GoogleInterchangeUtilities.framework */,
+				AEFFAFC7667A1A18E03CC4DC5BF75418 /* FirebaseDatabase.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DDE3B337C8578A76F10821ACE0A9F65F /* Core */ = {
+		ECDA0ACA7E19CFCB09143DE47D7EB24E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E9AC004E2CFEAE37F2BE33D001FBFA95 /* Firebase.h */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		DF8F1B3D597FFD34A3CAB0A06C38D0E6 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A5C079CB703AA07D9D332A786334C71D /* FirebaseCore.framework */,
+				43A701F63E03F01ED0B6986635A494C6 /* GoogleSymbolUtilities.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F72444E6FB034C662874AAE6855C2DE7 /* FirebaseInstanceID */ = {
-			isa = PBXGroup;
-			children = (
-				BA9DD2105C15856CCF750CDD57CFF890 /* FIRInstanceID.h */,
-				92C8D4F899496CC1CA829ACA83A08072 /* Frameworks */,
-			);
-			path = FirebaseInstanceID;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1706EE17FEA60C1F3AF186F4D4293935 /* Headers */ = {
+		453CAA37B2009A60DCD7ACAA4AE0FC85 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65CE32DA90BAEA21AEDFD7BB266A18C8 /* Pods-Detroit-School-Transport-umbrella.h in Headers */,
+				88262F72C35382C4759ABE6AB7A49AA0 /* IQDropDownTextField-umbrella.h in Headers */,
+				A8F8946A6F64129C417D88F89A2BAEB0 /* IQDropDownTextField.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,24 +479,58 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D459E275C9F55A99D069C6C597052018 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8BD2CD7BD44B23BC420A65A42772AD4 /* SwiftHEXColors-umbrella.h in Headers */,
+				51CED3A104B08775686BEB32220A09BE /* SwiftHEXColors.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD400EFA26A4C1024D74CFAFF8C4902F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F4C0C1F6B3763A08AA20CC5E1DBD7BF /* Pods-Detroit-School-Transport-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		00B6CB7698DCC27A6BAAA8DB267CDBD9 /* Pods-Detroit-School-Transport */ = {
+		2FED819C1B07DCB8DBA72205F1E6A9A5 /* SwiftHEXColors */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F60EE095E22F368C34742AFB1E3B5EC5 /* Build configuration list for PBXNativeTarget "Pods-Detroit-School-Transport" */;
+			buildConfigurationList = CC70FAD1471B7249DA4EE4FA872D5C27 /* Build configuration list for PBXNativeTarget "SwiftHEXColors" */;
 			buildPhases = (
-				9A36953981E0ABC81B950D94BDEE756C /* Sources */,
-				865E4F625BDB46BD52A0C8EE012FFC72 /* Frameworks */,
-				1706EE17FEA60C1F3AF186F4D4293935 /* Headers */,
+				B981DF52EAD5BBE99CEFB59087BEE061 /* Sources */,
+				4DFA6827ED0608942CB6981B01D78136 /* Frameworks */,
+				D459E275C9F55A99D069C6C597052018 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-Detroit-School-Transport";
-			productName = "Pods-Detroit-School-Transport";
-			productReference = B9CD055AFA4DA18F03D376A33D28D2BA /* Pods_Detroit_School_Transport.framework */;
+			name = SwiftHEXColors;
+			productName = SwiftHEXColors;
+			productReference = 6579BC4A041851EB3A7B702D8746359A /* SwiftHEXColors.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3511258FF1DED3401C4B456024D5FA41 /* IQDropDownTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB6149B6ECE563D2DD9104189DD505D9 /* Build configuration list for PBXNativeTarget "IQDropDownTextField" */;
+			buildPhases = (
+				93DFE152EF704B1927B6FB2D11035FB5 /* Sources */,
+				069C7F3D87D15B937BEEB611C31A3C74 /* Frameworks */,
+				453CAA37B2009A60DCD7ACAA4AE0FC85 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IQDropDownTextField;
+			productName = IQDropDownTextField;
+			productReference = 973C888101FF05229E011E9A620A1728 /* IQDropDownTextField.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5993423CF1A7BB99D05600FA1C88D145 /* Pods-Detroit-School-TransportTests */ = {
@@ -399,7 +547,26 @@
 			);
 			name = "Pods-Detroit-School-TransportTests";
 			productName = "Pods-Detroit-School-TransportTests";
-			productReference = 568D1007AAD032B4FAD98B34D33BCE5D /* Pods_Detroit_School_TransportTests.framework */;
+			productReference = 78681140E3D9A13E45EDD4EFD6B857A7 /* Pods_Detroit_School_TransportTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DBC425870A01ECA238F1DE6E380B70FD /* Pods-Detroit-School-Transport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C26D525A6E4BF349851963FAC85D5FC7 /* Build configuration list for PBXNativeTarget "Pods-Detroit-School-Transport" */;
+			buildPhases = (
+				95F57C47613567398991AF40B42ED5C1 /* Sources */,
+				92B00176538B0C4FA7FF69ACEFA674C3 /* Frameworks */,
+				FD400EFA26A4C1024D74CFAFF8C4902F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9DAA8D00D9B8EDBCD49FF328E8FC02A /* PBXTargetDependency */,
+				5E73C59855620AF1B20EE8A23160159A /* PBXTargetDependency */,
+			);
+			name = "Pods-Detroit-School-Transport";
+			productName = "Pods-Detroit-School-Transport";
+			productReference = 122698D5BC2630F4E008CC693CFA94DF /* Pods_Detroit_School_Transport.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F6F174773DCB9E5455A51B1ACACBAAA6 /* Pods-Detroit-School-TransportUITests */ = {
@@ -416,7 +583,7 @@
 			);
 			name = "Pods-Detroit-School-TransportUITests";
 			productName = "Pods-Detroit-School-TransportUITests";
-			productReference = 74C51A9EBABEEC7921C23234BB8F638A /* Pods_Detroit_School_TransportUITests.framework */;
+			productReference = A6F4F390C193EB4977BE400E32E880A4 /* Pods_Detroit_School_TransportUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -436,13 +603,15 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 5609B4E3EA5FABBD45B816891F2CD45F /* Products */;
+			productRefGroup = 62883890868542D226DDA8ECE3DBE1CF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				00B6CB7698DCC27A6BAAA8DB267CDBD9 /* Pods-Detroit-School-Transport */,
+				3511258FF1DED3401C4B456024D5FA41 /* IQDropDownTextField */,
+				DBC425870A01ECA238F1DE6E380B70FD /* Pods-Detroit-School-Transport */,
 				5993423CF1A7BB99D05600FA1C88D145 /* Pods-Detroit-School-TransportTests */,
 				F6F174773DCB9E5455A51B1ACACBAAA6 /* Pods-Detroit-School-TransportUITests */,
+				2FED819C1B07DCB8DBA72205F1E6A9A5 /* SwiftHEXColors */,
 			);
 		};
 /* End PBXProject section */
@@ -456,11 +625,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A36953981E0ABC81B950D94BDEE756C /* Sources */ = {
+		93DFE152EF704B1927B6FB2D11035FB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2757B9C3A72D230545E156EC10E915A6 /* Pods-Detroit-School-Transport-dummy.m in Sources */,
+				BBCCB33035E0DCFE918E763DCD4A7945 /* IQDropDownTextField-dummy.m in Sources */,
+				F385107C2E0C111A61F2AFDAB8F9E4FA /* IQDropDownTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F57C47613567398991AF40B42ED5C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				749B03FE44D78BAE5382E657C9E2A4AF /* Pods-Detroit-School-Transport-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B981DF52EAD5BBE99CEFB59087BEE061 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A0DA2B884C569A10CBE9A8E062078CF /* SwiftHEXColors-dummy.m in Sources */,
+				E9AC5AA0AA4150AE78D54A89E32A772A /* SwiftHEXColors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +660,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E73C59855620AF1B20EE8A23160159A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftHEXColors;
+			target = 2FED819C1B07DCB8DBA72205F1E6A9A5 /* SwiftHEXColors */;
+			targetProxy = 1300A1A4A5E406B233DCCD86845F4D5C /* PBXContainerItemProxy */;
+		};
+		D9DAA8D00D9B8EDBCD49FF328E8FC02A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IQDropDownTextField;
+			target = 3511258FF1DED3401C4B456024D5FA41 /* IQDropDownTextField */;
+			targetProxy = C89BEAD612566D7D69C907BEDF105B87 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1ADEC27576BB2C35F7FFAC5B159B95A7 /* Release */ = {
@@ -500,6 +702,39 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_Detroit_School_TransportUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		39D12B7D6FB84F01D96D983505758415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4327E7248A233EBEDF33BE8206DDFC8 /* Pods-Detroit-School-Transport.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Detroit-School-Transport/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Detroit-School-Transport/Pods-Detroit-School-Transport.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Detroit_School_Transport;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -546,6 +781,35 @@
 			};
 			name = Release;
 		};
+		48984181DA67336715CB80B50921E546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35E0C77D7A7732435519C8B93D1B70A5 /* SwiftHEXColors.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftHEXColors/SwiftHEXColors-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftHEXColors/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftHEXColors/SwiftHEXColors.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftHEXColors;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		518C84E148B93E2084B80F5A9C0ABCC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CE21D5895C5666BCD2E4E1B658DD90A2 /* Pods-Detroit-School-TransportUITests.debug.xcconfig */;
@@ -579,13 +843,13 @@
 			};
 			name = Debug;
 		};
-		A68C7A5A6630A30FBA1C53952E610205 /* Release */ = {
+		A5AC0A689B3D4304097D26C03ABB5449 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D4327E7248A233EBEDF33BE8206DDFC8 /* Pods-Detroit-School-Transport.release.xcconfig */;
+			baseConfigurationReference = E8C74807802B3C6BB11583CF65D3540F /* Pods-Detroit-School-Transport.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -598,7 +862,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Detroit-School-Transport/Pods-Detroit-School-Transport.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -606,11 +870,12 @@
 				PRODUCT_NAME = Pods_Detroit_School_Transport;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		AD1617A94DE62160C291A2E982F60A2D /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -687,6 +952,36 @@
 			};
 			name = Debug;
 		};
+		B47CF68123B61B2A14D9090D9320E2A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35E0C77D7A7732435519C8B93D1B70A5 /* SwiftHEXColors.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftHEXColors/SwiftHEXColors-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftHEXColors/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftHEXColors/SwiftHEXColors.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftHEXColors;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		BC0A6AA05F358F439E0A48B510EB034A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3AC276073ABCBEE927551A2EB5DA2E32 /* Pods-Detroit-School-TransportTests.release.xcconfig */;
@@ -720,9 +1015,9 @@
 			};
 			name = Release;
 		};
-		D2224031D51F9E215215062F940C50E5 /* Debug */ = {
+		CF41D84B9BD714A06C9C765C6212A760 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8C74807802B3C6BB11583CF65D3540F /* Pods-Detroit-School-Transport.debug.xcconfig */;
+			baseConfigurationReference = 720D89700A953E49F0690F270E78A67B /* IQDropDownTextField.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -733,18 +1028,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Detroit-School-Transport/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/IQDropDownTextField/IQDropDownTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQDropDownTextField/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Detroit-School-Transport/Pods-Detroit-School-Transport.modulemap";
+				MODULEMAP_FILE = "Target Support Files/IQDropDownTextField/IQDropDownTextField.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Detroit_School_Transport;
+				PRODUCT_NAME = IQDropDownTextField;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -752,6 +1043,35 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		DE0879D50F5B95962AE4E46746218A38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 720D89700A953E49F0690F270E78A67B /* IQDropDownTextField.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IQDropDownTextField/IQDropDownTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQDropDownTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IQDropDownTextField/IQDropDownTextField.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = IQDropDownTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -783,11 +1103,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F60EE095E22F368C34742AFB1E3B5EC5 /* Build configuration list for PBXNativeTarget "Pods-Detroit-School-Transport" */ = {
+		C26D525A6E4BF349851963FAC85D5FC7 /* Build configuration list for PBXNativeTarget "Pods-Detroit-School-Transport" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D2224031D51F9E215215062F940C50E5 /* Debug */,
-				A68C7A5A6630A30FBA1C53952E610205 /* Release */,
+				A5AC0A689B3D4304097D26C03ABB5449 /* Debug */,
+				39D12B7D6FB84F01D96D983505758415 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB6149B6ECE563D2DD9104189DD505D9 /* Build configuration list for PBXNativeTarget "IQDropDownTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF41D84B9BD714A06C9C765C6212A760 /* Debug */,
+				DE0879D50F5B95962AE4E46746218A38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC70FAD1471B7249DA4EE4FA872D5C27 /* Build configuration list for PBXNativeTarget "SwiftHEXColors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B47CF68123B61B2A14D9090D9320E2A2 /* Debug */,
+				48984181DA67336715CB80B50921E546 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
