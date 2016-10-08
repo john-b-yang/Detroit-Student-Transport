@@ -14,6 +14,8 @@ import Firebase
 class BeginTripViewController: UIViewController, CLLocationManagerDelegate {
     
     @IBOutlet weak var trackButton: UIButton!
+    @IBOutlet weak var stopButton: UIButton!
+    
     var locationManager: CLLocationManager!
     //var tripHistory = [CLLocationCoordinate2D: Timer]() //CLLocationCoordinate2D doesn't conform?
     var tripHistory = [Int: Date]()
@@ -46,6 +48,11 @@ class BeginTripViewController: UIViewController, CLLocationManagerDelegate {
         timer = Timer(timeInterval: pauseTime, target: self, selector: #selector(BeginTripViewController.compareLocation), userInfo: nil, repeats: true)
         RunLoop.current.add(timer, forMode: RunLoopMode.commonModes)
     }
+    
+    @IBAction func didTapStopButton(_ sender: AnyObject) {
+        timer.invalidate()
+    }
+    
     
     func compareLocation() {
         let currentLocation = locationManager.location

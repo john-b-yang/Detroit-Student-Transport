@@ -24,14 +24,23 @@
                                     <action selector="didTapTrackButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xrn-ul-acs"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kVe-vf-QrJ">
+                                <state key="normal" title="Stop Tracking"/>
+                                <connections>
+                                    <action selector="didTapStopButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Py3-1X-bxg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="upV-t3-AeD" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="M3V-aL-iWu"/>
                             <constraint firstItem="upV-t3-AeD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZzV-Xp-TDu"/>
+                            <constraint firstItem="kVe-vf-QrJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oQG-oB-K48"/>
+                            <constraint firstItem="kVe-vf-QrJ" firstAttribute="top" secondItem="upV-t3-AeD" secondAttribute="bottom" constant="10" id="w3Q-sh-b0s"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="stopButton" destination="kVe-vf-QrJ" id="0R8-Zm-vaf"/>
                         <outlet property="trackButton" destination="upV-t3-AeD" id="TQj-bL-229"/>
                     </connections>
                 </viewController>
