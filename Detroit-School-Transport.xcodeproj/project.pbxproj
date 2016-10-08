@@ -10,8 +10,8 @@
 		167D610B03D37A6C850E764C /* Pods_Detroit_School_Transport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A48737979C11C62A69B5D0 /* Pods_Detroit_School_Transport.framework */; };
 		72C86E3FF79D3402F2C521BB /* Pods_Detroit_School_TransportUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2ADDFEA9AEA5C70E085D5E6 /* Pods_Detroit_School_TransportUITests.framework */; };
 		99A5F7DC55998A8733F60672 /* Pods_Detroit_School_TransportTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBEB0B867E5604B8A412190F /* Pods_Detroit_School_TransportTests.framework */; };
+		A0A054151DA8D04300ED1F03 /* BeginTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A054141DA8D04300ED1F03 /* BeginTripViewController.swift */; };
 		A0E834041DA8C756001A45EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E834031DA8C756001A45EF /* AppDelegate.swift */; };
-		A0E834061DA8C756001A45EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E834051DA8C756001A45EF /* ViewController.swift */; };
 		A0E834091DA8C756001A45EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0E834071DA8C756001A45EF /* Main.storyboard */; };
 		A0E8340B1DA8C756001A45EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0E8340A1DA8C756001A45EF /* Assets.xcassets */; };
 		A0E8340E1DA8C756001A45EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0E8340C1DA8C756001A45EF /* LaunchScreen.storyboard */; };
@@ -40,9 +40,9 @@
 /* Begin PBXFileReference section */
 		53B66A37D07FE0AD6651EBC8 /* Pods-Detroit-School-Transport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Detroit-School-Transport.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Detroit-School-Transport/Pods-Detroit-School-Transport.debug.xcconfig"; sourceTree = "<group>"; };
 		77958C46CCD7235D16AA1C99 /* Pods-Detroit-School-TransportTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Detroit-School-TransportTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Detroit-School-TransportTests/Pods-Detroit-School-TransportTests.release.xcconfig"; sourceTree = "<group>"; };
+		A0A054141DA8D04300ED1F03 /* BeginTripViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeginTripViewController.swift; sourceTree = "<group>"; };
 		A0E834001DA8C756001A45EF /* Detroit-School-Transport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Detroit-School-Transport.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0E834031DA8C756001A45EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A0E834051DA8C756001A45EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A0E834081DA8C756001A45EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0E8340A1DA8C756001A45EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0E8340D1DA8C756001A45EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -114,6 +114,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A0A054161DA8D0BF00ED1F03 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A0A054141DA8D04300ED1F03 /* BeginTripViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 		A0E833F71DA8C756001A45EF = {
 			isa = PBXGroup;
 			children = (
@@ -140,8 +148,8 @@
 		A0E834021DA8C756001A45EF /* Detroit-School-Transport */ = {
 			isa = PBXGroup;
 			children = (
+				A0A054161DA8D0BF00ED1F03 /* View Controllers */,
 				A0E834031DA8C756001A45EF /* AppDelegate.swift */,
-				A0E834051DA8C756001A45EF /* ViewController.swift */,
 				A0E834071DA8C756001A45EF /* Main.storyboard */,
 				A0E8340A1DA8C756001A45EF /* Assets.xcassets */,
 				A0E8340C1DA8C756001A45EF /* LaunchScreen.storyboard */,
@@ -437,8 +445,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0E834061DA8C756001A45EF /* ViewController.swift in Sources */,
 				A0E834041DA8C756001A45EF /* AppDelegate.swift in Sources */,
+				A0A054151DA8D04300ED1F03 /* BeginTripViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
