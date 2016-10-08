@@ -19,8 +19,8 @@ class BeginTripViewController: UIViewController, CLLocationManagerDelegate {
     
     //Location Management and Trip History
     var locationManager: CLLocationManager!
-    var timeArray = [Date]()
-    var locationArray = [CLLocationCoordinate2D]()
+    var timeArray = [String]()
+    var locationArray = [String]()
     
     //Firebase Database Reference
     var ref: FIRDatabaseReference!
@@ -68,8 +68,8 @@ class BeginTripViewController: UIViewController, CLLocationManagerDelegate {
         self.ref.child("users/John/name").setValue("John Yang")
         
         //Artificially populate timeArray and locationArray since they are blank
-        timeArray = [Date(), Date(), Date()]
-        locationArray = [CLLocationCoordinate2D(), CLLocationCoordinate2D(), CLLocationCoordinate2D()]
+        timeArray = [String(describing: Date()), String(describing: Date()), String(describing: Date())]
+        locationArray = [String(describing: CLLocationCoordinate2D()), String(describing: CLLocationCoordinate2D()), String(describing: CLLocationCoordinate2D())]
         
         self.ref.child("users/John/times").setValue(timeArray as NSArray)
         self.ref.child("users/John/locations").setValue(locationArray as NSArray)
@@ -85,8 +85,8 @@ class BeginTripViewController: UIViewController, CLLocationManagerDelegate {
             let longDifference = abs(Double((currentLocation?.coordinate.longitude)!) - element[1]) //Must be amended later
             let epsilon: Double = 20 //Error margin of coordinates
             if (latDifference < epsilon && longDifference < epsilon) {
-                timeArray[counter] = (currentLocation?.timestamp)!
-                locationArray[counter] = (currentLocation?.coordinate)!
+                timeArray[counter] = (String(describing: currentLocation?.timestamp))
+                locationArray[counter] = (String(describing: currentLocation?.coordinate))
             }
             counter += 1
         }
