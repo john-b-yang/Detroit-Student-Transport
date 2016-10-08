@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0E834041DA8C756001A45EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E834031DA8C756001A45EF /* AppDelegate.swift */; };
+		A0E834061DA8C756001A45EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E834051DA8C756001A45EF /* ViewController.swift */; };
+		A0E834091DA8C756001A45EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0E834071DA8C756001A45EF /* Main.storyboard */; };
+		A0E8340B1DA8C756001A45EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0E8340A1DA8C756001A45EF /* Assets.xcassets */; };
+		A0E8340E1DA8C756001A45EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0E8340C1DA8C756001A45EF /* LaunchScreen.storyboard */; };
+		A0E834191DA8C756001A45EF /* Detroit_School_TransportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E834181DA8C756001A45EF /* Detroit_School_TransportTests.swift */; };
+		A0E834241DA8C756001A45EF /* Detroit_School_TransportUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E834231DA8C756001A45EF /* Detroit_School_TransportUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0E834151DA8C756001A45EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0E833F81DA8C756001A45EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0E833FF1DA8C756001A45EF;
+			remoteInfo = "Detroit-School-Transport";
+		};
+		A0E834201DA8C756001A45EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0E833F81DA8C756001A45EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0E833FF1DA8C756001A45EF;
+			remoteInfo = "Detroit-School-Transport";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A0E834001DA8C756001A45EF /* Detroit-School-Transport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Detroit-School-Transport.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0E834031DA8C756001A45EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A0E834051DA8C756001A45EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A0E834081DA8C756001A45EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0E8340A1DA8C756001A45EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0E8340D1DA8C756001A45EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0E8340F1DA8C756001A45EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0E834141DA8C756001A45EF /* Detroit-School-TransportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Detroit-School-TransportTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0E834181DA8C756001A45EF /* Detroit_School_TransportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detroit_School_TransportTests.swift; sourceTree = "<group>"; };
+		A0E8341A1DA8C756001A45EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0E8341F1DA8C756001A45EF /* Detroit-School-TransportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Detroit-School-TransportUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0E834231DA8C756001A45EF /* Detroit_School_TransportUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detroit_School_TransportUITests.swift; sourceTree = "<group>"; };
+		A0E834251DA8C756001A45EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0E833FD1DA8C756001A45EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0E834111DA8C756001A45EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0E8341C1DA8C756001A45EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0E833F71DA8C756001A45EF = {
+			isa = PBXGroup;
+			children = (
+				A0E834021DA8C756001A45EF /* Detroit-School-Transport */,
+				A0E834171DA8C756001A45EF /* Detroit-School-TransportTests */,
+				A0E834221DA8C756001A45EF /* Detroit-School-TransportUITests */,
+				A0E834011DA8C756001A45EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0E834011DA8C756001A45EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0E834001DA8C756001A45EF /* Detroit-School-Transport.app */,
+				A0E834141DA8C756001A45EF /* Detroit-School-TransportTests.xctest */,
+				A0E8341F1DA8C756001A45EF /* Detroit-School-TransportUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0E834021DA8C756001A45EF /* Detroit-School-Transport */ = {
+			isa = PBXGroup;
+			children = (
+				A0E834031DA8C756001A45EF /* AppDelegate.swift */,
+				A0E834051DA8C756001A45EF /* ViewController.swift */,
+				A0E834071DA8C756001A45EF /* Main.storyboard */,
+				A0E8340A1DA8C756001A45EF /* Assets.xcassets */,
+				A0E8340C1DA8C756001A45EF /* LaunchScreen.storyboard */,
+				A0E8340F1DA8C756001A45EF /* Info.plist */,
+			);
+			path = "Detroit-School-Transport";
+			sourceTree = "<group>";
+		};
+		A0E834171DA8C756001A45EF /* Detroit-School-TransportTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0E834181DA8C756001A45EF /* Detroit_School_TransportTests.swift */,
+				A0E8341A1DA8C756001A45EF /* Info.plist */,
+			);
+			path = "Detroit-School-TransportTests";
+			sourceTree = "<group>";
+		};
+		A0E834221DA8C756001A45EF /* Detroit-School-TransportUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A0E834231DA8C756001A45EF /* Detroit_School_TransportUITests.swift */,
+				A0E834251DA8C756001A45EF /* Info.plist */,
+			);
+			path = "Detroit-School-TransportUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0E833FF1DA8C756001A45EF /* Detroit-School-Transport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0E834281DA8C756001A45EF /* Build configuration list for PBXNativeTarget "Detroit-School-Transport" */;
+			buildPhases = (
+				A0E833FC1DA8C756001A45EF /* Sources */,
+				A0E833FD1DA8C756001A45EF /* Frameworks */,
+				A0E833FE1DA8C756001A45EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Detroit-School-Transport";
+			productName = "Detroit-School-Transport";
+			productReference = A0E834001DA8C756001A45EF /* Detroit-School-Transport.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0E834131DA8C756001A45EF /* Detroit-School-TransportTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0E8342B1DA8C756001A45EF /* Build configuration list for PBXNativeTarget "Detroit-School-TransportTests" */;
+			buildPhases = (
+				A0E834101DA8C756001A45EF /* Sources */,
+				A0E834111DA8C756001A45EF /* Frameworks */,
+				A0E834121DA8C756001A45EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0E834161DA8C756001A45EF /* PBXTargetDependency */,
+			);
+			name = "Detroit-School-TransportTests";
+			productName = "Detroit-School-TransportTests";
+			productReference = A0E834141DA8C756001A45EF /* Detroit-School-TransportTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0E8341E1DA8C756001A45EF /* Detroit-School-TransportUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0E8342E1DA8C756001A45EF /* Build configuration list for PBXNativeTarget "Detroit-School-TransportUITests" */;
+			buildPhases = (
+				A0E8341B1DA8C756001A45EF /* Sources */,
+				A0E8341C1DA8C756001A45EF /* Frameworks */,
+				A0E8341D1DA8C756001A45EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0E834211DA8C756001A45EF /* PBXTargetDependency */,
+			);
+			name = "Detroit-School-TransportUITests";
+			productName = "Detroit-School-TransportUITests";
+			productReference = A0E8341F1DA8C756001A45EF /* Detroit-School-TransportUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0E833F81DA8C756001A45EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "John Yang";
+				TargetAttributes = {
+					A0E833FF1DA8C756001A45EF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = WPPR726NJK;
+						ProvisioningStyle = Automatic;
+					};
+					A0E834131DA8C756001A45EF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = WPPR726NJK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A0E833FF1DA8C756001A45EF;
+					};
+					A0E8341E1DA8C756001A45EF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = WPPR726NJK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A0E833FF1DA8C756001A45EF;
+					};
+				};
+			};
+			buildConfigurationList = A0E833FB1DA8C756001A45EF /* Build configuration list for PBXProject "Detroit-School-Transport" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0E833F71DA8C756001A45EF;
+			productRefGroup = A0E834011DA8C756001A45EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0E833FF1DA8C756001A45EF /* Detroit-School-Transport */,
+				A0E834131DA8C756001A45EF /* Detroit-School-TransportTests */,
+				A0E8341E1DA8C756001A45EF /* Detroit-School-TransportUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0E833FE1DA8C756001A45EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0E8340E1DA8C756001A45EF /* LaunchScreen.storyboard in Resources */,
+				A0E8340B1DA8C756001A45EF /* Assets.xcassets in Resources */,
+				A0E834091DA8C756001A45EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0E834121DA8C756001A45EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0E8341D1DA8C756001A45EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0E833FC1DA8C756001A45EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0E834061DA8C756001A45EF /* ViewController.swift in Sources */,
+				A0E834041DA8C756001A45EF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0E834101DA8C756001A45EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0E834191DA8C756001A45EF /* Detroit_School_TransportTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0E8341B1DA8C756001A45EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0E834241DA8C756001A45EF /* Detroit_School_TransportUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0E834161DA8C756001A45EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0E833FF1DA8C756001A45EF /* Detroit-School-Transport */;
+			targetProxy = A0E834151DA8C756001A45EF /* PBXContainerItemProxy */;
+		};
+		A0E834211DA8C756001A45EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0E833FF1DA8C756001A45EF /* Detroit-School-Transport */;
+			targetProxy = A0E834201DA8C756001A45EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0E834071DA8C756001A45EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0E834081DA8C756001A45EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0E8340C1DA8C756001A45EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0E8340D1DA8C756001A45EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0E834261DA8C756001A45EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0E834271DA8C756001A45EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0E834291DA8C756001A45EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WPPR726NJK;
+				INFOPLIST_FILE = "Detroit-School-Transport/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "johnyang.Detroit-School-Transport";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A0E8342A1DA8C756001A45EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WPPR726NJK;
+				INFOPLIST_FILE = "Detroit-School-Transport/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "johnyang.Detroit-School-Transport";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A0E8342C1DA8C756001A45EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WPPR726NJK;
+				INFOPLIST_FILE = "Detroit-School-TransportTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "johnyang.Detroit-School-TransportTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Detroit-School-Transport.app/Detroit-School-Transport";
+			};
+			name = Debug;
+		};
+		A0E8342D1DA8C756001A45EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WPPR726NJK;
+				INFOPLIST_FILE = "Detroit-School-TransportTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "johnyang.Detroit-School-TransportTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Detroit-School-Transport.app/Detroit-School-Transport";
+			};
+			name = Release;
+		};
+		A0E8342F1DA8C756001A45EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = WPPR726NJK;
+				INFOPLIST_FILE = "Detroit-School-TransportUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "johnyang.Detroit-School-TransportUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Detroit-School-Transport";
+			};
+			name = Debug;
+		};
+		A0E834301DA8C756001A45EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = WPPR726NJK;
+				INFOPLIST_FILE = "Detroit-School-TransportUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "johnyang.Detroit-School-TransportUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Detroit-School-Transport";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0E833FB1DA8C756001A45EF /* Build configuration list for PBXProject "Detroit-School-Transport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0E834261DA8C756001A45EF /* Debug */,
+				A0E834271DA8C756001A45EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0E834281DA8C756001A45EF /* Build configuration list for PBXNativeTarget "Detroit-School-Transport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0E834291DA8C756001A45EF /* Debug */,
+				A0E8342A1DA8C756001A45EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A0E8342B1DA8C756001A45EF /* Build configuration list for PBXNativeTarget "Detroit-School-TransportTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0E8342C1DA8C756001A45EF /* Debug */,
+				A0E8342D1DA8C756001A45EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A0E8342E1DA8C756001A45EF /* Build configuration list for PBXNativeTarget "Detroit-School-TransportUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0E8342F1DA8C756001A45EF /* Debug */,
+				A0E834301DA8C756001A45EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0E833F81DA8C756001A45EF /* Project object */;
+}
