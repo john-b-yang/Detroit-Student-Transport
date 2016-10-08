@@ -7,6 +7,7 @@ target 'Detroit-School-Transport' do
 
   # Pods for Detroit-School-Transport
   pod 'Firebase/Core'
+  pod 'Firebase/Database'
 
   target 'Detroit-School-TransportTests' do
     inherit! :search_paths

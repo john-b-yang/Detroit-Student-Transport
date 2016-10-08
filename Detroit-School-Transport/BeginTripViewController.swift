@@ -13,20 +13,30 @@ import Firebase
 
 class BeginTripViewController: UIViewController, CLLocationManagerDelegate {
     
+    //UI Elements
     @IBOutlet weak var trackButton: UIButton!
     @IBOutlet weak var stopButton: UIButton!
     
+    //Location Management and Trip History
     var locationManager: CLLocationManager!
-    //var tripHistory = [CLLocationCoordinate2D: Timer]() //CLLocationCoordinate2D doesn't conform?
-    var tripHistory = [Int: Date]()
+    var timeArray = [Date]()
+    var locationArray = [CLLocationCoordinate2D]()
     
+    //Firebase Database Reference
+    var ref: FIRDatabaseReference!
+    
+    //Timer
     var timer = Timer()
     var binaryCounter = 0b0000
     
-    var test: [[Double]] = [[10, 10], [20, 20], [30, 30], [40, 40], [50, 50]]
+    //Test Location Array
+    var test: [[Double]] = [[10, 10], [20, 20], [30, 30], [40, 40], [50, 50]] //Delete when real coordinates are used
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //Firebase Database Setup
+        ref = FIRDatabase.database().reference()
         
         //Getting Permission to use User's Location
         locationManager = CLLocationManager()
@@ -50,21 +60,35 @@ class BeginTripViewController: UIViewController, CLLocationManagerDelegate {
     }
     
     @IBAction func didTapStopButton(_ sender: AnyObject) {
+        //Turn off timer
         timer.invalidate()
+        
+        //Send Data to Firebase
+        self.ref.child("users/John/age").setValue(18)
+        self.ref.child("users/John/name").setValue("John Yang")
+        
+        //Artificially populate timeArray and locationArray since they are blank
+        timeArray = [Date(), Date(), Date()]
+        locationArray = [CLLocationCoordinate2D(), CLLocationCoordinate2D(), CLLocationCoordinate2D()]
+        
+        self.ref.child("users/John/times").setValue(timeArray as NSArray)
+        self.ref.child("users/John/locations").setValue(locationArray as NSArray)
     }
     
-    
+    //To be amended
     func compareLocation() {
         let currentLocation = locationManager.location
         print("Interval")
+        var counter = 0
         for element in test {
             let latDifference = abs(Double((currentLocation?.coordinate.latitude)!) - element[0]) //Must be amended later
             let longDifference = abs(Double((currentLocation?.coordinate.longitude)!) - element[1]) //Must be amended later
             let epsilon: Double = 20 //Error margin of coordinates
             if (latDifference < epsilon && longDifference < epsilon) {
-                //tripHistory[currentLocation] = currentLocation?.timestamp //MARK: Doesn't work (key issue)
-                tripHistory[0] = currentLocation?.timestamp
+                timeArray[counter] = (currentLocation?.timestamp)!
+                locationArray[counter] = (currentLocation?.coordinate)!
             }
+            counter += 1
         }
     }
 }
