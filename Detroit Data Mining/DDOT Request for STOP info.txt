@@ -1,0 +1,74 @@
+http://ddot-beta.herokuapp.com/api/api/where/stop/DDOT_xxxx.json?key=MHACKS8
+
+
+example output:
+
+{
+  "currentTime": 1475960485938,
+  "text": "OK",
+  "data": {
+    "references": {
+      "stops": [
+        
+      ],
+      "situations": [
+        
+      ],
+      "trips": [
+        
+      ],
+      "routes": [
+        {
+          "id": "DDOT_6433",
+          "textColor": "FFFFFF",
+          "color": "006600",
+          "description": "",
+          "longName": "MACK",
+          "shortName": "031",
+          "type": 3,
+          "agencyId": "DDOT",
+          "url": ""
+        },
+        {
+          "id": "DDOT_6434",
+          "textColor": "FFFFFF",
+          "color": "0066FF",
+          "description": "",
+          "longName": "McNICHOLS",
+          "shortName": "032",
+          "type": 3,
+          "agencyId": "DDOT",
+          "url": ""
+        }
+      ],
+      "agencies": [
+        {
+          "id": "DDOT",
+          "privateService": false,
+          "phone": "313-933-1300",
+          "timezone": "America\/Detroit",
+          "disclaimer": "",
+          "name": "Detroit Department of Transportation",
+          "lang": "en",
+          "url": "http:\/\/www.RideDetroitTransit.com"
+        }
+      ]
+    },
+    "entry": {
+      "id": "DDOT_6419",
+      "lon": -82.919339,
+      "direction": "NE",
+      "name": "MACK & NEFF RD",
+      "locationType": 0,
+      "wheelchairBoarding": "UNKNOWN",
+      "routeIds": [
+        "DDOT_6433",
+        "DDOT_6434"
+      ],
+      "code": "MKNEEB",
+      "lat": 42.399166
+    }
+  },
+  "code": 200,
+  "version": 2
+}

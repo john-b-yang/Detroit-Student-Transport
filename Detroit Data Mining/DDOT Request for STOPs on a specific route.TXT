@@ -1,0 +1,1834 @@
+DDOT Request for STOPs on a specific route
+
+http://ddot-beta.herokuapp.com/api/api/where/stops-for-route/xxxx.json?key=MHACKS8
+
+Example output:
+{
+  "currentTime": 1475961608732,
+  "text": "OK",
+  "data": {
+    "references": {
+      "stops": [
+        {
+          "id": "DDOT_10006",
+          "lon": -82.961322,
+          "direction": "E",
+          "locationType": 0,
+          "name": "KERCHEVAL & CONNER",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "KECNSB",
+          "lat": 42.373723
+        },
+        {
+          "id": "DDOT_10030",
+          "lon": -82.950994,
+          "direction": "SW",
+          "locationType": 0,
+          "name": "FREUD & DICKERSON",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "FRDISB",
+          "lat": 42.367032
+        },
+        {
+          "id": "DDOT_10031",
+          "lon": -82.995232,
+          "direction": "NW",
+          "locationType": 0,
+          "name": "GUNSTON & GRATIOT",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "GUSTNB",
+          "lat": 42.407982
+        },
+        {
+          "id": "DDOT_10033",
+          "lon": -82.99707,
+          "direction": "NW",
+          "locationType": 0,
+          "name": "GUNSTON & FLANDERS",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "GUFLNB",
+          "lat": 42.410955
+        },
+        {
+          "id": "DDOT_10034",
+          "lon": -83.000941,
+          "direction": "NW",
+          "locationType": 0,
+          "name": "GUNSTON & NASHVILLE",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "GUNANB",
+          "lat": 42.416855
+        },
+        {
+          "id": "DDOT_10035",
+          "lon": -83.002061,
+          "direction": "NW",
+          "locationType": 0,
+          "name": "GUNSTON & KENMOOR",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "GUKENB",
+          "lat": 42.418654
+        },
+        {
+          "id": "DDOT_10046",
+          "lon": -83.004604,
+          "direction": "N",
+          "locationType": 0,
+          "name": "HOOVER & LAPPIN",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "HOLANB",
+          "lat": 42.436466
+        },
+        {
+          "id": "DDOT_10047",
+          "lon": -83.004885,
+          "direction": "N",
+          "locationType": 0,
+          "name": "HOOVER & BRINGARD",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "HOBRNB",
+          "lat": 42.445376
+        },
+        {
+          "id": "DDOT_10048",
+          "lon": -83.003632,
+          "direction": "NE",
+          "locationType": 0,
+          "name": "GROESBECK & COLLINGHAM",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "GBCHNB",
+          "lat": 42.447208
+        },
+        {
+          "id": "DDOT_1255",
+          "lon": -82.996117,
+          "direction": "NE",
+          "locationType": 0,
+          "name": "GRATIOT & OUTER DRIVE",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "GTOUNB",
+          "lat": 42.406409
+        },
+        {
+          "id": "DDOT_1259",
+          "lon": -82.995428,
+          "direction": "SE",
+          "locationType": 0,
+          "name": "GUNSTON & GRATIOT",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "GUGRSB",
+          "lat": 42.40783
+        },
+        {
+          "id": "DDOT_144",
+          "lon": -83.003036,
+          "direction": "SE",
+          "locationType": 0,
+          "name": "Gunston & McNichols",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "GU6MSB",
+          "lat": 42.420069
+        },
+        {
+          "id": "DDOT_145",
+          "lon": -82.99765,
+          "direction": "SE",
+          "locationType": 0,
+          "name": "Conner & Gratiot",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "CNGTSB",
+          "lat": 42.404632
+        },
+        {
+          "id": "DDOT_146",
+          "lon": -82.983138,
+          "direction": "SE",
+          "locationType": 0,
+          "name": "CONNER & SHOEMAKER",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "CNSHSB",
+          "lat": 42.392641
+        },
+        {
+          "id": "DDOT_147",
+          "lon": -82.975901,
+          "direction": "E",
+          "locationType": 0,
+          "name": "Conner & Warren",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "CNWRSB",
+          "lat": 42.389052
+        },
+        {
+          "id": "DDOT_148",
+          "lon": -82.95917,
+          "direction": "SE",
+          "locationType": 0,
+          "name": "Conner & Jefferson",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "CNJFSB",
+          "lat": 42.370222
+        },
+        {
+          "id": "DDOT_149",
+          "lon": -82.950506,
+          "direction": "E",
+          "locationType": 0,
+          "name": "Essex & Continental",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "EXCESB",
+          "lat": 42.363426
+        },
+        {
+          "id": "DDOT_150",
+          "lon": -82.935939,
+          "direction": "W",
+          "locationType": 0,
+          "name": "Korte & Phillip",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "KTPHSB",
+          "lat": 42.364113
+        },
+        {
+          "id": "DDOT_152",
+          "lon": -82.950774,
+          "direction": "W",
+          "locationType": 0,
+          "name": "ESSEX & KITCHENER",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "EXKENB",
+          "lat": 42.363606
+        },
+        {
+          "id": "DDOT_153",
+          "lon": -82.958841,
+          "direction": "NW",
+          "locationType": 0,
+          "name": "Conner & Jefferson",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "CNJFNB",
+          "lat": 42.370114
+        },
+        {
+          "id": "DDOT_154",
+          "lon": -82.976267,
+          "direction": "W",
+          "locationType": 0,
+          "name": "Conner & Warren",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "CNWRNB",
+          "lat": 42.389356
+        },
+        {
+          "id": "DDOT_155",
+          "lon": -82.983528,
+          "direction": "W",
+          "locationType": 0,
+          "name": "CONNER & CHANDLER PARK DR",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "CNCPNB",
+          "lat": 42.393036
+        },
+        {
+          "id": "DDOT_157",
+          "lon": -83.002986,
+          "direction": "NW",
+          "locationType": 0,
+          "name": "Gunston & McNichols",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "GU6MNB",
+          "lat": 42.420185
+        },
+        {
+          "id": "DDOT_1989",
+          "lon": -82.989334,
+          "direction": "NW",
+          "locationType": 0,
+          "name": "Conner & Harper",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "CNHRNB",
+          "lat": 42.397347
+        },
+        {
+          "id": "DDOT_1993",
+          "lon": -82.991419,
+          "direction": "NW",
+          "locationType": 0,
+          "name": "CONNER & WADE",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "CNWANB",
+          "lat": 42.399318
+        },
+        {
+          "id": "DDOT_1994",
+          "lon": -82.992882,
+          "direction": "NW",
+          "locationType": 0,
+          "name": "CONNER & CORBETT",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "CNCONB",
+          "lat": 42.400644
+        },
+        {
+          "id": "DDOT_1995",
+          "lon": -82.993066,
+          "direction": "SE",
+          "locationType": 0,
+          "name": "CONNER & CORBETT",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "CNCOSB",
+          "lat": 42.400439
+        },
+        {
+          "id": "DDOT_1996",
+          "lon": -82.990957,
+          "direction": "SE",
+          "locationType": 0,
+          "name": "CONNER & CAMDEN",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "CNCASB",
+          "lat": 42.398432
+        },
+        {
+          "id": "DDOT_1998",
+          "lon": -82.985113,
+          "direction": "W",
+          "locationType": 0,
+          "name": "CONNER & OLGA",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "CNOLNB",
+          "lat": 42.394389
+        },
+        {
+          "id": "DDOT_1999",
+          "lon": -82.985723,
+          "direction": "NW",
+          "locationType": 0,
+          "name": "CONNER & GUNSTON",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "CNGUNB",
+          "lat": 42.394757
+        },
+        {
+          "id": "DDOT_2002",
+          "lon": -82.978917,
+          "direction": "SE",
+          "locationType": 0,
+          "name": "CONNER & FRANKFORT",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "CNFRSB",
+          "lat": 42.390103
+        },
+        {
+          "id": "DDOT_2003",
+          "lon": -82.97883,
+          "direction": "NW",
+          "locationType": 0,
+          "name": "CONNER & FRANKFORT",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "CNFRNB",
+          "lat": 42.39038
+        },
+        {
+          "id": "DDOT_2005",
+          "lon": -82.973861,
+          "direction": "W",
+          "locationType": 0,
+          "name": "CONNER & EUGENE",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "CNEUNB",
+          "lat": 42.388682
+        },
+        {
+          "id": "DDOT_2006",
+          "lon": -82.973496,
+          "direction": "E",
+          "locationType": 0,
+          "name": "CONNER & FOREST",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "CNFOSB",
+          "lat": 42.388189
+        },
+        {
+          "id": "DDOT_2007",
+          "lon": -82.971017,
+          "direction": "NW",
+          "locationType": 0,
+          "name": "CONNER & CANFIELD",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "CNCANB",
+          "lat": 42.387371
+        },
+        {
+          "id": "DDOT_2008",
+          "lon": -82.971031,
+          "direction": "SE",
+          "locationType": 0,
+          "name": "CONNER & CANFIELD",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "CNCASB",
+          "lat": 42.386915
+        },
+        {
+          "id": "DDOT_2009",
+          "lon": -82.968836,
+          "direction": "NW",
+          "locationType": 0,
+          "name": "CONNER & WAVENEY",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "CNWANB",
+          "lat": 42.385346
+        },
+        {
+          "id": "DDOT_2010",
+          "lon": -83.00149,
+          "direction": "SE",
+          "locationType": 0,
+          "name": "GUNSTON & ENGLESIDE",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "GUENSB",
+          "lat": 42.417392
+        },
+        {
+          "id": "DDOT_2011",
+          "lon": -83.003935,
+          "direction": "N",
+          "locationType": 0,
+          "name": "HOOVER & SAUER",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "HOSANB",
+          "lat": 42.422065
+        },
+        {
+          "id": "DDOT_2012",
+          "lon": -83.004499,
+          "direction": "S",
+          "locationType": 0,
+          "name": "HOOVER & SAUER",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "HOSASB",
+          "lat": 42.421511
+        },
+        {
+          "id": "DDOT_2014",
+          "lon": -83.00404,
+          "direction": "N",
+          "locationType": 0,
+          "name": "HOOVER & CLOUGH",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "HOCLNB",
+          "lat": 42.423818
+        },
+        {
+          "id": "DDOT_2015",
+          "lon": -83.004592,
+          "direction": "S",
+          "locationType": 0,
+          "name": "HOOVER & CLOUGH",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "HOCLSB",
+          "lat": 42.423202
+        },
+        {
+          "id": "DDOT_2016",
+          "lon": -83.004122,
+          "direction": "N",
+          "locationType": 0,
+          "name": "HOOVER & GEITZEN",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "HOGENB",
+          "lat": 42.425285
+        },
+        {
+          "id": "DDOT_2017",
+          "lon": -83.004869,
+          "direction": "S",
+          "locationType": 0,
+          "name": "HOOVER & GEITZEN",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "HOGESB",
+          "lat": 42.424767
+        },
+        {
+          "id": "DDOT_2018",
+          "lon": -83.004129,
+          "direction": "N",
+          "locationType": 0,
+          "name": "HOOVER & GREINER",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "HOGRNB",
+          "lat": 42.42719
+        },
+        {
+          "id": "DDOT_2019",
+          "lon": -83.004668,
+          "direction": "S",
+          "locationType": 0,
+          "name": "HOOVER & GREINER",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "HOGRSB",
+          "lat": 42.426672
+        },
+        {
+          "id": "DDOT_2020",
+          "lon": -83.00416,
+          "direction": "N",
+          "locationType": 0,
+          "name": "HOOVER & PARKGROVE",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "HOPANB",
+          "lat": 42.428926
+        },
+        {
+          "id": "DDOT_2021",
+          "lon": -83.004944,
+          "direction": "S",
+          "locationType": 0,
+          "name": "HOOVER & PARKGROVE",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "HOPASB",
+          "lat": 42.428587
+        },
+        {
+          "id": "DDOT_2022",
+          "lon": -83.004432,
+          "direction": "N",
+          "locationType": 0,
+          "name": "HOOVER & EASTWOOD",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "HOEANB",
+          "lat": 42.432388
+        },
+        {
+          "id": "DDOT_2023",
+          "lon": -83.004763,
+          "direction": "S",
+          "locationType": 0,
+          "name": "HOOVER & EASTWOOD",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "HOEASB",
+          "lat": 42.432245
+        },
+        {
+          "id": "DDOT_2024",
+          "lon": -83.004243,
+          "direction": "N",
+          "locationType": 0,
+          "name": "HOOVER & 7 MILE",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "HO7MNB",
+          "lat": 42.434444
+        },
+        {
+          "id": "DDOT_2026",
+          "lon": -83.004537,
+          "direction": "S",
+          "locationType": 0,
+          "name": "HOOVER & SEVEN MILE",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "HO7MSB",
+          "lat": 42.434123
+        },
+        {
+          "id": "DDOT_2031",
+          "lon": -83.00485,
+          "direction": "S",
+          "locationType": 0,
+          "name": "HOOVER & LAPPIN",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "HOLASB",
+          "lat": 42.436038
+        },
+        {
+          "id": "DDOT_2032",
+          "lon": -83.005052,
+          "direction": "S",
+          "locationType": 0,
+          "name": "HOOVER & STURGIS",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "HOSTSB",
+          "lat": 42.438337
+        },
+        {
+          "id": "DDOT_2033",
+          "lon": -83.004721,
+          "direction": "N",
+          "locationType": 0,
+          "name": "HOOVER & STURGIS",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "HOSTNB",
+          "lat": 42.438497
+        },
+        {
+          "id": "DDOT_2035",
+          "lon": -83.005476,
+          "direction": "S",
+          "locationType": 0,
+          "name": "HOOVER & MANNING",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "HOMASB",
+          "lat": 42.439652
+        },
+        {
+          "id": "DDOT_2036",
+          "lon": -83.004737,
+          "direction": "N",
+          "locationType": 0,
+          "name": "HOOVER & STATE FAIR",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "HOSTNB",
+          "lat": 42.441699
+        },
+        {
+          "id": "DDOT_2037",
+          "lon": -83.005472,
+          "direction": "S",
+          "locationType": 0,
+          "name": "HOOVER & STATE FAIR",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "HOSTSB",
+          "lat": 42.441289
+        },
+        {
+          "id": "DDOT_2042",
+          "lon": -83.005926,
+          "direction": "S",
+          "locationType": 0,
+          "name": "HOOVER & BRINGARD",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "HOBRSB",
+          "lat": 42.445163
+        },
+        {
+          "id": "DDOT_2051",
+          "lon": -82.998857,
+          "direction": "W",
+          "locationType": 0,
+          "name": "E. OUTER DRIVE & CONNER",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "EOCOSB",
+          "lat": 42.406038
+        },
+        {
+          "id": "DDOT_2052",
+          "lon": -82.996234,
+          "direction": "NW",
+          "locationType": 0,
+          "name": "CONNER & WILSHIRE",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "CNWINB",
+          "lat": 42.403977
+        },
+        {
+          "id": "DDOT_2053",
+          "lon": -82.994405,
+          "direction": "NW",
+          "locationType": 0,
+          "name": "CONNER & LONGVIEW",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "CNLONB",
+          "lat": 42.402427
+        },
+        {
+          "id": "DDOT_2054",
+          "lon": -82.994552,
+          "direction": "SE",
+          "locationType": 0,
+          "name": "CONNER & LONG VIEW",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "CNLOSB",
+          "lat": 42.402132
+        },
+        {
+          "id": "DDOT_2055",
+          "lon": -82.997655,
+          "direction": "SE",
+          "locationType": 0,
+          "name": "GUNSTON & ST PATRICK",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "GUSTSB",
+          "lat": 42.411376
+        },
+        {
+          "id": "DDOT_2056",
+          "lon": -82.998642,
+          "direction": "SE",
+          "locationType": 0,
+          "name": "GUNSTON & WHITHORN",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "GUWHSB",
+          "lat": 42.412719
+        },
+        {
+          "id": "DDOT_2057",
+          "lon": -82.998932,
+          "direction": "NW",
+          "locationType": 0,
+          "name": "GUNSTON & FINDLAY",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "GUFINB",
+          "lat": 42.413909
+        },
+        {
+          "id": "DDOT_2058",
+          "lon": -82.997897,
+          "direction": "NW",
+          "locationType": 0,
+          "name": "GUNSTON & SANFORD",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "GUSANB",
+          "lat": 42.412306
+        },
+        {
+          "id": "DDOT_2059",
+          "lon": -83.000455,
+          "direction": "SE",
+          "locationType": 0,
+          "name": "GUNSTON & COLLEGE",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "GUCOSB",
+          "lat": 42.415781
+        },
+        {
+          "id": "DDOT_2060",
+          "lon": -82.999494,
+          "direction": "SE",
+          "locationType": 0,
+          "name": "GUNSTON & CHRISTY",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "GUCHSB",
+          "lat": 42.414241
+        },
+        {
+          "id": "DDOT_2061",
+          "lon": -82.999857,
+          "direction": "NW",
+          "locationType": 0,
+          "name": "GUNSTON & MINDEN",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "GUMINB",
+          "lat": 42.415431
+        },
+        {
+          "id": "DDOT_2063",
+          "lon": -82.996865,
+          "direction": "SE",
+          "locationType": 0,
+          "name": "GUNSTON & WILFRED",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "GUWISB",
+          "lat": 42.409944
+        },
+        {
+          "id": "DDOT_2065",
+          "lon": -82.953013,
+          "direction": "SW",
+          "locationType": 0,
+          "name": "NAVAHOE & ESSEX",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "NAESNB",
+          "lat": 42.362769
+        },
+        {
+          "id": "DDOT_2066",
+          "lon": -82.955887,
+          "direction": "NW",
+          "locationType": 0,
+          "name": "CONNER & FREUD",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "CNFR2NB",
+          "lat": 42.365485
+        },
+        {
+          "id": "DDOT_2069",
+          "lon": -82.953381,
+          "direction": "SE",
+          "locationType": 0,
+          "name": "KITCHENER & FREUD",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "KIFRSB",
+          "lat": 42.365927
+        },
+        {
+          "id": "DDOT_2075",
+          "lon": -82.946195,
+          "direction": "NW",
+          "locationType": 0,
+          "name": "LENOX & AVONDALE",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "LEAVNB",
+          "lat": 42.362756
+        },
+        {
+          "id": "DDOT_2076",
+          "lon": -82.946391,
+          "direction": "SE",
+          "locationType": 0,
+          "name": "LENOX & AVONDALE",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "LEAVSB",
+          "lat": 42.362578
+        },
+        {
+          "id": "DDOT_2079",
+          "lon": -82.947948,
+          "direction": "E",
+          "locationType": 0,
+          "name": "ESSEX & LENOX",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "ESLESB",
+          "lat": 42.364557
+        },
+        {
+          "id": "DDOT_2081",
+          "lon": -82.949673,
+          "direction": "W",
+          "locationType": 0,
+          "name": "ESSEX & EMMERSON",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "ESEMNB",
+          "lat": 42.364113
+        },
+        {
+          "id": "DDOT_2082",
+          "lon": -82.943335,
+          "direction": "E",
+          "locationType": 0,
+          "name": "AVONDALE & PIPER",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "AVPISB",
+          "lat": 42.363189
+        },
+        {
+          "id": "DDOT_2083",
+          "lon": -82.943811,
+          "direction": "W",
+          "locationType": 0,
+          "name": "AVONDALE & PIPER",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "AVPINB",
+          "lat": 42.363297
+        },
+        {
+          "id": "DDOT_2085",
+          "lon": -82.940826,
+          "direction": "W",
+          "locationType": 0,
+          "name": "AVONDALE & LAKEWOOD",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "AVLASB",
+          "lat": 42.364257
+        },
+        {
+          "id": "DDOT_2087",
+          "lon": -82.939364,
+          "direction": "NW",
+          "locationType": 0,
+          "name": "LAKEWOOD & KORTE",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "LWKONB",
+          "lat": 42.363002
+        },
+        {
+          "id": "DDOT_2089",
+          "lon": -82.938226,
+          "direction": "W",
+          "locationType": 0,
+          "name": "KORTE & CHALMERS",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "KOCHNB",
+          "lat": 42.363429
+        },
+        {
+          "id": "DDOT_2095",
+          "lon": -82.962951,
+          "direction": "NW",
+          "locationType": 0,
+          "name": "CONNER & VERNOR",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "CNVENB",
+          "lat": 42.376024
+        },
+        {
+          "id": "DDOT_2096",
+          "lon": -82.963026,
+          "direction": "SE",
+          "locationType": 0,
+          "name": "CONNER & VERNOR",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "CNVESB",
+          "lat": 42.375542
+        },
+        {
+          "id": "DDOT_2097",
+          "lon": -82.961663,
+          "direction": "NW",
+          "locationType": 0,
+          "name": "CONNER & KERCHEVAL",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "CNKENB",
+          "lat": 42.373947
+        },
+        {
+          "id": "DDOT_2098",
+          "lon": -82.961689,
+          "direction": "SE",
+          "locationType": 0,
+          "name": "CONNER & KERCHEVAL",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "CNKESB",
+          "lat": 42.373428
+        },
+        {
+          "id": "DDOT_2099",
+          "lon": -82.966005,
+          "direction": "SE",
+          "locationType": 0,
+          "name": "CONNER & GOETHE",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "CNGOEB",
+          "lat": 42.380135
+        },
+        {
+          "id": "DDOT_2101",
+          "lon": -82.964435,
+          "direction": "NW",
+          "locationType": 0,
+          "name": "CONNER & CHARLEVOIX",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "CNCHNB",
+          "lat": 42.378218
+        },
+        {
+          "id": "DDOT_2102",
+          "lon": -82.964473,
+          "direction": "SE",
+          "locationType": 0,
+          "name": "CONNER & CHARLEVOIX",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "CNCHSB",
+          "lat": 42.377807
+        },
+        {
+          "id": "DDOT_2104",
+          "lon": -82.956959,
+          "direction": "E",
+          "locationType": 0,
+          "name": "JEFFERSON & ALGONQUIN",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419",
+            "DDOT_6429"
+          ],
+          "code": "JFALEB",
+          "lat": 42.370182
+        },
+        {
+          "id": "DDOT_2107",
+          "lon": -82.954832,
+          "direction": "E",
+          "locationType": 0,
+          "name": "JEFFERSON & CONTINENTAL",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419",
+            "DDOT_6429"
+          ],
+          "code": "JFCO4EB",
+          "lat": 42.370455
+        },
+        {
+          "id": "DDOT_6368",
+          "lon": -82.968668,
+          "direction": "SE",
+          "locationType": 0,
+          "name": "CONNER & MACK",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "CNMASB",
+          "lat": 42.384397
+        },
+        {
+          "id": "DDOT_8552",
+          "lon": -83.004618,
+          "direction": "E",
+          "locationType": 0,
+          "name": "EIGHT MILE & HOOVER",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419",
+            "DDOT_6423"
+          ],
+          "code": "8MHOEB",
+          "lat": 42.449025
+        },
+        {
+          "id": "DDOT_8591",
+          "lon": -83.004434,
+          "direction": "W",
+          "locationType": 0,
+          "name": "EIGHT MILE & HOOVER",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419",
+            "DDOT_6423"
+          ],
+          "code": "8MHOWB",
+          "lat": 42.449177
+        },
+        {
+          "id": "DDOT_8694",
+          "lon": -82.980563,
+          "direction": "NW",
+          "locationType": 0,
+          "name": "CONNER \/ MID BLOCK 3",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "CNMBNB",
+          "lat": 42.391394
+        },
+        {
+          "id": "DDOT_8695",
+          "lon": -82.996545,
+          "direction": "NW",
+          "locationType": 0,
+          "name": "E. OUTER DRIVE & GRATIOT",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "EOGRSB",
+          "lat": 42.406526
+        },
+        {
+          "id": "DDOT_8698",
+          "lon": -82.986773,
+          "direction": "SE",
+          "locationType": 0,
+          "name": "CONNER \/ WCCC",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "CNWCSB",
+          "lat": 42.39525
+        },
+        {
+          "id": "DDOT_8699",
+          "lon": -82.980918,
+          "direction": "SE",
+          "locationType": 0,
+          "name": "CONNER \/ MID BLOCK 2",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "CNMBSB",
+          "lat": 42.391278
+        },
+        {
+          "id": "DDOT_8700",
+          "lon": -82.969348,
+          "direction": "SE",
+          "locationType": 0,
+          "name": "CONNER \/ MID BLOCK 1",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "CNMBSB",
+          "lat": 42.385516
+        },
+        {
+          "id": "DDOT_8707",
+          "lon": -82.952506,
+          "direction": "SE",
+          "locationType": 0,
+          "name": "KITCHENER \/ MID BLOCK",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "KIMBSB",
+          "lat": 42.364647
+        },
+        {
+          "id": "DDOT_9033",
+          "lon": -82.989176,
+          "direction": "SE",
+          "locationType": 0,
+          "name": "Conner & Harper",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "CNHRSB",
+          "lat": 42.396953
+        },
+        {
+          "id": "DDOT_93",
+          "lon": -83.021271,
+          "direction": "",
+          "locationType": 0,
+          "name": "Bel Air Shopping Center",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419",
+            "DDOT_6446"
+          ],
+          "code": "BSCRNB",
+          "lat": 42.448047
+        },
+        {
+          "id": "DDOT_9566",
+          "lon": -82.96835,
+          "direction": "NW",
+          "locationType": 0,
+          "name": "CONNER & MACK",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "CNMKNB",
+          "lat": 42.384406
+        },
+        {
+          "id": "DDOT_9802",
+          "lon": -82.953962,
+          "direction": "NW",
+          "locationType": 0,
+          "name": "NAVAHOE & MID BLOCK",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "NAMINB",
+          "lat": 42.364104
+        },
+        {
+          "id": "DDOT_9803",
+          "lon": -82.952026,
+          "direction": "SE",
+          "locationType": 0,
+          "name": "DICKERSON & MID BLOCK",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "DIMISB",
+          "lat": 42.368912
+        },
+        {
+          "id": "DDOT_9804",
+          "lon": -82.940715,
+          "direction": "NW",
+          "locationType": 0,
+          "name": "LAKEWOOD & AVONDALE",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "LAAVSB",
+          "lat": 42.364588
+        },
+        {
+          "id": "DDOT_9805",
+          "lon": -82.939481,
+          "direction": "E",
+          "locationType": 0,
+          "name": "ESSEX & MARLBOROUGH",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "ESMASB",
+          "lat": 42.367591
+        },
+        {
+          "id": "DDOT_9806",
+          "lon": -82.937427,
+          "direction": "SE",
+          "locationType": 0,
+          "name": "MANISTIQUE & ESSEX",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "MAESSB",
+          "lat": 42.368132
+        },
+        {
+          "id": "DDOT_9807",
+          "lon": -82.935349,
+          "direction": "SE",
+          "locationType": 0,
+          "name": "MANISTIQUE & AVONDALE",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "MAAVSB",
+          "lat": 42.364953
+        },
+        {
+          "id": "DDOT_9809",
+          "lon": -82.965967,
+          "direction": "NW",
+          "locationType": 0,
+          "name": "CONNER & GOETHE",
+          "wheelchairBoarding": "UNKNOWN",
+          "routeIds": [
+            "DDOT_6419"
+          ],
+          "code": "CNGOWB",
+          "lat": 42.380475
+        }
+      ],
+      "situations": [
+        
+      ],
+      "trips": [
+        
+      ],
+      "routes": [
+        {
+          "id": "DDOT_6419",
+          "textColor": "FFFFFF",
+          "color": "663399",
+          "description": "",
+          "longName": "CONNER",
+          "shortName": "013",
+          "type": 3,
+          "agencyId": "DDOT",
+          "url": ""
+        },
+        {
+          "id": "DDOT_6429",
+          "textColor": "FFFFFF",
+          "color": "006600",
+          "description": "",
+          "longName": "JEFFERSON",
+          "shortName": "025",
+          "type": 3,
+          "agencyId": "DDOT",
+          "url": ""
+        },
+        {
+          "id": "DDOT_6423",
+          "textColor": "FFFFFF",
+          "color": "0066FF",
+          "description": "",
+          "longName": "EIGHT MILE",
+          "shortName": "017",
+          "type": 3,
+          "agencyId": "DDOT",
+          "url": ""
+        },
+        {
+          "id": "DDOT_6446",
+          "textColor": "FFFFFF",
+          "color": "006600",
+          "description": "",
+          "longName": "VAN DYKE -LAFAYETTE",
+          "shortName": "048",
+          "type": 3,
+          "agencyId": "DDOT",
+          "url": ""
+        }
+      ],
+      "agencies": [
+        {
+          "id": "DDOT",
+          "privateService": false,
+          "phone": "313-933-1300",
+          "timezone": "America\/Detroit",
+          "disclaimer": "",
+          "name": "Detroit Department of Transportation",
+          "lang": "en",
+          "url": "http:\/\/www.RideDetroitTransit.com"
+        }
+      ]
+    },
+    "entry": {
+      "routeId": "DDOT_6419",
+      "stopIds": [
+        "DDOT_10006",
+        "DDOT_10030",
+        "DDOT_10031",
+        "DDOT_10033",
+        "DDOT_10034",
+        "DDOT_10035",
+        "DDOT_10046",
+        "DDOT_10047",
+        "DDOT_10048",
+        "DDOT_1255",
+        "DDOT_1259",
+        "DDOT_144",
+        "DDOT_145",
+        "DDOT_146",
+        "DDOT_147",
+        "DDOT_148",
+        "DDOT_149",
+        "DDOT_150",
+        "DDOT_152",
+        "DDOT_153",
+        "DDOT_154",
+        "DDOT_155",
+        "DDOT_157",
+        "DDOT_1989",
+        "DDOT_1993",
+        "DDOT_1994",
+        "DDOT_1995",
+        "DDOT_1996",
+        "DDOT_1998",
+        "DDOT_1999",
+        "DDOT_2002",
+        "DDOT_2003",
+        "DDOT_2005",
+        "DDOT_2006",
+        "DDOT_2007",
+        "DDOT_2008",
+        "DDOT_2009",
+        "DDOT_2010",
+        "DDOT_2011",
+        "DDOT_2012",
+        "DDOT_2014",
+        "DDOT_2015",
+        "DDOT_2016",
+        "DDOT_2017",
+        "DDOT_2018",
+        "DDOT_2019",
+        "DDOT_2020",
+        "DDOT_2021",
+        "DDOT_2022",
+        "DDOT_2023",
+        "DDOT_2024",
+        "DDOT_2026",
+        "DDOT_2031",
+        "DDOT_2032",
+        "DDOT_2033",
+        "DDOT_2035",
+        "DDOT_2036",
+        "DDOT_2037",
+        "DDOT_2042",
+        "DDOT_2051",
+        "DDOT_2052",
+        "DDOT_2053",
+        "DDOT_2054",
+        "DDOT_2055",
+        "DDOT_2056",
+        "DDOT_2057",
+        "DDOT_2058",
+        "DDOT_2059",
+        "DDOT_2060",
+        "DDOT_2061",
+        "DDOT_2063",
+        "DDOT_2065",
+        "DDOT_2066",
+        "DDOT_2069",
+        "DDOT_2075",
+        "DDOT_2076",
+        "DDOT_2079",
+        "DDOT_2081",
+        "DDOT_2082",
+        "DDOT_2083",
+        "DDOT_2085",
+        "DDOT_2087",
+        "DDOT_2089",
+        "DDOT_2095",
+        "DDOT_2096",
+        "DDOT_2097",
+        "DDOT_2098",
+        "DDOT_2099",
+        "DDOT_2101",
+        "DDOT_2102",
+        "DDOT_2104",
+        "DDOT_2107",
+        "DDOT_6368",
+        "DDOT_8552",
+        "DDOT_8591",
+        "DDOT_8694",
+        "DDOT_8695",
+        "DDOT_8698",
+        "DDOT_8699",
+        "DDOT_8700",
+        "DDOT_8707",
+        "DDOT_9033",
+        "DDOT_93",
+        "DDOT_9566",
+        "DDOT_9802",
+        "DDOT_9803",
+        "DDOT_9804",
+        "DDOT_9805",
+        "DDOT_9806",
+        "DDOT_9807",
+        "DDOT_9809"
+      ],
+      "stopGroupings": [
+        {
+          "ordered": true,
+          "stopGroups": [
+            {
+              "id": "1",
+              "name": {
+                "names": [
+                  "13 CONNER NORTHBOUND"
+                ],
+                "name": "13 CONNER NORTHBOUND",
+                "type": "destination"
+              },
+              "subGroups": [
+                
+              ],
+              "stopIds": [
+                "DDOT_153",
+                "DDOT_2097",
+                "DDOT_2095",
+                "DDOT_2101",
+                "DDOT_9809",
+                "DDOT_9566",
+                "DDOT_2009",
+                "DDOT_2007",
+                "DDOT_2005",
+                "DDOT_154",
+                "DDOT_2003",
+                "DDOT_8694",
+                "DDOT_155",
+                "DDOT_1998",
+                "DDOT_1999",
+                "DDOT_1989",
+                "DDOT_1993",
+                "DDOT_1994",
+                "DDOT_2053",
+                "DDOT_2052",
+                "DDOT_1255",
+                "DDOT_10031",
+                "DDOT_10033",
+                "DDOT_2058",
+                "DDOT_2057",
+                "DDOT_2061",
+                "DDOT_10034",
+                "DDOT_10035",
+                "DDOT_157",
+                "DDOT_2011",
+                "DDOT_2014",
+                "DDOT_2016",
+                "DDOT_2018",
+                "DDOT_2020",
+                "DDOT_2022",
+                "DDOT_2024",
+                "DDOT_10046",
+                "DDOT_2033",
+                "DDOT_2036",
+                "DDOT_10047",
+                "DDOT_10048",
+                "DDOT_8591",
+                "DDOT_93"
+              ],
+              "polylines": [
+                
+              ]
+            },
+            {
+              "id": "0",
+              "name": {
+                "names": [
+                  "13 CONNER SOUTHBOUND"
+                ],
+                "name": "13 CONNER SOUTHBOUND",
+                "type": "destination"
+              },
+              "subGroups": [
+                
+              ],
+              "stopIds": [
+                "DDOT_93",
+                "DDOT_8552",
+                "DDOT_2042",
+                "DDOT_2037",
+                "DDOT_2035",
+                "DDOT_2032",
+                "DDOT_2031",
+                "DDOT_2026",
+                "DDOT_2023",
+                "DDOT_2021",
+                "DDOT_2019",
+                "DDOT_2017",
+                "DDOT_2015",
+                "DDOT_2012",
+                "DDOT_144",
+                "DDOT_2010",
+                "DDOT_2059",
+                "DDOT_2060",
+                "DDOT_2056",
+                "DDOT_2055",
+                "DDOT_2063",
+                "DDOT_1259",
+                "DDOT_8695",
+                "DDOT_2051",
+                "DDOT_145",
+                "DDOT_2054",
+                "DDOT_1995",
+                "DDOT_1996",
+                "DDOT_9033",
+                "DDOT_8698",
+                "DDOT_146",
+                "DDOT_8699",
+                "DDOT_2002",
+                "DDOT_147",
+                "DDOT_2006",
+                "DDOT_2008",
+                "DDOT_8700",
+                "DDOT_6368",
+                "DDOT_2099",
+                "DDOT_2102",
+                "DDOT_2096",
+                "DDOT_2098",
+                "DDOT_148",
+                "DDOT_2104",
+                "DDOT_2107",
+                "DDOT_9803",
+                "DDOT_10030",
+                "DDOT_2069",
+                "DDOT_8707",
+                "DDOT_149",
+                "DDOT_2079",
+                "DDOT_2076",
+                "DDOT_2082",
+                "DDOT_9804",
+                "DDOT_9805",
+                "DDOT_9806",
+                "DDOT_9807",
+                "DDOT_150",
+                "DDOT_2089",
+                "DDOT_2087",
+                "DDOT_2085",
+                "DDOT_2083",
+                "DDOT_2075",
+                "DDOT_2081",
+                "DDOT_152",
+                "DDOT_2065",
+                "DDOT_9802",
+                "DDOT_2066",
+                "DDOT_10006",
+                "DDOT_153"
+              ],
+              "polylines": [
+                
+              ]
+            }
+          ],
+          "type": "direction"
+        }
+      ],
+      "polylines": [
+        {
+          "levels": "",
+          "length": 19,
+          "points": "ocvaGtgmyNlCaNf@{@lDiLtAiAjHgJrDcBbG_DvQgJjM_IvLwGbLcGoAoF{@{EbG_DbQ{J?nARfEf@jC"
+        },
+        {
+          "levels": "",
+          "length": 3,
+          "points": "yjraGn{iyN_NfJwGzE"
+        },
+        {
+          "levels": "",
+          "length": 75,
+          "points": "ocvaGtgmyNoAfFg@jBoAfEyEtJaI`Pe@`BoFnFg@bBcBbBkCzE{@bB}@xB{@z@aBtBwBfEg@f@wBnAwBvBkC~CkCjC_DvBsDrD_D~C_DfEkCzE{@nAkHcGyGmFsDbB}C`BkCvBkCz@_DbBwBnAkCvB_DnAkCnA_DbB_DbBkCvBsDnAsDjC_DnAmCdBqDxEgE?sIRkHR{J?gJRgJRgJR{Jg@{Jz@sIRwBRwG?_I?{J?sI?wBf@cGoFoKcGSvLz@zE?fEd@dB?dTNdJLbHHnERbN@hMRrI"
+        },
+        {
+          "levels": "",
+          "length": 4,
+          "points": "inyaGnfqyN{@vB~CbLfEwG"
+        },
+        {
+          "levels": "",
+          "length": 35,
+          "points": "ulraGjniyNg@cBSoF?_DS{EjG_EjAu@bJ}FnArDz@~Cz@fEnP{J{@sDoAsD{@_DoAgEvGgE~CwB{@oFoAcGoA{EoAsDoAgEkM~HcBwGoAoFoA{E{@oFvLcGrIcGnApFnAxEnAnFnAzE_IbG"
+        },
+        {
+          "levels": "",
+          "length": 6,
+          "points": "qaqaGfmhyNz@rDnA~CcQzJz@rDk\\bQ"
+        }
+      ]
+    }
+  },
+  "code": 200,
+  "version": 2
+}
