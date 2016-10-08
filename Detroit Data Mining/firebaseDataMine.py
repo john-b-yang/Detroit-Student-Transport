@@ -27,3 +27,8 @@ output = json.loads(binary)
 
 for stop in output['data']['references']['stops']:
     print stop['id']
+
+
+# when they enter in their starting stop, pull up all lines that leave from there
+
+
