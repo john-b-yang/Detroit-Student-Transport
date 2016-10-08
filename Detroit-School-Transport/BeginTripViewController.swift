@@ -20,7 +20,8 @@ class BeginTripViewController: UIViewController, CLLocationManagerDelegate {
     //Location Management and Trip History
     var locationManager: CLLocationManager!
     var timeArray = [String]()
-    var locationDictionary:Dictionary = [String: [String: Double]()]()
+    var locationDictionary: Dictionary = [String: [String: Double]]()
+    
     
     //Firebase Database Reference
     var ref: FIRDatabaseReference!
@@ -68,7 +69,7 @@ class BeginTripViewController: UIViewController, CLLocationManagerDelegate {
         
         //Artificially populate timeArray and locationArray since they are blank
         timeArray = [String(describing: Date()), String(describing: Date()), String(describing: Date())]
-        locationDictionary = ["0": ["lat": 40, "long": 50], "1": ["lat": 60, "long": 70]]
+        locationDictionary = ["0": ["lat": 40, "long": 50]]
         
         self.ref.child("users/John/times").setValue(timeArray as NSArray)
         self.ref.child("users/John/locations").setValue(locationDictionary as NSDictionary)
