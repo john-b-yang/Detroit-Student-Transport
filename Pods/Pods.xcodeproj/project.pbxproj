@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		061B32496494EB190A45A849102AC26D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		2757B9C3A72D230545E156EC10E915A6 /* Pods-Detroit-School-Transport-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4593AE5714C804B7ADD95D334DA6FF3D /* Pods-Detroit-School-Transport-dummy.m */; };
+		5E455B53A204B5CD83C6A924938193B2 /* Pods-Detroit-School-TransportUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C61368A79F41EFB7D5E96B9BEEC30E63 /* Pods-Detroit-School-TransportUITests-dummy.m */; };
+		65CE32DA90BAEA21AEDFD7BB266A18C8 /* Pods-Detroit-School-Transport-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB458FA94A8B2FD9CE202581DAEBEC5B /* Pods-Detroit-School-Transport-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8F7FDF49CDB30037BA00EA2F32CB285 /* Pods-Detroit-School-TransportUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69BD3A9803BFC42D3AFAA9397D49A792 /* Pods-Detroit-School-TransportUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8F929A4BA5B6A928A614A56FB13046D /* Pods-Detroit-School-TransportTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6723C672238ECBE6D073736352570A7B /* Pods-Detroit-School-TransportTests-dummy.m */; };
+		BF6D352686B33C73BD0FB91EF5FFC50A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		D64C143AFE0A5C567CF03C822E44C3BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		F6C48ACDDF1F3C2E53580F1EDEF212F0 /* Pods-Detroit-School-TransportTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02FF0652E64765A9B163D5E06A8B3BEE /* Pods-Detroit-School-TransportTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0035D6A0340A2420A3269A25AB1B2575 /* Pods-Detroit-School-TransportUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Detroit-School-TransportUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		02FF0652E64765A9B163D5E06A8B3BEE /* Pods-Detroit-School-TransportTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Detroit-School-TransportTests-umbrella.h"; sourceTree = "<group>"; };
+		0B2A7BE424A28934B8D8C467DCF645DC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11EB66DA5A9CA906B47EE2DAB39D946A /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
+		232D27EF012E7831BC185940F0EDB710 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		27C2FA58695674E43079C502EA314197 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
+		2B4CCBFAA0F2D3702D0136E9496223A6 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		31B3B852E78895644DA7D796D174EAFD /* Pods-Detroit-School-Transport-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Detroit-School-Transport-frameworks.sh"; sourceTree = "<group>"; };
+		3AC276073ABCBEE927551A2EB5DA2E32 /* Pods-Detroit-School-TransportTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Detroit-School-TransportTests.release.xcconfig"; sourceTree = "<group>"; };
+		4593AE5714C804B7ADD95D334DA6FF3D /* Pods-Detroit-School-Transport-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Detroit-School-Transport-dummy.m"; sourceTree = "<group>"; };
+		459524C3834FDC43373160B9A23E9478 /* Pods-Detroit-School-TransportTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Detroit-School-TransportTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4C57A702042B21D0EC93B0CCE55EC077 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
+		517C8390C743E8138972F046A161122B /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		55AB95F4E14F05B321ACBBAB4D6E06F9 /* Pods-Detroit-School-TransportTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Detroit-School-TransportTests.debug.xcconfig"; sourceTree = "<group>"; };
+		568D1007AAD032B4FAD98B34D33BCE5D /* Pods_Detroit_School_TransportTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Detroit_School_TransportTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C5EE653D995D25E438768E095EBA00D /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		6723C672238ECBE6D073736352570A7B /* Pods-Detroit-School-TransportTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Detroit-School-TransportTests-dummy.m"; sourceTree = "<group>"; };
+		69BD3A9803BFC42D3AFAA9397D49A792 /* Pods-Detroit-School-TransportUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Detroit-School-TransportUITests-umbrella.h"; sourceTree = "<group>"; };
+		6C604853A712DEEBACC7B684EFBED361 /* Pods-Detroit-School-TransportTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Detroit-School-TransportTests.modulemap"; sourceTree = "<group>"; };
+		7136E8292E1D28521431EA11B18CBD3F /* Pods-Detroit-School-Transport.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Detroit-School-Transport.modulemap"; sourceTree = "<group>"; };
+		74C51A9EBABEEC7921C23234BB8F638A /* Pods_Detroit_School_TransportUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Detroit_School_TransportUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78DD6C87030527282D6119D371509056 /* Pods-Detroit-School-Transport-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Detroit-School-Transport-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7CB8F542E193D2856E4BA3161503CBB2 /* Pods-Detroit-School-Transport-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Detroit-School-Transport-resources.sh"; sourceTree = "<group>"; };
+		7DC2F3BAFE508DE3A9D3A02F86763AF4 /* Pods-Detroit-School-TransportTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Detroit-School-TransportTests-resources.sh"; sourceTree = "<group>"; };
+		8481E2337571C0C84AD9946FA7030C30 /* Pods-Detroit-School-TransportUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Detroit-School-TransportUITests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		954727C3F442916134E3F64B50BA8D71 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		9ACBC03842276D6193A09FF919BB5FD7 /* Pods-Detroit-School-TransportUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Detroit-School-TransportUITests-resources.sh"; sourceTree = "<group>"; };
+		9AEB66ADD8DC33C25930DC1B4698DB1A /* Pods-Detroit-School-TransportUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Detroit-School-TransportUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B9CD055AFA4DA18F03D376A33D28D2BA /* Pods_Detroit_School_Transport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Detroit_School_Transport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDAA7DB9A0443943DF901509D056C0F8 /* Pods-Detroit-School-TransportUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Detroit-School-TransportUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C61368A79F41EFB7D5E96B9BEEC30E63 /* Pods-Detroit-School-TransportUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Detroit-School-TransportUITests-dummy.m"; sourceTree = "<group>"; };
+		C6B666E67DBA29B4287658B957FA6A2F /* Pods-Detroit-School-TransportTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Detroit-School-TransportTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C85B84F663A37815E1B19C605556B6CF /* Pods-Detroit-School-Transport-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Detroit-School-Transport-acknowledgements.plist"; sourceTree = "<group>"; };
+		CE21D5895C5666BCD2E4E1B658DD90A2 /* Pods-Detroit-School-TransportUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Detroit-School-TransportUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D4327E7248A233EBEDF33BE8206DDFC8 /* Pods-Detroit-School-Transport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Detroit-School-Transport.release.xcconfig"; sourceTree = "<group>"; };
+		D57244E5A3BA747D7AB5B775999FD82A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB458FA94A8B2FD9CE202581DAEBEC5B /* Pods-Detroit-School-Transport-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Detroit-School-Transport-umbrella.h"; sourceTree = "<group>"; };
+		E8C74807802B3C6BB11583CF65D3540F /* Pods-Detroit-School-Transport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Detroit-School-Transport.debug.xcconfig"; sourceTree = "<group>"; };
+		EA379241258D19798F6FE3AF46DCAB0A /* Pods-Detroit-School-TransportUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Detroit-School-TransportUITests-frameworks.sh"; sourceTree = "<group>"; };
+		F1DB4BA3E604FB636FAD28244007D0FC /* Pods-Detroit-School-TransportTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Detroit-School-TransportTests-frameworks.sh"; sourceTree = "<group>"; };
+		F3B1B87939B99C5BF6A638F5B7227296 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80C5E6A4EE7B8645C0986E7AF4C6F6A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF6D352686B33C73BD0FB91EF5FFC50A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		865E4F625BDB46BD52A0C8EE012FFC72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				061B32496494EB190A45A849102AC26D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC80F5C7B1DF8DBC03A930158A5AA20D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D64C143AFE0A5C567CF03C822E44C3BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06061969D52EED6CA804A6BCAD40DE71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				954727C3F442916134E3F64B50BA8D71 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1FF62BFACC5599FA6E2696C783E4FC28 /* Pods-Detroit-School-TransportUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3B1B87939B99C5BF6A638F5B7227296 /* Info.plist */,
+				8481E2337571C0C84AD9946FA7030C30 /* Pods-Detroit-School-TransportUITests.modulemap */,
+				BDAA7DB9A0443943DF901509D056C0F8 /* Pods-Detroit-School-TransportUITests-acknowledgements.markdown */,
+				0035D6A0340A2420A3269A25AB1B2575 /* Pods-Detroit-School-TransportUITests-acknowledgements.plist */,
+				C61368A79F41EFB7D5E96B9BEEC30E63 /* Pods-Detroit-School-TransportUITests-dummy.m */,
+				EA379241258D19798F6FE3AF46DCAB0A /* Pods-Detroit-School-TransportUITests-frameworks.sh */,
+				9ACBC03842276D6193A09FF919BB5FD7 /* Pods-Detroit-School-TransportUITests-resources.sh */,
+				69BD3A9803BFC42D3AFAA9397D49A792 /* Pods-Detroit-School-TransportUITests-umbrella.h */,
+				CE21D5895C5666BCD2E4E1B658DD90A2 /* Pods-Detroit-School-TransportUITests.debug.xcconfig */,
+				9AEB66ADD8DC33C25930DC1B4698DB1A /* Pods-Detroit-School-TransportUITests.release.xcconfig */,
+			);
+			name = "Pods-Detroit-School-TransportUITests";
+			path = "Target Support Files/Pods-Detroit-School-TransportUITests";
+			sourceTree = "<group>";
+		};
+		232A0C2965BD944705AFDCC292FAEA7F /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				8633E9D4CF7BCB091B63C226147393FF /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		2BC3259018824B4D82CACFE0E88A5DA2 /* Pods-Detroit-School-Transport */ = {
+			isa = PBXGroup;
+			children = (
+				D57244E5A3BA747D7AB5B775999FD82A /* Info.plist */,
+				7136E8292E1D28521431EA11B18CBD3F /* Pods-Detroit-School-Transport.modulemap */,
+				78DD6C87030527282D6119D371509056 /* Pods-Detroit-School-Transport-acknowledgements.markdown */,
+				C85B84F663A37815E1B19C605556B6CF /* Pods-Detroit-School-Transport-acknowledgements.plist */,
+				4593AE5714C804B7ADD95D334DA6FF3D /* Pods-Detroit-School-Transport-dummy.m */,
+				31B3B852E78895644DA7D796D174EAFD /* Pods-Detroit-School-Transport-frameworks.sh */,
+				7CB8F542E193D2856E4BA3161503CBB2 /* Pods-Detroit-School-Transport-resources.sh */,
+				DB458FA94A8B2FD9CE202581DAEBEC5B /* Pods-Detroit-School-Transport-umbrella.h */,
+				E8C74807802B3C6BB11583CF65D3540F /* Pods-Detroit-School-Transport.debug.xcconfig */,
+				D4327E7248A233EBEDF33BE8206DDFC8 /* Pods-Detroit-School-Transport.release.xcconfig */,
+			);
+			name = "Pods-Detroit-School-Transport";
+			path = "Target Support Files/Pods-Detroit-School-Transport";
+			sourceTree = "<group>";
+		};
+		36205C48C4EF365A03DD9EF28703A43E /* FirebaseCore */ = {
+			isa = PBXGroup;
+			children = (
+				ED32C4EBDB9A23E379FD2B1CC218B765 /* Frameworks */,
+			);
+			path = FirebaseCore;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		55F24E25222E9157E8F83213BB9B7C0B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BC3259018824B4D82CACFE0E88A5DA2 /* Pods-Detroit-School-Transport */,
+				8F15C96E6D0EEADCAF60CFAE96CA8D5D /* Pods-Detroit-School-TransportTests */,
+				1FF62BFACC5599FA6E2696C783E4FC28 /* Pods-Detroit-School-TransportUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5609B4E3EA5FABBD45B816891F2CD45F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9CD055AFA4DA18F03D376A33D28D2BA /* Pods_Detroit_School_Transport.framework */,
+				568D1007AAD032B4FAD98B34D33BCE5D /* Pods_Detroit_School_TransportTests.framework */,
+				74C51A9EBABEEC7921C23234BB8F638A /* Pods_Detroit_School_TransportUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BCC489817A1853AA3D334BC1B2FF7A8 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				5CE347E97B7D2DCD28FB193E6326B9B8 /* Core */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		5CE347E97B7D2DCD28FB193E6326B9B8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				4C57A702042B21D0EC93B0CCE55EC077 /* Firebase.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		761391969BAF09951C5A54A63AAA4B6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				517C8390C743E8138972F046A161122B /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C6688EDDEF21F1062427B0B65BE9EFCC /* Pods */,
+				5609B4E3EA5FABBD45B816891F2CD45F /* Products */,
+				55F24E25222E9157E8F83213BB9B7C0B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8633E9D4CF7BCB091B63C226147393FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B4CCBFAA0F2D3702D0136E9496223A6 /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F15C96E6D0EEADCAF60CFAE96CA8D5D /* Pods-Detroit-School-TransportTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B2A7BE424A28934B8D8C467DCF645DC /* Info.plist */,
+				6C604853A712DEEBACC7B684EFBED361 /* Pods-Detroit-School-TransportTests.modulemap */,
+				C6B666E67DBA29B4287658B957FA6A2F /* Pods-Detroit-School-TransportTests-acknowledgements.markdown */,
+				459524C3834FDC43373160B9A23E9478 /* Pods-Detroit-School-TransportTests-acknowledgements.plist */,
+				6723C672238ECBE6D073736352570A7B /* Pods-Detroit-School-TransportTests-dummy.m */,
+				F1DB4BA3E604FB636FAD28244007D0FC /* Pods-Detroit-School-TransportTests-frameworks.sh */,
+				7DC2F3BAFE508DE3A9D3A02F86763AF4 /* Pods-Detroit-School-TransportTests-resources.sh */,
+				02FF0652E64765A9B163D5E06A8B3BEE /* Pods-Detroit-School-TransportTests-umbrella.h */,
+				55AB95F4E14F05B321ACBBAB4D6E06F9 /* Pods-Detroit-School-TransportTests.debug.xcconfig */,
+				3AC276073ABCBEE927551A2EB5DA2E32 /* Pods-Detroit-School-TransportTests.release.xcconfig */,
+			);
+			name = "Pods-Detroit-School-TransportTests";
+			path = "Target Support Files/Pods-Detroit-School-TransportTests";
+			sourceTree = "<group>";
+		};
+		97052C51F94E6047C061A44107973361 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				FF37BE07D0632D31C67ABDF6F2A824AA /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		B356D7C630FD917FF4A8A23CB20A7A7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C5EE653D995D25E438768E095EBA00D /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B376289842D88B04AFA1E4E1F2D2D8EC /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				B356D7C630FD917FF4A8A23CB20A7A7E /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		B7F32925195C2BF4F6650F6E3E291AFC /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				27C2FA58695674E43079C502EA314197 /* FIRInstanceID.h */,
+				06061969D52EED6CA804A6BCAD40DE71 /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6688EDDEF21F1062427B0B65BE9EFCC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BCC489817A1853AA3D334BC1B2FF7A8 /* Firebase */,
+				232A0C2965BD944705AFDCC292FAEA7F /* FirebaseAnalytics */,
+				36205C48C4EF365A03DD9EF28703A43E /* FirebaseCore */,
+				B7F32925195C2BF4F6650F6E3E291AFC /* FirebaseInstanceID */,
+				B376289842D88B04AFA1E4E1F2D2D8EC /* GoogleInterchangeUtilities */,
+				97052C51F94E6047C061A44107973361 /* GoogleSymbolUtilities */,
+				E3367BDB30192BFA5367F46521B48544 /* GoogleUtilities */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E3367BDB30192BFA5367F46521B48544 /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				761391969BAF09951C5A54A63AAA4B6F /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		ED32C4EBDB9A23E379FD2B1CC218B765 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11EB66DA5A9CA906B47EE2DAB39D946A /* FirebaseCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF37BE07D0632D31C67ABDF6F2A824AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				232D27EF012E7831BC185940F0EDB710 /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1706EE17FEA60C1F3AF186F4D4293935 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65CE32DA90BAEA21AEDFD7BB266A18C8 /* Pods-Detroit-School-Transport-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62200CF1233D8752DEAC9366F882CD61 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6C48ACDDF1F3C2E53580F1EDEF212F0 /* Pods-Detroit-School-TransportTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D412044FC8C851675F78A8EC85A33708 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F7FDF49CDB30037BA00EA2F32CB285 /* Pods-Detroit-School-TransportUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00B6CB7698DCC27A6BAAA8DB267CDBD9 /* Pods-Detroit-School-Transport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F60EE095E22F368C34742AFB1E3B5EC5 /* Build configuration list for PBXNativeTarget "Pods-Detroit-School-Transport" */;
+			buildPhases = (
+				9A36953981E0ABC81B950D94BDEE756C /* Sources */,
+				865E4F625BDB46BD52A0C8EE012FFC72 /* Frameworks */,
+				1706EE17FEA60C1F3AF186F4D4293935 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Detroit-School-Transport";
+			productName = "Pods-Detroit-School-Transport";
+			productReference = B9CD055AFA4DA18F03D376A33D28D2BA /* Pods_Detroit_School_Transport.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5993423CF1A7BB99D05600FA1C88D145 /* Pods-Detroit-School-TransportTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FABF5A97DE5E019AE4DEEFA5129FB67 /* Build configuration list for PBXNativeTarget "Pods-Detroit-School-TransportTests" */;
+			buildPhases = (
+				BFE83D8DB54D981FBA1EF1536B9D8AD2 /* Sources */,
+				80C5E6A4EE7B8645C0986E7AF4C6F6A1 /* Frameworks */,
+				62200CF1233D8752DEAC9366F882CD61 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Detroit-School-TransportTests";
+			productName = "Pods-Detroit-School-TransportTests";
+			productReference = 568D1007AAD032B4FAD98B34D33BCE5D /* Pods_Detroit_School_TransportTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F6F174773DCB9E5455A51B1ACACBAAA6 /* Pods-Detroit-School-TransportUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E2CADF6071FAD698B4D6D3BE07142D4 /* Build configuration list for PBXNativeTarget "Pods-Detroit-School-TransportUITests" */;
+			buildPhases = (
+				59CFC53C1BE6F81CDEBAF223EA0ED171 /* Sources */,
+				EC80F5C7B1DF8DBC03A930158A5AA20D /* Frameworks */,
+				D412044FC8C851675F78A8EC85A33708 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Detroit-School-TransportUITests";
+			productName = "Pods-Detroit-School-TransportUITests";
+			productReference = 74C51A9EBABEEC7921C23234BB8F638A /* Pods_Detroit_School_TransportUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5609B4E3EA5FABBD45B816891F2CD45F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00B6CB7698DCC27A6BAAA8DB267CDBD9 /* Pods-Detroit-School-Transport */,
+				5993423CF1A7BB99D05600FA1C88D145 /* Pods-Detroit-School-TransportTests */,
+				F6F174773DCB9E5455A51B1ACACBAAA6 /* Pods-Detroit-School-TransportUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59CFC53C1BE6F81CDEBAF223EA0ED171 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E455B53A204B5CD83C6A924938193B2 /* Pods-Detroit-School-TransportUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A36953981E0ABC81B950D94BDEE756C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2757B9C3A72D230545E156EC10E915A6 /* Pods-Detroit-School-Transport-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE83D8DB54D981FBA1EF1536B9D8AD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F929A4BA5B6A928A614A56FB13046D /* Pods-Detroit-School-TransportTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1ADEC27576BB2C35F7FFAC5B159B95A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AEB66ADD8DC33C25930DC1B4698DB1A /* Pods-Detroit-School-TransportUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Detroit-School-TransportUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Detroit-School-TransportUITests/Pods-Detroit-School-TransportUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Detroit_School_TransportUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		42287DDF97330524BA3EF220F0276DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		518C84E148B93E2084B80F5A9C0ABCC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE21D5895C5666BCD2E4E1B658DD90A2 /* Pods-Detroit-School-TransportUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Detroit-School-TransportUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Detroit-School-TransportUITests/Pods-Detroit-School-TransportUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Detroit_School_TransportUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A68C7A5A6630A30FBA1C53952E610205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4327E7248A233EBEDF33BE8206DDFC8 /* Pods-Detroit-School-Transport.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Detroit-School-Transport/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Detroit-School-Transport/Pods-Detroit-School-Transport.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Detroit_School_Transport;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AD1617A94DE62160C291A2E982F60A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55AB95F4E14F05B321ACBBAB4D6E06F9 /* Pods-Detroit-School-TransportTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Detroit-School-TransportTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Detroit-School-TransportTests/Pods-Detroit-School-TransportTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Detroit_School_TransportTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AE9439C22469D35336242DD983DB5C5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BC0A6AA05F358F439E0A48B510EB034A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AC276073ABCBEE927551A2EB5DA2E32 /* Pods-Detroit-School-TransportTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Detroit-School-TransportTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Detroit-School-TransportTests/Pods-Detroit-School-TransportTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Detroit_School_TransportTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D2224031D51F9E215215062F940C50E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8C74807802B3C6BB11583CF65D3540F /* Pods-Detroit-School-Transport.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Detroit-School-Transport/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Detroit-School-Transport/Pods-Detroit-School-Transport.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Detroit_School_Transport;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE9439C22469D35336242DD983DB5C5F /* Debug */,
+				42287DDF97330524BA3EF220F0276DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E2CADF6071FAD698B4D6D3BE07142D4 /* Build configuration list for PBXNativeTarget "Pods-Detroit-School-TransportUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				518C84E148B93E2084B80F5A9C0ABCC2 /* Debug */,
+				1ADEC27576BB2C35F7FFAC5B159B95A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FABF5A97DE5E019AE4DEEFA5129FB67 /* Build configuration list for PBXNativeTarget "Pods-Detroit-School-TransportTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD1617A94DE62160C291A2E982F60A2D /* Debug */,
+				BC0A6AA05F358F439E0A48B510EB034A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F60EE095E22F368C34742AFB1E3B5EC5 /* Build configuration list for PBXNativeTarget "Pods-Detroit-School-Transport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2224031D51F9E215215062F940C50E5 /* Debug */,
+				A68C7A5A6630A30FBA1C53952E610205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

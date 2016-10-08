@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		167D610B03D37A6C850E764C /* Pods_Detroit_School_Transport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A48737979C11C62A69B5D0 /* Pods_Detroit_School_Transport.framework */; };
+		72C86E3FF79D3402F2C521BB /* Pods_Detroit_School_TransportUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2ADDFEA9AEA5C70E085D5E6 /* Pods_Detroit_School_TransportUITests.framework */; };
+		99A5F7DC55998A8733F60672 /* Pods_Detroit_School_TransportTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBEB0B867E5604B8A412190F /* Pods_Detroit_School_TransportTests.framework */; };
 		A0E834041DA8C756001A45EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E834031DA8C756001A45EF /* AppDelegate.swift */; };
 		A0E834061DA8C756001A45EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E834051DA8C756001A45EF /* ViewController.swift */; };
 		A0E834091DA8C756001A45EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0E834071DA8C756001A45EF /* Main.storyboard */; };
@@ -14,6 +17,7 @@
 		A0E8340E1DA8C756001A45EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0E8340C1DA8C756001A45EF /* LaunchScreen.storyboard */; };
 		A0E834191DA8C756001A45EF /* Detroit_School_TransportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E834181DA8C756001A45EF /* Detroit_School_TransportTests.swift */; };
 		A0E834241DA8C756001A45EF /* Detroit_School_TransportUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E834231DA8C756001A45EF /* Detroit_School_TransportUITests.swift */; };
+		A0E834321DA8C818001A45EF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A0E834311DA8C818001A45EF /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		53B66A37D07FE0AD6651EBC8 /* Pods-Detroit-School-Transport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Detroit-School-Transport.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Detroit-School-Transport/Pods-Detroit-School-Transport.debug.xcconfig"; sourceTree = "<group>"; };
+		77958C46CCD7235D16AA1C99 /* Pods-Detroit-School-TransportTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Detroit-School-TransportTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Detroit-School-TransportTests/Pods-Detroit-School-TransportTests.release.xcconfig"; sourceTree = "<group>"; };
 		A0E834001DA8C756001A45EF /* Detroit-School-Transport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Detroit-School-Transport.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0E834031DA8C756001A45EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0E834051DA8C756001A45EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,14 @@
 		A0E8341F1DA8C756001A45EF /* Detroit-School-TransportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Detroit-School-TransportUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0E834231DA8C756001A45EF /* Detroit_School_TransportUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detroit_School_TransportUITests.swift; sourceTree = "<group>"; };
 		A0E834251DA8C756001A45EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0E834311DA8C818001A45EF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AD57E1755E78B39B3ED0B88D /* Pods-Detroit-School-TransportTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Detroit-School-TransportTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Detroit-School-TransportTests/Pods-Detroit-School-TransportTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B2ADDFEA9AEA5C70E085D5E6 /* Pods_Detroit_School_TransportUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Detroit_School_TransportUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB771D8839A436E5512D4B07 /* Pods-Detroit-School-TransportUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Detroit-School-TransportUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Detroit-School-TransportUITests/Pods-Detroit-School-TransportUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C5A48737979C11C62A69B5D0 /* Pods_Detroit_School_Transport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Detroit_School_Transport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C68BE7B1BF758069DFDB3AA8 /* Pods-Detroit-School-Transport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Detroit-School-Transport.release.xcconfig"; path = "Pods/Target Support Files/Pods-Detroit-School-Transport/Pods-Detroit-School-Transport.release.xcconfig"; sourceTree = "<group>"; };
+		DBEB0B867E5604B8A412190F /* Pods_Detroit_School_TransportTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Detroit_School_TransportTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7528F882E0B6901912443B2 /* Pods-Detroit-School-TransportUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Detroit-School-TransportUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Detroit-School-TransportUITests/Pods-Detroit-School-TransportUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				167D610B03D37A6C850E764C /* Pods_Detroit_School_Transport.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99A5F7DC55998A8733F60672 /* Pods_Detroit_School_TransportTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +84,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72C86E3FF79D3402F2C521BB /* Pods_Detroit_School_TransportUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30BD3BDCAF864596FEECA31C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53B66A37D07FE0AD6651EBC8 /* Pods-Detroit-School-Transport.debug.xcconfig */,
+				C68BE7B1BF758069DFDB3AA8 /* Pods-Detroit-School-Transport.release.xcconfig */,
+				AD57E1755E78B39B3ED0B88D /* Pods-Detroit-School-TransportTests.debug.xcconfig */,
+				77958C46CCD7235D16AA1C99 /* Pods-Detroit-School-TransportTests.release.xcconfig */,
+				F7528F882E0B6901912443B2 /* Pods-Detroit-School-TransportUITests.debug.xcconfig */,
+				BB771D8839A436E5512D4B07 /* Pods-Detroit-School-TransportUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		310FF3F34DDBBFC1088B57D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5A48737979C11C62A69B5D0 /* Pods_Detroit_School_Transport.framework */,
+				DBEB0B867E5604B8A412190F /* Pods_Detroit_School_TransportTests.framework */,
+				B2ADDFEA9AEA5C70E085D5E6 /* Pods_Detroit_School_TransportUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A0E833F71DA8C756001A45EF = {
 			isa = PBXGroup;
 			children = (
+				A0E834311DA8C818001A45EF /* GoogleService-Info.plist */,
 				A0E834021DA8C756001A45EF /* Detroit-School-Transport */,
 				A0E834171DA8C756001A45EF /* Detroit-School-TransportTests */,
 				A0E834221DA8C756001A45EF /* Detroit-School-TransportUITests */,
 				A0E834011DA8C756001A45EF /* Products */,
+				30BD3BDCAF864596FEECA31C /* Pods */,
+				310FF3F34DDBBFC1088B57D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0E834281DA8C756001A45EF /* Build configuration list for PBXNativeTarget "Detroit-School-Transport" */;
 			buildPhases = (
+				1E3BA970619273F82836DCA6 /* [CP] Check Pods Manifest.lock */,
 				A0E833FC1DA8C756001A45EF /* Sources */,
 				A0E833FD1DA8C756001A45EF /* Frameworks */,
 				A0E833FE1DA8C756001A45EF /* Resources */,
+				5AF32764E29C79558E129095 /* [CP] Embed Pods Frameworks */,
+				A1DD9F9A9C28D49468025D8A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0E8342B1DA8C756001A45EF /* Build configuration list for PBXNativeTarget "Detroit-School-TransportTests" */;
 			buildPhases = (
+				4251D0084BA02AF3C8CCA8CC /* [CP] Check Pods Manifest.lock */,
 				A0E834101DA8C756001A45EF /* Sources */,
 				A0E834111DA8C756001A45EF /* Frameworks */,
 				A0E834121DA8C756001A45EF /* Resources */,
+				22524D21B8449F3AAFAF332E /* [CP] Embed Pods Frameworks */,
+				816416DF0F7DA560B7262F76 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0E8342E1DA8C756001A45EF /* Build configuration list for PBXNativeTarget "Detroit-School-TransportUITests" */;
 			buildPhases = (
+				84A885E885484DEABF15DB23 /* [CP] Check Pods Manifest.lock */,
 				A0E8341B1DA8C756001A45EF /* Sources */,
 				A0E8341C1DA8C756001A45EF /* Frameworks */,
 				A0E8341D1DA8C756001A45EF /* Resources */,
+				7DD365872EEBF4E50DF4599A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0E8340E1DA8C756001A45EF /* LaunchScreen.storyboard in Resources */,
+				A0E834321DA8C818001A45EF /* GoogleService-Info.plist in Resources */,
 				A0E8340B1DA8C756001A45EF /* Assets.xcassets in Resources */,
 				A0E834091DA8C756001A45EF /* Main.storyboard in Resources */,
 			);
@@ -256,6 +308,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E3BA970619273F82836DCA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		22524D21B8449F3AAFAF332E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Detroit-School-TransportTests/Pods-Detroit-School-TransportTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4251D0084BA02AF3C8CCA8CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5AF32764E29C79558E129095 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Detroit-School-Transport/Pods-Detroit-School-Transport-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DD365872EEBF4E50DF4599A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Detroit-School-TransportUITests/Pods-Detroit-School-TransportUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		816416DF0F7DA560B7262F76 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Detroit-School-TransportTests/Pods-Detroit-School-TransportTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84A885E885484DEABF15DB23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A1DD9F9A9C28D49468025D8A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Detroit-School-Transport/Pods-Detroit-School-Transport-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A0E833FC1DA8C756001A45EF /* Sources */ = {
@@ -413,6 +588,7 @@
 		};
 		A0E834291DA8C756001A45EF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53B66A37D07FE0AD6651EBC8 /* Pods-Detroit-School-Transport.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WPPR726NJK;
@@ -426,6 +602,7 @@
 		};
 		A0E8342A1DA8C756001A45EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C68BE7B1BF758069DFDB3AA8 /* Pods-Detroit-School-Transport.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WPPR726NJK;
@@ -439,6 +616,7 @@
 		};
 		A0E8342C1DA8C756001A45EF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD57E1755E78B39B3ED0B88D /* Pods-Detroit-School-TransportTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +632,7 @@
 		};
 		A0E8342D1DA8C756001A45EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77958C46CCD7235D16AA1C99 /* Pods-Detroit-School-TransportTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +648,7 @@
 		};
 		A0E8342F1DA8C756001A45EF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7528F882E0B6901912443B2 /* Pods-Detroit-School-TransportUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = WPPR726NJK;
@@ -483,6 +663,7 @@
 		};
 		A0E834301DA8C756001A45EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB771D8839A436E5512D4B07 /* Pods-Detroit-School-TransportUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = WPPR726NJK;
@@ -514,6 +695,7 @@
 				A0E8342A1DA8C756001A45EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A0E8342B1DA8C756001A45EF /* Build configuration list for PBXNativeTarget "Detroit-School-TransportTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +704,7 @@
 				A0E8342D1DA8C756001A45EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A0E8342E1DA8C756001A45EF /* Build configuration list for PBXNativeTarget "Detroit-School-TransportUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +713,7 @@
 				A0E834301DA8C756001A45EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

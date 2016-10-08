@@ -1,0 +1,6 @@
+framework module Pods_Detroit_School_Transport {
+  umbrella header "Pods-Detroit-School-Transport-umbrella.h"
+
+  export *
+  module * { export * }
+}
