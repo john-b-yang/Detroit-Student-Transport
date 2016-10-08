@@ -10,6 +10,7 @@ import Foundation
 import CoreLocation
 import UIKit
 import Firebase
+import FirebaseDatabase
 
 class BeginTripViewController: UIViewController, CLLocationManagerDelegate {
     
