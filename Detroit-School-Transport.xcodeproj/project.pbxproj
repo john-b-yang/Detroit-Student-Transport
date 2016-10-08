@@ -17,7 +17,7 @@
 		A0E8340E1DA8C756001A45EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0E8340C1DA8C756001A45EF /* LaunchScreen.storyboard */; };
 		A0E834191DA8C756001A45EF /* Detroit_School_TransportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E834181DA8C756001A45EF /* Detroit_School_TransportTests.swift */; };
 		A0E834241DA8C756001A45EF /* Detroit_School_TransportUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E834231DA8C756001A45EF /* Detroit_School_TransportUITests.swift */; };
-		A0E834321DA8C818001A45EF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A0E834311DA8C818001A45EF /* GoogleService-Info.plist */; };
+		A0FF2ACE1DA8F73100934095 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A0FF2ACD1DA8F73100934095 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +53,7 @@
 		A0E8341F1DA8C756001A45EF /* Detroit-School-TransportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Detroit-School-TransportUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0E834231DA8C756001A45EF /* Detroit_School_TransportUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detroit_School_TransportUITests.swift; sourceTree = "<group>"; };
 		A0E834251DA8C756001A45EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A0E834311DA8C818001A45EF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A0FF2ACD1DA8F73100934095 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AD57E1755E78B39B3ED0B88D /* Pods-Detroit-School-TransportTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Detroit-School-TransportTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Detroit-School-TransportTests/Pods-Detroit-School-TransportTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B2ADDFEA9AEA5C70E085D5E6 /* Pods_Detroit_School_TransportUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Detroit_School_TransportUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB771D8839A436E5512D4B07 /* Pods-Detroit-School-TransportUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Detroit-School-TransportUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Detroit-School-TransportUITests/Pods-Detroit-School-TransportUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -125,7 +125,7 @@
 		A0E833F71DA8C756001A45EF = {
 			isa = PBXGroup;
 			children = (
-				A0E834311DA8C818001A45EF /* GoogleService-Info.plist */,
+				A0FF2ACD1DA8F73100934095 /* GoogleService-Info.plist */,
 				A0E834021DA8C756001A45EF /* Detroit-School-Transport */,
 				A0E834171DA8C756001A45EF /* Detroit-School-TransportTests */,
 				A0E834221DA8C756001A45EF /* Detroit-School-TransportUITests */,
@@ -295,9 +295,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0E8340E1DA8C756001A45EF /* LaunchScreen.storyboard in Resources */,
-				A0E834321DA8C818001A45EF /* GoogleService-Info.plist in Resources */,
 				A0E8340B1DA8C756001A45EF /* Assets.xcassets in Resources */,
 				A0E834091DA8C756001A45EF /* Main.storyboard in Resources */,
+				A0FF2ACE1DA8F73100934095 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
