@@ -1,1 +1,466 @@
-{"currentTime":1475958276286,"text":"OK","data":{"limitExceeded":false,"references":{"stops":[],"situations":[],"trips":[],"routes":[],"agencies":[{"id":"DDOT","privateService":false,"phone":"313-933-1300","timezone":"America/Detroit","disclaimer":"","name":"Detroit Department of Transportation","lang":"en","url":"http://www.RideDetroitTransit.com"}]},"list":[{"id":"DDOT_6441","textColor":"FFFFFF","color":"663399","description":"","longName":"SCHAEFER","shortName":"041","type":3,"agencyId":"DDOT","url":""},{"id":"DDOT_6440","textColor":"FFFFFF","color":"006600","description":"","longName":"RUSSELL","shortName":"040","type":3,"agencyId":"DDOT","url":""},{"id":"DDOT_6445","textColor":"FFFFFF","color":"FF8080","description":"","longName":"TIREMAN","shortName":"047","type":3,"agencyId":"DDOT","url":""},{"id":"DDOT_6444","textColor":"FFFFFF","color":"663399","description":"","longName":"SOUTHFIELD","shortName":"046","type":3,"agencyId":"DDOT","url":""},{"id":"DDOT_6443","textColor":"FFFFFF","color":"0066FF","description":"","longName":"SEVEN MILE","shortName":"045","type":3,"agencyId":"DDOT","url":""},{"id":"DDOT_6442","textColor":"FFFFFF","color":"0066FF","description":"","longName":"SCHOOLCRAFT","shortName":"043","type":3,"agencyId":"DDOT","url":""},{"id":"DDOT_6422","textColor":"FFFFFF","color":"006600","description":"","longName":"DEXTER","shortName":"016","type":3,"agencyId":"DDOT","url":""},{"id":"DDOT_6423","textColor":"FFFFFF","color":"0066FF","description":"","longName":"EIGHT MILE","shortName":"017","type":3,"agencyId":"DDOT","url":""},{"id":"DDOT_6420","textColor":"FFFFFF","color":"006600","description":"","longName":"CROSSTOWN","shortName":"014","type":3,"agencyId":"DDOT","url":""},{"id":"DDOT_6421","textColor":"FFFFFF","color":"0066FF","description":"","longName":"CHICAGO-DAVISON","shortName":"015","type":3,"agencyId":"DDOT","url":""},{"id":"DDOT_6419","textColor":"FFFFFF","color":"663399","description":"","longName":"CONNER","shortName":"013","type":3,"agencyId":"DDOT","url":""},{"id":"DDOT_6418","textColor":"FFFFFF","color":"663399","description":"","longName":"CONANT","shortName":"012","type":3,"agencyId":"DDOT","url":""},{"id":"DDOT_6417","textColor":"FFFFFF","color":"0066FF","description":"","longName":"CLAIRMOUNT","shortName":"011","type":3,"agencyId":"DDOT","url":""},{"id":"DDOT_6416","textColor":"FFFFFF","color":"006600","description":"","longName":"CHENE","shortName":"010","type":3,"agencyId":"DDOT","url":""},{"id":"DDOT_6415","textColor":"FFFFFF","color":"663399","description":"","longName":"CHALMERS","shortName":"009","type":3,"agencyId":"DDOT","url":""},{"id":"DDOT_6414","textColor":"FFFFFF","color":"006600","description":"","longName":"CADILLAC - HARPER","shortName":"007","type":3,"agencyId":"DDOT","url":""},{"id":"DDOT_6437","textColor":"FFFFFF","color":"006600","description":"","longName":"MICHIGAN","shortName":"037","type":3,"agencyId":"DDOT","url":""},{"id":"DDOT_6438","textColor":"FFFFFF","color":"006600","description":"","longName":"PLYMOUTH","shortName":"038","type":3,"agencyId":"DDOT","url":""},{"id":"DDOT_6435","textColor":"FFFFFF","color":"006600","description":"","longName":"GRATIOT","shortName":"034","type":3,"agencyId":"DDOT","url":""},{"id":"DDOT_6457","textColor":"FFFFFF","color":"006600","description":"","longName":"RYAN EXPRESS","shortName":"095","type":3,"agencyId":"DDOT","url":""},{"id":"DDOT_6439","textColor":"FFFFFF","color":"0066FF","description":"","longName":"PURITAN","shortName":"039","type":3,"agencyId":"DDOT","url":""},{"id":"DDOT_6456","textColor":"FFFFFF","color":"006600","description":"","longName":"JOY EXPRESS","shortName":"096","type":3,"agencyId":"DDOT","url":""},{"id":"DDOT_6430","textColor":"FFFFFF","color":"006600","description":"","longName":"JOY ROAD","shortName":"027","type":3,"agencyId":"DDOT","url":""},{"id":"DDOT_6455","textColor":"FFFFFF","color":"006600","description":"","longName":"REFLEX","shortName":"498","type":3,"agencyId":"DDOT","url":""},{"id":"DDOT_6450","textColor":"FFFFFF","color":"663399","description":"","longName":"EVERGREEN","shortName":"060","type":3,"agencyId":"DDOT","url":""},{"id":"DDOT_6432","textColor":"FFFFFF","color":"663399","description":"","longName":"LIVERNOIS","shortName":"030","type":3,"agencyId":"DDOT","url":""},{"id":"DDOT_6431","textColor":"FFFFFF","color":"006600","description":"","longName":"LINWOOD","shortName":"029","type":3,"agencyId":"DDOT","url":""},{"id":"DDOT_6434","textColor":"FFFFFF","color":"0066FF","description":"","longName":"McNICHOLS","shortName":"032","type":3,"agencyId":"DDOT","url":""},{"id":"DDOT_6433","textColor":"FFFFFF","color":"006600","description":"","longName":"MACK","shortName":"031","type":3,"agencyId":"DDOT","url":""},{"id":"DDOT_6424","textColor":"FFFFFF","color":"006600","description":"","longName":"FENKELL","shortName":"018","type":3,"agencyId":"DDOT","url":""},{"id":"DDOT_6425","textColor":"FFFFFF","color":"006600","description":"","longName":"FORT","shortName":"019","type":3,"agencyId":"DDOT","url":""},{"id":"DDOT_6426","textColor":"FFFFFF","color":"006600","description":"","longName":"GRAND RIVER","shortName":"021","type":3,"agencyId":"DDOT","url":""},{"id":"DDOT_6427","textColor":"FFFFFF","color":"663399","description":"","longName":"GREENFIELD","shortName":"022","type":3,"agencyId":"DDOT","url":""},{"id":"DDOT_6446","textColor":"FFFFFF","color":"006600","description":"","longName":"VAN DYKE -LAFAYETTE","shortName":"048","type":3,"agencyId":"DDOT","url":""},{"id":"DDOT_6428","textColor":"FFFFFF","color":"006600","description":"","longName":"HAMILTON","shortName":"023","type":3,"agencyId":"DDOT","url":""},{"id":"DDOT_6447","textColor":"FFFFFF","color":"006600","description":"","longName":"VERNOR","shortName":"049","type":3,"agencyId":"DDOT","url":""},{"id":"DDOT_6429","textColor":"FFFFFF","color":"006600","description":"","longName":"JEFFERSON","shortName":"025","type":3,"agencyId":"DDOT","url":""},{"id":"DDOT_6448","textColor":"FFFFFF","color":"006600","description":"","longName":"WOODWARD","shortName":"053","type":3,"agencyId":"DDOT","url":""},{"id":"DDOT_6449","textColor":"FFFFFF","color":"663399","description":"","longName":"WYOMING","shortName":"054","type":3,"agencyId":"DDOT","url":""}]},"code":200,"version":2}
+{
+  "currentTime": 1475958276286,
+  "text": "OK",
+  "data": {
+    "limitExceeded": false,
+    "references": {
+      "stops": [
+        
+      ],
+      "situations": [
+        
+      ],
+      "trips": [
+        
+      ],
+      "routes": [
+        
+      ],
+      "agencies": [
+        {
+          "id": "DDOT",
+          "privateService": false,
+          "phone": "313-933-1300",
+          "timezone": "America\/Detroit",
+          "disclaimer": "",
+          "name": "Detroit Department of Transportation",
+          "lang": "en",
+          "url": "http:\/\/www.RideDetroitTransit.com"
+        }
+      ]
+    },
+    "list": [
+      {
+        "id": "DDOT_6441",
+        "textColor": "FFFFFF",
+        "color": "663399",
+        "description": "",
+        "longName": "SCHAEFER",
+        "shortName": "041",
+        "type": 3,
+        "agencyId": "DDOT",
+        "url": ""
+      },
+      {
+        "id": "DDOT_6440",
+        "textColor": "FFFFFF",
+        "color": "006600",
+        "description": "",
+        "longName": "RUSSELL",
+        "shortName": "040",
+        "type": 3,
+        "agencyId": "DDOT",
+        "url": ""
+      },
+      {
+        "id": "DDOT_6445",
+        "textColor": "FFFFFF",
+        "color": "FF8080",
+        "description": "",
+        "longName": "TIREMAN",
+        "shortName": "047",
+        "type": 3,
+        "agencyId": "DDOT",
+        "url": ""
+      },
+      {
+        "id": "DDOT_6444",
+        "textColor": "FFFFFF",
+        "color": "663399",
+        "description": "",
+        "longName": "SOUTHFIELD",
+        "shortName": "046",
+        "type": 3,
+        "agencyId": "DDOT",
+        "url": ""
+      },
+      {
+        "id": "DDOT_6443",
+        "textColor": "FFFFFF",
+        "color": "0066FF",
+        "description": "",
+        "longName": "SEVEN MILE",
+        "shortName": "045",
+        "type": 3,
+        "agencyId": "DDOT",
+        "url": ""
+      },
+      {
+        "id": "DDOT_6442",
+        "textColor": "FFFFFF",
+        "color": "0066FF",
+        "description": "",
+        "longName": "SCHOOLCRAFT",
+        "shortName": "043",
+        "type": 3,
+        "agencyId": "DDOT",
+        "url": ""
+      },
+      {
+        "id": "DDOT_6422",
+        "textColor": "FFFFFF",
+        "color": "006600",
+        "description": "",
+        "longName": "DEXTER",
+        "shortName": "016",
+        "type": 3,
+        "agencyId": "DDOT",
+        "url": ""
+      },
+      {
+        "id": "DDOT_6423",
+        "textColor": "FFFFFF",
+        "color": "0066FF",
+        "description": "",
+        "longName": "EIGHT MILE",
+        "shortName": "017",
+        "type": 3,
+        "agencyId": "DDOT",
+        "url": ""
+      },
+      {
+        "id": "DDOT_6420",
+        "textColor": "FFFFFF",
+        "color": "006600",
+        "description": "",
+        "longName": "CROSSTOWN",
+        "shortName": "014",
+        "type": 3,
+        "agencyId": "DDOT",
+        "url": ""
+      },
+      {
+        "id": "DDOT_6421",
+        "textColor": "FFFFFF",
+        "color": "0066FF",
+        "description": "",
+        "longName": "CHICAGO-DAVISON",
+        "shortName": "015",
+        "type": 3,
+        "agencyId": "DDOT",
+        "url": ""
+      },
+      {
+        "id": "DDOT_6419",
+        "textColor": "FFFFFF",
+        "color": "663399",
+        "description": "",
+        "longName": "CONNER",
+        "shortName": "013",
+        "type": 3,
+        "agencyId": "DDOT",
+        "url": ""
+      },
+      {
+        "id": "DDOT_6418",
+        "textColor": "FFFFFF",
+        "color": "663399",
+        "description": "",
+        "longName": "CONANT",
+        "shortName": "012",
+        "type": 3,
+        "agencyId": "DDOT",
+        "url": ""
+      },
+      {
+        "id": "DDOT_6417",
+        "textColor": "FFFFFF",
+        "color": "0066FF",
+        "description": "",
+        "longName": "CLAIRMOUNT",
+        "shortName": "011",
+        "type": 3,
+        "agencyId": "DDOT",
+        "url": ""
+      },
+      {
+        "id": "DDOT_6416",
+        "textColor": "FFFFFF",
+        "color": "006600",
+        "description": "",
+        "longName": "CHENE",
+        "shortName": "010",
+        "type": 3,
+        "agencyId": "DDOT",
+        "url": ""
+      },
+      {
+        "id": "DDOT_6415",
+        "textColor": "FFFFFF",
+        "color": "663399",
+        "description": "",
+        "longName": "CHALMERS",
+        "shortName": "009",
+        "type": 3,
+        "agencyId": "DDOT",
+        "url": ""
+      },
+      {
+        "id": "DDOT_6414",
+        "textColor": "FFFFFF",
+        "color": "006600",
+        "description": "",
+        "longName": "CADILLAC - HARPER",
+        "shortName": "007",
+        "type": 3,
+        "agencyId": "DDOT",
+        "url": ""
+      },
+      {
+        "id": "DDOT_6437",
+        "textColor": "FFFFFF",
+        "color": "006600",
+        "description": "",
+        "longName": "MICHIGAN",
+        "shortName": "037",
+        "type": 3,
+        "agencyId": "DDOT",
+        "url": ""
+      },
+      {
+        "id": "DDOT_6438",
+        "textColor": "FFFFFF",
+        "color": "006600",
+        "description": "",
+        "longName": "PLYMOUTH",
+        "shortName": "038",
+        "type": 3,
+        "agencyId": "DDOT",
+        "url": ""
+      },
+      {
+        "id": "DDOT_6435",
+        "textColor": "FFFFFF",
+        "color": "006600",
+        "description": "",
+        "longName": "GRATIOT",
+        "shortName": "034",
+        "type": 3,
+        "agencyId": "DDOT",
+        "url": ""
+      },
+      {
+        "id": "DDOT_6457",
+        "textColor": "FFFFFF",
+        "color": "006600",
+        "description": "",
+        "longName": "RYAN EXPRESS",
+        "shortName": "095",
+        "type": 3,
+        "agencyId": "DDOT",
+        "url": ""
+      },
+      {
+        "id": "DDOT_6439",
+        "textColor": "FFFFFF",
+        "color": "0066FF",
+        "description": "",
+        "longName": "PURITAN",
+        "shortName": "039",
+        "type": 3,
+        "agencyId": "DDOT",
+        "url": ""
+      },
+      {
+        "id": "DDOT_6456",
+        "textColor": "FFFFFF",
+        "color": "006600",
+        "description": "",
+        "longName": "JOY EXPRESS",
+        "shortName": "096",
+        "type": 3,
+        "agencyId": "DDOT",
+        "url": ""
+      },
+      {
+        "id": "DDOT_6430",
+        "textColor": "FFFFFF",
+        "color": "006600",
+        "description": "",
+        "longName": "JOY ROAD",
+        "shortName": "027",
+        "type": 3,
+        "agencyId": "DDOT",
+        "url": ""
+      },
+      {
+        "id": "DDOT_6455",
+        "textColor": "FFFFFF",
+        "color": "006600",
+        "description": "",
+        "longName": "REFLEX",
+        "shortName": "498",
+        "type": 3,
+        "agencyId": "DDOT",
+        "url": ""
+      },
+      {
+        "id": "DDOT_6450",
+        "textColor": "FFFFFF",
+        "color": "663399",
+        "description": "",
+        "longName": "EVERGREEN",
+        "shortName": "060",
+        "type": 3,
+        "agencyId": "DDOT",
+        "url": ""
+      },
+      {
+        "id": "DDOT_6432",
+        "textColor": "FFFFFF",
+        "color": "663399",
+        "description": "",
+        "longName": "LIVERNOIS",
+        "shortName": "030",
+        "type": 3,
+        "agencyId": "DDOT",
+        "url": ""
+      },
+      {
+        "id": "DDOT_6431",
+        "textColor": "FFFFFF",
+        "color": "006600",
+        "description": "",
+        "longName": "LINWOOD",
+        "shortName": "029",
+        "type": 3,
+        "agencyId": "DDOT",
+        "url": ""
+      },
+      {
+        "id": "DDOT_6434",
+        "textColor": "FFFFFF",
+        "color": "0066FF",
+        "description": "",
+        "longName": "McNICHOLS",
+        "shortName": "032",
+        "type": 3,
+        "agencyId": "DDOT",
+        "url": ""
+      },
+      {
+        "id": "DDOT_6433",
+        "textColor": "FFFFFF",
+        "color": "006600",
+        "description": "",
+        "longName": "MACK",
+        "shortName": "031",
+        "type": 3,
+        "agencyId": "DDOT",
+        "url": ""
+      },
+      {
+        "id": "DDOT_6424",
+        "textColor": "FFFFFF",
+        "color": "006600",
+        "description": "",
+        "longName": "FENKELL",
+        "shortName": "018",
+        "type": 3,
+        "agencyId": "DDOT",
+        "url": ""
+      },
+      {
+        "id": "DDOT_6425",
+        "textColor": "FFFFFF",
+        "color": "006600",
+        "description": "",
+        "longName": "FORT",
+        "shortName": "019",
+        "type": 3,
+        "agencyId": "DDOT",
+        "url": ""
+      },
+      {
+        "id": "DDOT_6426",
+        "textColor": "FFFFFF",
+        "color": "006600",
+        "description": "",
+        "longName": "GRAND RIVER",
+        "shortName": "021",
+        "type": 3,
+        "agencyId": "DDOT",
+        "url": ""
+      },
+      {
+        "id": "DDOT_6427",
+        "textColor": "FFFFFF",
+        "color": "663399",
+        "description": "",
+        "longName": "GREENFIELD",
+        "shortName": "022",
+        "type": 3,
+        "agencyId": "DDOT",
+        "url": ""
+      },
+      {
+        "id": "DDOT_6446",
+        "textColor": "FFFFFF",
+        "color": "006600",
+        "description": "",
+        "longName": "VAN DYKE -LAFAYETTE",
+        "shortName": "048",
+        "type": 3,
+        "agencyId": "DDOT",
+        "url": ""
+      },
+      {
+        "id": "DDOT_6428",
+        "textColor": "FFFFFF",
+        "color": "006600",
+        "description": "",
+        "longName": "HAMILTON",
+        "shortName": "023",
+        "type": 3,
+        "agencyId": "DDOT",
+        "url": ""
+      },
+      {
+        "id": "DDOT_6447",
+        "textColor": "FFFFFF",
+        "color": "006600",
+        "description": "",
+        "longName": "VERNOR",
+        "shortName": "049",
+        "type": 3,
+        "agencyId": "DDOT",
+        "url": ""
+      },
+      {
+        "id": "DDOT_6429",
+        "textColor": "FFFFFF",
+        "color": "006600",
+        "description": "",
+        "longName": "JEFFERSON",
+        "shortName": "025",
+        "type": 3,
+        "agencyId": "DDOT",
+        "url": ""
+      },
+      {
+        "id": "DDOT_6448",
+        "textColor": "FFFFFF",
+        "color": "006600",
+        "description": "",
+        "longName": "WOODWARD",
+        "shortName": "053",
+        "type": 3,
+        "agencyId": "DDOT",
+        "url": ""
+      },
+      {
+        "id": "DDOT_6449",
+        "textColor": "FFFFFF",
+        "color": "663399",
+        "description": "",
+        "longName": "WYOMING",
+        "shortName": "054",
+        "type": 3,
+        "agencyId": "DDOT",
+        "url": ""
+      }
+    ]
+  },
+  "code": 200,
+  "version": 2
+}
