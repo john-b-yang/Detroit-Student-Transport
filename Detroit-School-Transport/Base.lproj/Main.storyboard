@@ -151,7 +151,12 @@
                     </view>
                     <connections>
                         <outlet property="buttonBackground" destination="62f-Dg-CJZ" id="72v-6W-Xmj"/>
+                        <outlet property="endBackground" destination="viy-i3-xFu" id="Yr3-eB-Fcy"/>
+                        <outlet property="goButton" destination="fVG-4l-HG5" id="P49-7e-QkW"/>
                         <outlet property="headerBackground" destination="6MB-7x-0nF" id="VeA-Xt-icX"/>
+                        <outlet property="lineBackground" destination="TDs-Zf-dwP" id="DBU-3p-xlj"/>
+                        <outlet property="startBackground" destination="d0a-JG-fQX" id="3uk-Be-3oi"/>
+                        <outlet property="stopBackground" destination="Erz-pw-7fb" id="LT8-Y0-Gad"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9PY-f5-9yK" userLabel="First Responder" sceneMemberID="firstResponder"/>
