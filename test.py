@@ -19,6 +19,6 @@ temp = firebase.patch('https://detroit-student-transport.firebaseio.com/users/-K
 itWorks = firebase.get('/users', None)
 print itWorks
 print "okay so now we're doing just retrieving that one guy\n\n\n"
-#this is to find out if you're just bad at command line
+
 pleaseWork = firebase.get('/users', 0, {'user_id': 'testUser'})
 print pleaseWork
