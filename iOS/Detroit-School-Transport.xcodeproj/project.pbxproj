@@ -166,6 +166,7 @@
 				A07FBACC1DA9F0AF00D7E653 /* Gif Files */,
 				A0ED15441DA999A300954412 /* Helper Classes */,
 				A0A054161DA8D0BF00ED1F03 /* View Controllers */,
+				EEA829061DAA15FF008B853D /* DetroitTransitDataSource.swift */,
 				A0E834031DA8C756001A45EF /* AppDelegate.swift */,
 				A0E834071DA8C756001A45EF /* Main.storyboard */,
 				A0E8340A1DA8C756001A45EF /* Assets.xcassets */,
