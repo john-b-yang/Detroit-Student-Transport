@@ -58,21 +58,28 @@
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8vr-mS-Vcc">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="ZOM-ps-MCq"/>
-                                    <constraint firstAttribute="width" constant="200" id="cjC-3y-NJK"/>
+                                    <constraint firstAttribute="height" constant="150" id="ZOM-ps-MCq"/>
+                                    <constraint firstAttribute="width" constant="150" id="cjC-3y-NJK"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Have a safe trip!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dao-5f-jVE">
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="kVe-vf-QrJ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="140" id="0mm-X0-OKo"/>
+                            <constraint firstItem="kVe-vf-QrJ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="120" id="0mm-X0-OKo"/>
                             <constraint firstItem="8vr-mS-Vcc" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="0oq-3Y-Ck1"/>
                             <constraint firstItem="iS7-Cn-U8N" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BZX-yh-KQd"/>
-                            <constraint firstItem="iS7-Cn-U8N" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="140" id="LIz-lD-2dr"/>
-                            <constraint firstItem="upV-t3-AeD" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-140" id="M3V-aL-iWu"/>
+                            <constraint firstItem="Dao-5f-jVE" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="FZR-cX-0Xm"/>
+                            <constraint firstItem="iS7-Cn-U8N" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="120" id="LIz-lD-2dr"/>
+                            <constraint firstItem="upV-t3-AeD" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-120" id="M3V-aL-iWu"/>
                             <constraint firstItem="yce-94-rN5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NRC-1Y-33f"/>
-                            <constraint firstItem="yce-94-rN5" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-140" id="UeS-un-cSb"/>
+                            <constraint firstItem="yce-94-rN5" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-120" id="UeS-un-cSb"/>
                             <constraint firstItem="upV-t3-AeD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="2" id="ZzV-Xp-TDu"/>
+                            <constraint firstItem="Dao-5f-jVE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eJr-0J-QBM"/>
                             <constraint firstItem="8vr-mS-Vcc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jis-fe-pTW"/>
                             <constraint firstItem="kVe-vf-QrJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oQG-oB-K48"/>
                         </constraints>

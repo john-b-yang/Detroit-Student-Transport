@@ -2,15 +2,22 @@
 //  TripDataViewController.swift
 //  Detroit-School-Transport
 //
+//  Where you enter in information about trip, landing page. 
+//
 //  Created by John Yang on 10/8/16.
 //  Copyright © 2016 John Yang. All rights reserved.
 //
 
+
+
 import Foundation
 import Firebase
 import UIKit
+import CoreLocation
 
-class TripDataViewController: UIViewController, UITextFieldDelegate {
+class TripDataViewController: UIViewController, UITextFieldDelegate, CLLocationManagerDelegate {
+    
+    var locationManager: CLLocationManager!
     
     @IBOutlet weak var headerBackground: UIView!
     @IBOutlet weak var startBackground: UIView!
@@ -34,6 +41,7 @@ class TripDataViewController: UIViewController, UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+//        retrieveBusStops()
         
         //Background Views
         instantiateBackground(backgroundView: startBackground)
@@ -62,13 +70,5 @@ class TripDataViewController: UIViewController, UITextFieldDelegate {
     func instantiateBackground(backgroundView: UIView) {
         backgroundView.layer.cornerRadius = 10
         backgroundView.backgroundColor = UIColor.gray
-    }
-    
-    func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
-        let dropdown = DropDown.init(framea: CGRect(x: textField.frame.origin.x + 35, y: textField.frame.origin.y + 110, width: textField.frame.width, height: 200), SetArray: DataArray)
-        self.view.addSubview(dropdown)
-        let property = dropdown.AddArray
-        print(property)
-        return false;
     }
 }

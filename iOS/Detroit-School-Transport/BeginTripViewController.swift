@@ -2,6 +2,8 @@
 //  BeginTripViewController.swift
 //  Detroit-School-Transport
 //
+//  Second screen
+//
 //  Created by John Yang on 10/8/16.
 //  Copyright © 2016 John Yang. All rights reserved.
 //
@@ -43,6 +45,9 @@ class BeginTripViewController: UIViewController, CLLocationManagerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //Image
+        animationImageView.image = UIImage(named: "Bus 1")
+        
         //Firebase Database Setup
         ref = FIRDatabase.database().reference()
         
@@ -66,6 +71,7 @@ class BeginTripViewController: UIViewController, CLLocationManagerDelegate {
         let pauseTime = 1.0
         timer = Timer(timeInterval: pauseTime, target: self, selector: #selector(BeginTripViewController.compareLocation), userInfo: nil, repeats: true)
         RunLoop.current.add(timer, forMode: RunLoopMode.commonModes)
+        animationImageView.image = UIImage(named: "Driving.gif")
     }
     
     @IBAction func didTapStopButton(_ sender: AnyObject) {
