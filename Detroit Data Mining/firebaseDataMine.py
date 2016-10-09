@@ -28,7 +28,14 @@ output = json.loads(binary)
 for stop in output['data']['references']['stops']:
     print stop['id']
 
-
 # when they enter in their starting stop, pull up all lines that leave from there
+stopID = "DDOT_6419"
+url = "http://ddot-beta.herokuapp.com/api/api/where/stop/%s.json?key=MHACKS8" % stopID
 
+stopdata = requests.get(url=url)
+stopbinary = stopdata.content
+stopoutput = json.loads(stopbinary)
+for route in stopoutput['data']['references']['routes']:
+    print route
 
+print "done"
