@@ -17,14 +17,14 @@ class ErrorViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
     var ref: FIRDatabaseReference!
     let user = "John"
-    var complaints:[String] = ["1", "2", "3"]
+    var complaints:[String] = ["Bus - Bad Condition", "Bus - No Show", "Bus - Wrong Stop", "Bus - Unsafe Individuals", "Driver - Rude/Uncourteous", "Driver - Late/Unprofessional", "Driver - Reckless"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         //Firebase
         ref = FIRDatabase.database().reference()
-        self.ref.child("users/\(user)/issue").setValue("True")
+        self.ref.child("users/\(user)/issue").setValue("true")
         
         //Format Views
         feedbackTableView.layer.cornerRadius = 10

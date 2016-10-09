@@ -322,6 +322,18 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SzJ-sE-CnR">
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VMr-Ln-Vkz">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="vN0-n4-5Cq"/>
+                                            <constraint firstAttribute="width" constant="40" id="zzy-sA-nuD"/>
+                                        </constraints>
+                                        <state key="normal" image="Check"/>
+                                        <connections>
+                                            <segue destination="3zp-bw-dut" kind="show" id="s9F-UV-Flr"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
                                 <color key="backgroundColor" red="0.89194212429999997" green="0.70890700849999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="H8n-Nl-oEb"/>
@@ -344,8 +356,10 @@
                             <constraint firstItem="b6z-LP-1ZH" firstAttribute="top" secondItem="SzJ-sE-CnR" secondAttribute="bottom" constant="-60" id="V5M-iE-hFp"/>
                             <constraint firstAttribute="trailingMargin" secondItem="iRW-p5-lwQ" secondAttribute="trailing" constant="-20" id="b8u-o3-KRy"/>
                             <constraint firstAttribute="trailingMargin" secondItem="wF9-eX-wIT" secondAttribute="trailing" constant="20" id="ca1-hr-TbO"/>
+                            <constraint firstItem="b6z-LP-1ZH" firstAttribute="top" secondItem="VMr-Ln-Vkz" secondAttribute="bottom" constant="10" id="nSh-qy-1rw"/>
                             <constraint firstAttribute="trailingMargin" secondItem="gdn-6W-owA" secondAttribute="trailing" constant="20" id="oDV-9B-jE2"/>
                             <constraint firstItem="iRW-p5-lwQ" firstAttribute="leading" secondItem="ElK-1P-Vem" secondAttribute="leadingMargin" constant="-20" id="pgX-rK-Zmk"/>
+                            <constraint firstItem="VMr-Ln-Vkz" firstAttribute="centerX" secondItem="ElK-1P-Vem" secondAttribute="centerX" id="pi9-NC-63w"/>
                             <constraint firstItem="SzJ-sE-CnR" firstAttribute="leading" secondItem="ElK-1P-Vem" secondAttribute="leadingMargin" constant="-20" id="qNf-sf-gwR"/>
                             <constraint firstItem="iRW-p5-lwQ" firstAttribute="top" secondItem="xoA-ZU-lsE" secondAttribute="bottom" constant="-20" id="qTb-DW-rfP"/>
                             <constraint firstItem="gdn-6W-owA" firstAttribute="leading" secondItem="ElK-1P-Vem" secondAttribute="leadingMargin" constant="20" id="uFp-yc-QcJ"/>
@@ -375,7 +389,7 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="552-bs-slL">
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trip Error" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BJZ-rM-PLe">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trip Feedback" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BJZ-rM-PLe">
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -825,6 +839,7 @@
         <image name="Train" width="64" height="64"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="s9F-UV-Flr"/>
         <segue reference="aFB-yl-1aL"/>
     </inferredMetricsTieBreakers>
 </document>

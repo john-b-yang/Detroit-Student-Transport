@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A0E833FF1DA8C756001A45EF"
-               BuildableName = "Detroit-School-Transport.app"
+               BuildableName = "DST.app"
                BlueprintName = "Detroit-School-Transport"
                ReferencedContainer = "container:Detroit-School-Transport.xcodeproj">
             </BuildableReference>
@@ -53,7 +53,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A0E833FF1DA8C756001A45EF"
-            BuildableName = "Detroit-School-Transport.app"
+            BuildableName = "DST.app"
             BlueprintName = "Detroit-School-Transport"
             ReferencedContainer = "container:Detroit-School-Transport.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A0E833FF1DA8C756001A45EF"
-            BuildableName = "Detroit-School-Transport.app"
+            BuildableName = "DST.app"
             BlueprintName = "Detroit-School-Transport"
             ReferencedContainer = "container:Detroit-School-Transport.xcodeproj">
          </BuildableReference>
@@ -95,7 +95,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A0E833FF1DA8C756001A45EF"
-            BuildableName = "Detroit-School-Transport.app"
+            BuildableName = "DST.app"
             BlueprintName = "Detroit-School-Transport"
             ReferencedContainer = "container:Detroit-School-Transport.xcodeproj">
          </BuildableReference>

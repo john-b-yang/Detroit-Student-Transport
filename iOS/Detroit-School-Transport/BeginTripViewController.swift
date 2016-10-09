@@ -99,7 +99,7 @@ class BeginTripViewController: UIViewController, CLLocationManagerDelegate {
     //To be amended
     func compareLocation() {
         let currentLocation = locationManager.location
-        print("Interval")
+        print("Interval \(currentLocation)")
         var counter = 0
         for element in test {
             let latDifference = abs(Double((currentLocation?.coordinate.latitude)!) - element[0]) //Must be amended later
