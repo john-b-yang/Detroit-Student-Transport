@@ -10,12 +10,6 @@ import Foundation
 import Firebase
 import UIKit
 
-/*
- FCFDAF - Yellow
- F4989C - Red
- 60E1E0 - Blue
- D1FFC6 - Green
- */
 class TripDataViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var headerBackground: UIView!
