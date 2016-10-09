@@ -26,6 +26,13 @@ class BeginTripViewController: UIViewController, CLLocationManagerDelegate {
     //Firebase Database Reference
     var ref: FIRDatabaseReference!
     
+    //Background Views
+    @IBOutlet weak var startBackground: UIView!
+    @IBOutlet weak var finishBackground: UIView!
+    
+    //Image aka Gif
+    @IBOutlet weak var animationImageView: UIImageView!
+    
     //Timer
     var timer = Timer()
     var binaryCounter = 0b0000
@@ -45,7 +52,9 @@ class BeginTripViewController: UIViewController, CLLocationManagerDelegate {
         locationManager.requestAlwaysAuthorization()
         locationManager.startUpdatingLocation()
         
-        trackButton.titleLabel?.text = "Begin Tracking"
+        //background view color
+        startBackground.layer.cornerRadius = 25
+        finishBackground.layer.cornerRadius = 25
     }
     
     /*
