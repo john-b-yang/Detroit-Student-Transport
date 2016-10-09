@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>517304173235-i86mvn21646f3ugqfg8bqaik3r17040e.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.517304173235-i86mvn21646f3ugqfg8bqaik3r17040e</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCA6quHgXcfUTbajWtHMQq9VxqWWzkHBps</string>
+	<key>GCM_SENDER_ID</key>
+	<string>517304173235</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.mhacksDST.ios</string>
+	<key>PROJECT_ID</key>
+	<string>detroit-student-transport</string>
+	<key>STORAGE_BUCKET</key>
+	<string>detroit-student-transport.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:517304173235:ios:d26026045d2a1185</string>
+	<key>DATABASE_URL</key>
+	<string>https://detroit-student-transport.firebaseio.com</string>
+</dict>
+</plist>
