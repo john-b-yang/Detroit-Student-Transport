@@ -28,7 +28,6 @@ class TripDataViewController: UIViewController, UITextFieldDelegate, CLLocationM
     @IBOutlet weak var buttonBackground: UIView!
     @IBOutlet weak var goButton: UIButton!
     
-    
     @IBOutlet weak var startTextField: UITextField!
     @IBOutlet weak var lineTextField: UITextField!
     @IBOutlet weak var stopTextField: UITextField!
@@ -43,7 +42,7 @@ class TripDataViewController: UIViewController, UITextFieldDelegate, CLLocationM
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        retrieveBusStops()
+//        retrieveBusStops() //Harshita's Code (Don't touch!)
         locationManager = CLLocationManager()
         locationManager.delegate = self
         locationManager.requestAlwaysAuthorization()
@@ -61,6 +60,7 @@ class TripDataViewController: UIViewController, UITextFieldDelegate, CLLocationM
         endBackground.backgroundColor = UIColor.init(hexString: "F4D35E")
         
         greetingLabel.text = "Hello, John"
+        ref = FIRDatabase.database().reference()
         
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(TripDataViewController.dismissKeyboard))
         view.addGestureRecognizer(tap)
@@ -88,23 +88,33 @@ class TripDataViewController: UIViewController, UITextFieldDelegate, CLLocationM
     
     @IBAction func goButtonClicked(_ sender: AnyObject) {
         var moveOn = true
-        if(startTextField.text?.isEmpty)! {
+        let start:String = startTextField.text!
+        let line:String = lineTextField.text!
+        let stop:String = stopTextField.text!
+        let end:String = endTextField.text!
+        
+        if(start.isEmpty) {
             startTextField.shake(10, withDelta: 5.0, speed: 0.03)
             moveOn = false
         }
-        else if(lineTextField.text?.isEmpty)! {
+        else if(line.isEmpty) {
             lineTextField.shake(10, withDelta: 5.0, speed: 0.03)
             moveOn = false
         }
-        else if(stopTextField.text?.isEmpty)! {
+        else if(stop.isEmpty) {
             stopTextField.shake(10, withDelta: 5.0, speed: 0.03)
             moveOn = false
         }
-        else if(endTextField.text?.isEmpty)! {
+        else if(end.isEmpty) {
             endTextField.shake(10, withDelta: 5.0, speed: 0.03)
             moveOn = false
         }
         if (moveOn) {
+            print("CAN MOVE ON")
+            self.ref.child("users/John/route/start").setValue(start)
+            self.ref.child("users/John/route/busLine").setValue(line)
+            self.ref.child("users/John/route/stop").setValue(stop)
+            self.ref.child("users/John/route/end").setValue(end)
             performSegue(withIdentifier: "allDataEntered", sender: nil)
         }
     }

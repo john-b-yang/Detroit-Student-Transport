@@ -406,10 +406,17 @@
                                     <constraint firstAttribute="height" constant="120" id="Bhy-r6-peD"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What Went Wrong?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FbO-C2-utP">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.97232806059999999" blue="0.75052674259999996" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="FbO-C2-utP" firstAttribute="top" secondItem="552-bs-slL" secondAttribute="bottom" constant="20" id="4PM-Pp-WW7"/>
                             <constraint firstItem="MEW-w2-wXV" firstAttribute="top" secondItem="9Rp-Ea-2mu" secondAttribute="bottom" constant="-60" id="9dy-n2-iDS"/>
+                            <constraint firstItem="FbO-C2-utP" firstAttribute="centerX" secondItem="E2X-Bd-jOz" secondAttribute="centerX" id="9nB-hk-EYp"/>
                             <constraint firstItem="tEZ-2c-iGg" firstAttribute="centerX" secondItem="E2X-Bd-jOz" secondAttribute="centerX" id="Kif-nW-z41"/>
                             <constraint firstItem="9Rp-Ea-2mu" firstAttribute="leading" secondItem="E2X-Bd-jOz" secondAttribute="leadingMargin" constant="-20" id="LqY-mE-loj"/>
                             <constraint firstAttribute="trailingMargin" secondItem="9Rp-Ea-2mu" secondAttribute="trailing" constant="-20" id="Wts-nP-jff"/>
