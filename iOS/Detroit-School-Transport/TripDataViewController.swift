@@ -19,6 +19,7 @@ import UITextField_Shake
 class TripDataViewController: UIViewController, UITextFieldDelegate, CLLocationManagerDelegate {
     
     var locationManager: CLLocationManager!
+    let user = "Megan"
     
     @IBOutlet weak var headerBackground: UIView!
     @IBOutlet weak var startBackground: UIView!
@@ -68,7 +69,7 @@ class TripDataViewController: UIViewController, UITextFieldDelegate, CLLocationM
     
     func firebaseConfig() {
         var name = ""
-        ref.child("users").child("John").observeSingleEvent(of: .value, with: { (snapshot) in
+        ref.child("users").child(user).observeSingleEvent(of: .value, with: { (snapshot) in
             let value = snapshot.value as? NSDictionary
             name = value?["name"] as! String
         }) { (error) in
@@ -111,10 +112,10 @@ class TripDataViewController: UIViewController, UITextFieldDelegate, CLLocationM
         }
         if (moveOn) {
             print("CAN MOVE ON")
-            self.ref.child("users/John/route/start").setValue(start)
-            self.ref.child("users/John/route/busLine").setValue(line)
-            self.ref.child("users/John/route/stop").setValue(stop)
-            self.ref.child("users/John/route/end").setValue(end)
+            self.ref.child("users/\(user)/route/start").setValue(start)
+            self.ref.child("users/\(user)/route/busLine").setValue(line)
+            self.ref.child("users/\(user)/route/stop").setValue(stop)
+            self.ref.child("users/\(user)/route/end").setValue(end)
             performSegue(withIdentifier: "allDataEntered", sender: nil)
         }
     }
