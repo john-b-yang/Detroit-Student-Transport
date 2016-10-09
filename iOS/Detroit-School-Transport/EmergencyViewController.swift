@@ -32,6 +32,8 @@ class EmergencyViewController: UIViewController, CLLocationManagerDelegate {
         locationManager.startUpdatingLocation()
         
         submitBackground.layer.cornerRadius = 100
+        
+        displayAlert(alertTitle: "Warning", alertMessage: "Please do the following\n1. Seek Safety\n2. Call for help\n3. Stay in Place")
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -55,6 +57,14 @@ class EmergencyViewController: UIViewController, CLLocationManagerDelegate {
         // Dispose of any resources that can be recreated.
     }
     
+    func displayAlert(alertTitle: String, alertMessage: String){
+        //        var alert = UIAlertController(title: alertTitle, message: alertMessage, preferredStyle: UIAlertControllerStyle.Alert)
+        //        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
+        //        self.presentViewController(alert, animated: true, completion: nil)
+        let alert = UIAlertController(title: alertTitle, message: alertMessage, preferredStyle: UIAlertControllerStyle.alert)
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
+    }
 
     /*
     // MARK: - Navigation

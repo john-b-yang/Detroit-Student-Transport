@@ -87,7 +87,7 @@
                                         </constraints>
                                         <state key="normal" image="Alert"/>
                                         <connections>
-                                            <segue destination="tJv-WH-c4n" kind="show" id="ZbD-Ec-yJY"/>
+                                            <segue destination="tJv-WH-c4n" kind="show" identifier="warningSegue" id="ZbD-Ec-yJY"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -207,10 +207,10 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="wnL-BF-WUm" customClass="DestinationTableViewCell" customModule="DST" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="343" height="80"/>
+                                        <rect key="frame" x="0.0" y="28" width="1000" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wnL-BF-WUm" id="GfR-dB-5Xw">
-                                            <frame key="frameInset" width="343" height="79.5"/>
+                                            <frame key="frameInset" width="1000" height="79"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ye5-bW-5W6">
@@ -436,7 +436,7 @@
                                         <rect key="frame" x="0.0" y="28" width="303" height="30"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dpB-Dd-1sW" id="lbO-Dm-5sq">
-                                            <frame key="frameInset" width="303" height="29.5"/>
+                                            <frame key="frameInset" width="303" height="29"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C6N-kD-kRS">
