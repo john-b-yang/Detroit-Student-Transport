@@ -23,6 +23,9 @@ class TripHistoryViewController: UIViewController, UITableViewDataSource, UITabl
     var distance:Double = 0
     var time:Double = 0
     
+    //Dummy Locations
+    var dummyLocations:[String] = ["Rosa Parks Transit Center", "Trumbull/Michigan", "Trumbull/Warren", "Linwood/West Grand Blvd", "Livernois/Florence"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         distance = 6.7
@@ -52,7 +55,7 @@ class TripHistoryViewController: UIViewController, UITableViewDataSource, UITabl
 
     //MARK: Table View Material
     func numberOfSections(in tableView: UITableView) -> Int {
-        return 5
+        return dummyLocations.count - 1
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -64,8 +67,8 @@ class TripHistoryViewController: UIViewController, UITableViewDataSource, UITabl
         
         cell.numberBackgroundView.layer.cornerRadius = 20
         cell.numberLabel.text = "\(indexPath.section + 1)"
-        cell.fromLabel.text = "From: Destination \(indexPath.section)"
-        cell.toLabel.text = "To: Destination \(indexPath.section + 1)"
+        cell.fromLabel.text = "From: \(dummyLocations[indexPath.section])"
+        cell.toLabel.text = "To: \(dummyLocations[indexPath.section + 1])"
         
         return cell
     }
