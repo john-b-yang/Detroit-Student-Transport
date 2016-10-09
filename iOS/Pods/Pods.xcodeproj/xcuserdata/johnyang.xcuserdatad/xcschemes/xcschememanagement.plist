@@ -4,11 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>IQDropDownTextField.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-Detroit-School-Transport.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,17 +22,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>3511258FF1DED3401C4B456024D5FA41</key>
+		<key>00B6CB7698DCC27A6BAAA8DB267CDBD9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>5993423CF1A7BB99D05600FA1C88D145</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>A70D9F43BCCA5B178AED136B3CB21957</key>
 		<dict>
 			<key>primary</key>
 			<true/>

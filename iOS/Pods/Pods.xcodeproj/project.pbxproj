@@ -7,67 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F62E0C20491476EBDA7FA30E5188CD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		3CAB0D61610F4EF31862BF21C668E777 /* Pods-Detroit-School-Transport-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4593AE5714C804B7ADD95D334DA6FF3D /* Pods-Detroit-School-Transport-dummy.m */; };
+		061B32496494EB190A45A849102AC26D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		2757B9C3A72D230545E156EC10E915A6 /* Pods-Detroit-School-Transport-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4593AE5714C804B7ADD95D334DA6FF3D /* Pods-Detroit-School-Transport-dummy.m */; };
 		5E455B53A204B5CD83C6A924938193B2 /* Pods-Detroit-School-TransportUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C61368A79F41EFB7D5E96B9BEEC30E63 /* Pods-Detroit-School-TransportUITests-dummy.m */; };
-		88262F72C35382C4759ABE6AB7A49AA0 /* IQDropDownTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06D9F0AB446632FAAE20D7DA3EBED434 /* IQDropDownTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		97D4DFE19536DB8636007003C39AC2F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		65CE32DA90BAEA21AEDFD7BB266A18C8 /* Pods-Detroit-School-Transport-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB458FA94A8B2FD9CE202581DAEBEC5B /* Pods-Detroit-School-Transport-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A8F7FDF49CDB30037BA00EA2F32CB285 /* Pods-Detroit-School-TransportUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69BD3A9803BFC42D3AFAA9397D49A792 /* Pods-Detroit-School-TransportUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A8F8946A6F64129C417D88F89A2BAEB0 /* IQDropDownTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 6339258116B05B4FAEC2AEE3EC6253FC /* IQDropDownTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A8F929A4BA5B6A928A614A56FB13046D /* Pods-Detroit-School-TransportTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6723C672238ECBE6D073736352570A7B /* Pods-Detroit-School-TransportTests-dummy.m */; };
-		B03156EA5410876897007E929E788C8F /* Pods-Detroit-School-Transport-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB458FA94A8B2FD9CE202581DAEBEC5B /* Pods-Detroit-School-Transport-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BBCCB33035E0DCFE918E763DCD4A7945 /* IQDropDownTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D44E021C214646F74DAF06AD39652D7 /* IQDropDownTextField-dummy.m */; };
 		BF6D352686B33C73BD0FB91EF5FFC50A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		D64C143AFE0A5C567CF03C822E44C3BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		F385107C2E0C111A61F2AFDAB8F9E4FA /* IQDropDownTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 000EF11B8075B65BEDD2B1482FDF836D /* IQDropDownTextField.m */; };
 		F6C48ACDDF1F3C2E53580F1EDEF212F0 /* Pods-Detroit-School-TransportTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02FF0652E64765A9B163D5E06A8B3BEE /* Pods-Detroit-School-TransportTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		6A0F7AB269D61CF08EDA4FF3A08254C8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3511258FF1DED3401C4B456024D5FA41;
-			remoteInfo = IQDropDownTextField;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		000EF11B8075B65BEDD2B1482FDF836D /* IQDropDownTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQDropDownTextField.m; path = IQDropDownTextField/IQDropDownTextField.m; sourceTree = "<group>"; };
 		0035D6A0340A2420A3269A25AB1B2575 /* Pods-Detroit-School-TransportUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Detroit-School-TransportUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		02FF0652E64765A9B163D5E06A8B3BEE /* Pods-Detroit-School-TransportTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Detroit-School-TransportTests-umbrella.h"; sourceTree = "<group>"; };
-		06D9F0AB446632FAAE20D7DA3EBED434 /* IQDropDownTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQDropDownTextField-umbrella.h"; sourceTree = "<group>"; };
 		0B2A7BE424A28934B8D8C467DCF645DC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C7BFB1BEEA89ABB808D96A4CF9C3A29 /* IQDropDownTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IQDropDownTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		10423CC0E4640E79AC08FA1EC0509717 /* IQDropDownTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQDropDownTextField-prefix.pch"; sourceTree = "<group>"; };
-		177A0EFC585591ED7E9EDB63A3AB1056 /* Pods_Detroit_School_TransportUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Detroit_School_TransportUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		28185E33DC97671019C79F641D6F3864 /* Pods_Detroit_School_Transport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Detroit_School_Transport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		178D8FDE0929AB101863CECBB5EF70A0 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		1FCB3A499DF94478620BA9B527F342FC /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
 		31B3B852E78895644DA7D796D174EAFD /* Pods-Detroit-School-Transport-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Detroit-School-Transport-frameworks.sh"; sourceTree = "<group>"; };
 		3AC276073ABCBEE927551A2EB5DA2E32 /* Pods-Detroit-School-TransportTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Detroit-School-TransportTests.release.xcconfig"; sourceTree = "<group>"; };
-		3F3E11FA69CFD26D6D5B932931ADA35D /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
-		4457FA8800C2BA9456997CC283906D64 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
 		4593AE5714C804B7ADD95D334DA6FF3D /* Pods-Detroit-School-Transport-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Detroit-School-Transport-dummy.m"; sourceTree = "<group>"; };
 		459524C3834FDC43373160B9A23E9478 /* Pods-Detroit-School-TransportTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Detroit-School-TransportTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		486200D765E2463223E413A4E1D9F1D4 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		4887DCF8C52E71EEF6A62032B8921EFC /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
 		55AB95F4E14F05B321ACBBAB4D6E06F9 /* Pods-Detroit-School-TransportTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Detroit-School-TransportTests.debug.xcconfig"; sourceTree = "<group>"; };
-		6339258116B05B4FAEC2AEE3EC6253FC /* IQDropDownTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQDropDownTextField.h; path = IQDropDownTextField/IQDropDownTextField.h; sourceTree = "<group>"; };
+		568D1007AAD032B4FAD98B34D33BCE5D /* Pods_Detroit_School_TransportTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Detroit_School_TransportTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		635A2DE4CB5BBF807D6E131F6036CE0D /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
 		6723C672238ECBE6D073736352570A7B /* Pods-Detroit-School-TransportTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Detroit-School-TransportTests-dummy.m"; sourceTree = "<group>"; };
 		69BD3A9803BFC42D3AFAA9397D49A792 /* Pods-Detroit-School-TransportUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Detroit-School-TransportUITests-umbrella.h"; sourceTree = "<group>"; };
 		6C604853A712DEEBACC7B684EFBED361 /* Pods-Detroit-School-TransportTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Detroit-School-TransportTests.modulemap"; sourceTree = "<group>"; };
 		7136E8292E1D28521431EA11B18CBD3F /* Pods-Detroit-School-Transport.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Detroit-School-Transport.modulemap"; sourceTree = "<group>"; };
+		74C51A9EBABEEC7921C23234BB8F638A /* Pods_Detroit_School_TransportUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Detroit_School_TransportUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7685E98568F9907C0494730FD87C24DD /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
 		78DD6C87030527282D6119D371509056 /* Pods-Detroit-School-Transport-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Detroit-School-Transport-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7CB8F542E193D2856E4BA3161503CBB2 /* Pods-Detroit-School-Transport-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Detroit-School-Transport-resources.sh"; sourceTree = "<group>"; };
 		7DC2F3BAFE508DE3A9D3A02F86763AF4 /* Pods-Detroit-School-TransportTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Detroit-School-TransportTests-resources.sh"; sourceTree = "<group>"; };
 		8481E2337571C0C84AD9946FA7030C30 /* Pods-Detroit-School-TransportUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Detroit-School-TransportUITests.modulemap"; sourceTree = "<group>"; };
-		8EB9CF9691AAF09BD9130F729300E143 /* Pods_Detroit_School_TransportTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Detroit_School_TransportTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9ACBC03842276D6193A09FF919BB5FD7 /* Pods-Detroit-School-TransportUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Detroit-School-TransportUITests-resources.sh"; sourceTree = "<group>"; };
 		9AEB66ADD8DC33C25930DC1B4698DB1A /* Pods-Detroit-School-TransportUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Detroit-School-TransportUITests.release.xcconfig"; sourceTree = "<group>"; };
-		9D44E021C214646F74DAF06AD39652D7 /* IQDropDownTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQDropDownTextField-dummy.m"; sourceTree = "<group>"; };
-		9EF070DCCB6145E8CFC859F65DD29485 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
-		A464FCD1CEAC23BFEDC0BD3B598334E4 /* IQDropDownTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = IQDropDownTextField.modulemap; sourceTree = "<group>"; };
-		B3B420DA4A008F54A9350B4AD6736576 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
-		B67AD64C0E6C663C1457301521F3AD4E /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		A5C079CB703AA07D9D332A786334C71D /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
+		B9CD055AFA4DA18F03D376A33D28D2BA /* Pods_Detroit_School_Transport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Detroit_School_Transport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA9DD2105C15856CCF750CDD57CFF890 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
 		BDAA7DB9A0443943DF901509D056C0F8 /* Pods-Detroit-School-TransportUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Detroit-School-TransportUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C61368A79F41EFB7D5E96B9BEEC30E63 /* Pods-Detroit-School-TransportUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Detroit-School-TransportUITests-dummy.m"; sourceTree = "<group>"; };
 		C6B666E67DBA29B4287658B957FA6A2F /* Pods-Detroit-School-TransportTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Detroit-School-TransportTests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -76,28 +57,15 @@
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D4327E7248A233EBEDF33BE8206DDFC8 /* Pods-Detroit-School-Transport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Detroit-School-Transport.release.xcconfig"; sourceTree = "<group>"; };
 		D57244E5A3BA747D7AB5B775999FD82A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D835A120D667371672F3816AA9F99269 /* IQDropDownTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQDropDownTextField.xcconfig; sourceTree = "<group>"; };
 		DB458FA94A8B2FD9CE202581DAEBEC5B /* Pods-Detroit-School-Transport-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Detroit-School-Transport-umbrella.h"; sourceTree = "<group>"; };
-		E3CC2E913B9B69BF3728F3A7D0AF2E08 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
-		E828C3B64AC9A331C315B48E6A0A114B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8C74807802B3C6BB11583CF65D3540F /* Pods-Detroit-School-Transport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Detroit-School-Transport.debug.xcconfig"; sourceTree = "<group>"; };
+		E9AC004E2CFEAE37F2BE33D001FBFA95 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
 		EA379241258D19798F6FE3AF46DCAB0A /* Pods-Detroit-School-TransportUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Detroit-School-TransportUITests-frameworks.sh"; sourceTree = "<group>"; };
-		ECE5BE039A0DCAEDCA652FEB0C656383 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
-		ED68AEF49E5376756FB9D4D7A29DB491 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
 		F1DB4BA3E604FB636FAD28244007D0FC /* Pods-Detroit-School-TransportTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Detroit-School-TransportTests-frameworks.sh"; sourceTree = "<group>"; };
-		F36D77F429B24FCF12A0912B9CFB173F /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
 		F3B1B87939B99C5BF6A638F5B7227296 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		069C7F3D87D15B937BEEB611C31A3C74 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				97D4DFE19536DB8636007003C39AC2F6 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		80C5E6A4EE7B8645C0986E7AF4C6F6A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -106,11 +74,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C2C06FF076C51291295C01D4E8DB06F6 /* Frameworks */ = {
+		865E4F625BDB46BD52A0C8EE012FFC72 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F62E0C20491476EBDA7FA30E5188CD3 /* Foundation.framework in Frameworks */,
+				061B32496494EB190A45A849102AC26D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,28 +93,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03AC021E12002BE85EE30E159E65C389 /* Firebase */ = {
+		07A4F2A2C2461BC26EE06966C0D3F14A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D6FC8DFE006708150927D67430BDE5BB /* Core */,
+				1FCB3A499DF94478620BA9B527F342FC /* FirebaseDatabase.framework */,
 			);
-			path = Firebase;
-			sourceTree = "<group>";
-		};
-		119A0D3CAD3BBF4CB9F394C53FF7ABBC /* FirebaseDatabase */ = {
-			isa = PBXGroup;
-			children = (
-				222DFA998828438FAA2DADDE251006D0 /* Frameworks */,
-			);
-			path = FirebaseDatabase;
-			sourceTree = "<group>";
-		};
-		1B7392F736B1524D3C1A693DCFA1CB68 /* FirebaseAnalytics */ = {
-			isa = PBXGroup;
-			children = (
-				6F1E2929076A5D2D1BB885198FB41C2B /* Frameworks */,
-			);
-			path = FirebaseAnalytics;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		1FF62BFACC5599FA6E2696C783E4FC28 /* Pods-Detroit-School-TransportUITests */ = {
@@ -167,20 +119,12 @@
 			path = "Target Support Files/Pods-Detroit-School-TransportUITests";
 			sourceTree = "<group>";
 		};
-		222DFA998828438FAA2DADDE251006D0 /* Frameworks */ = {
+		287BE78D8600CD87035294A4084914D0 /* FirebaseCore */ = {
 			isa = PBXGroup;
 			children = (
-				ECE5BE039A0DCAEDCA652FEB0C656383 /* FirebaseDatabase.framework */,
+				DF8F1B3D597FFD34A3CAB0A06C38D0E6 /* Frameworks */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		22DA7332EE4D9483DF03958040C101BD /* GoogleSymbolUtilities */ = {
-			isa = PBXGroup;
-			children = (
-				B19BAF7576C19B760FAFE7D6E56457F1 /* Frameworks */,
-			);
-			path = GoogleSymbolUtilities;
+			path = FirebaseCore;
 			sourceTree = "<group>";
 		};
 		2BC3259018824B4D82CACFE0E88A5DA2 /* Pods-Detroit-School-Transport */ = {
@@ -201,6 +145,14 @@
 			path = "Target Support Files/Pods-Detroit-School-Transport";
 			sourceTree = "<group>";
 		};
+		2FC0F1C37D8F50D0B1F68C879B1AA62B /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				DDE3B337C8578A76F10821ACE0A9F65F /* Core */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,12 +161,27 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		4947DBF99E7F6623AA67ACE103FBCE74 /* Frameworks */ = {
+		48FD774D2F83585DABBA5DD5F8C85CC9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F36D77F429B24FCF12A0912B9CFB173F /* FirebaseCore.framework */,
+				2FC0F1C37D8F50D0B1F68C879B1AA62B /* Firebase */,
+				D450F243880AB69B199FC79EFC589084 /* FirebaseAnalytics */,
+				287BE78D8600CD87035294A4084914D0 /* FirebaseCore */,
+				D10B9443E34023ED81E6FF80404E62AD /* FirebaseDatabase */,
+				F72444E6FB034C662874AAE6855C2DE7 /* FirebaseInstanceID */,
+				4B0922A8CACB4982081B8A5A6B8A21EE /* GoogleInterchangeUtilities */,
+				B4CCC169E8311EB6B6EC60C481266F54 /* GoogleSymbolUtilities */,
+				C36470E2B25450A3431AADE159BDB7AF /* GoogleUtilities */,
 			);
-			name = Frameworks;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4B0922A8CACB4982081B8A5A6B8A21EE /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				DBC51C109E679867F7225A67CF38EB30 /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
 			sourceTree = "<group>";
 		};
 		55F24E25222E9157E8F83213BB9B7C0B /* Targets Support Files */ = {
@@ -227,50 +194,22 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		618593A9A9699ECD02F8765FD08EE853 /* Frameworks */ = {
+		5609B4E3EA5FABBD45B816891F2CD45F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F3E11FA69CFD26D6D5B932931ADA35D /* GoogleInterchangeUtilities.framework */,
+				B9CD055AFA4DA18F03D376A33D28D2BA /* Pods_Detroit_School_Transport.framework */,
+				568D1007AAD032B4FAD98B34D33BCE5D /* Pods_Detroit_School_TransportTests.framework */,
+				74C51A9EBABEEC7921C23234BB8F638A /* Pods_Detroit_School_TransportUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69556186FCFF1D07B57EBB7D4836CBDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7685E98568F9907C0494730FD87C24DD /* FirebaseAnalytics.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		6F1E2929076A5D2D1BB885198FB41C2B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B67AD64C0E6C663C1457301521F3AD4E /* FirebaseAnalytics.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		75C2E2FBC29EC4A20781E0F316E74892 /* GoogleInterchangeUtilities */ = {
-			isa = PBXGroup;
-			children = (
-				618593A9A9699ECD02F8765FD08EE853 /* Frameworks */,
-			);
-			path = GoogleInterchangeUtilities;
-			sourceTree = "<group>";
-		};
-		76F04515193B0A2AE7964B2BB72D7CAC /* FirebaseCore */ = {
-			isa = PBXGroup;
-			children = (
-				4947DBF99E7F6623AA67ACE103FBCE74 /* Frameworks */,
-			);
-			path = FirebaseCore;
-			sourceTree = "<group>";
-		};
-		780E1AA54BEE9808180A0CB520D99B94 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E828C3B64AC9A331C315B48E6A0A114B /* Info.plist */,
-				A464FCD1CEAC23BFEDC0BD3B598334E4 /* IQDropDownTextField.modulemap */,
-				D835A120D667371672F3816AA9F99269 /* IQDropDownTextField.xcconfig */,
-				9D44E021C214646F74DAF06AD39652D7 /* IQDropDownTextField-dummy.m */,
-				10423CC0E4640E79AC08FA1EC0509717 /* IQDropDownTextField-prefix.pch */,
-				06D9F0AB446632FAAE20D7DA3EBED434 /* IQDropDownTextField-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/IQDropDownTextField";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -278,36 +217,10 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				85EFE90B683FD440FD48C9D4A163AAF6 /* Pods */,
-				B95E3AA287F736A710F76C4018998DCC /* Products */,
+				48FD774D2F83585DABBA5DD5F8C85CC9 /* Pods */,
+				5609B4E3EA5FABBD45B816891F2CD45F /* Products */,
 				55F24E25222E9157E8F83213BB9B7C0B /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		85EFE90B683FD440FD48C9D4A163AAF6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				03AC021E12002BE85EE30E159E65C389 /* Firebase */,
-				1B7392F736B1524D3C1A693DCFA1CB68 /* FirebaseAnalytics */,
-				76F04515193B0A2AE7964B2BB72D7CAC /* FirebaseCore */,
-				119A0D3CAD3BBF4CB9F394C53FF7ABBC /* FirebaseDatabase */,
-				90080ABCA803D728B9865859C17CB47C /* FirebaseInstanceID */,
-				75C2E2FBC29EC4A20781E0F316E74892 /* GoogleInterchangeUtilities */,
-				22DA7332EE4D9483DF03958040C101BD /* GoogleSymbolUtilities */,
-				BD273A97451ADBA32695F53C303B998A /* GoogleUtilities */,
-				86441988F7E89570379DE2537FEF95DE /* IQDropDownTextField */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		86441988F7E89570379DE2537FEF95DE /* IQDropDownTextField */ = {
-			isa = PBXGroup;
-			children = (
-				6339258116B05B4FAEC2AEE3EC6253FC /* IQDropDownTextField.h */,
-				000EF11B8075B65BEDD2B1482FDF836D /* IQDropDownTextField.m */,
-				780E1AA54BEE9808180A0CB520D99B94 /* Support Files */,
-			);
-			path = IQDropDownTextField;
 			sourceTree = "<group>";
 		};
 		8F15C96E6D0EEADCAF60CFAE96CA8D5D /* Pods-Detroit-School-TransportTests */ = {
@@ -328,32 +241,28 @@
 			path = "Target Support Files/Pods-Detroit-School-TransportTests";
 			sourceTree = "<group>";
 		};
-		90080ABCA803D728B9865859C17CB47C /* FirebaseInstanceID */ = {
+		92C8D4F899496CC1CA829ACA83A08072 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				ED68AEF49E5376756FB9D4D7A29DB491 /* FIRInstanceID.h */,
-				FEDB644DF5D51FC1F4E29E0432E31906 /* Frameworks */,
-			);
-			path = FirebaseInstanceID;
-			sourceTree = "<group>";
-		};
-		B19BAF7576C19B760FAFE7D6E56457F1 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4457FA8800C2BA9456997CC283906D64 /* GoogleSymbolUtilities.framework */,
+				4887DCF8C52E71EEF6A62032B8921EFC /* FirebaseInstanceID.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B95E3AA287F736A710F76C4018998DCC /* Products */ = {
+		990D0E0AFA4EEDD4D3D21DD571ECEB7D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0C7BFB1BEEA89ABB808D96A4CF9C3A29 /* IQDropDownTextField.framework */,
-				28185E33DC97671019C79F641D6F3864 /* Pods_Detroit_School_Transport.framework */,
-				8EB9CF9691AAF09BD9130F729300E143 /* Pods_Detroit_School_TransportTests.framework */,
-				177A0EFC585591ED7E9EDB63A3AB1056 /* Pods_Detroit_School_TransportUITests.framework */,
+				178D8FDE0929AB101863CECBB5EF70A0 /* GoogleUtilities.framework */,
 			);
-			name = Products;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4CCC169E8311EB6B6EC60C481266F54 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				C4D33C99AE2550164071F9BFAD50F842 /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -364,47 +273,79 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BD273A97451ADBA32695F53C303B998A /* GoogleUtilities */ = {
+		C36470E2B25450A3431AADE159BDB7AF /* GoogleUtilities */ = {
 			isa = PBXGroup;
 			children = (
-				CAD3C034F15A5EFD68BA77A3788F7AB2 /* Frameworks */,
+				990D0E0AFA4EEDD4D3D21DD571ECEB7D /* Frameworks */,
 			);
 			path = GoogleUtilities;
 			sourceTree = "<group>";
 		};
-		CAD3C034F15A5EFD68BA77A3788F7AB2 /* Frameworks */ = {
+		C4D33C99AE2550164071F9BFAD50F842 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9EF070DCCB6145E8CFC859F65DD29485 /* GoogleUtilities.framework */,
+				635A2DE4CB5BBF807D6E131F6036CE0D /* GoogleSymbolUtilities.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D6FC8DFE006708150927D67430BDE5BB /* Core */ = {
+		D10B9443E34023ED81E6FF80404E62AD /* FirebaseDatabase */ = {
 			isa = PBXGroup;
 			children = (
-				B3B420DA4A008F54A9350B4AD6736576 /* Firebase.h */,
+				07A4F2A2C2461BC26EE06966C0D3F14A /* Frameworks */,
+			);
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		D450F243880AB69B199FC79EFC589084 /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				69556186FCFF1D07B57EBB7D4836CBDD /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		DBC51C109E679867F7225A67CF38EB30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				486200D765E2463223E413A4E1D9F1D4 /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDE3B337C8578A76F10821ACE0A9F65F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E9AC004E2CFEAE37F2BE33D001FBFA95 /* Firebase.h */,
 			);
 			name = Core;
 			sourceTree = "<group>";
 		};
-		FEDB644DF5D51FC1F4E29E0432E31906 /* Frameworks */ = {
+		DF8F1B3D597FFD34A3CAB0A06C38D0E6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E3CC2E913B9B69BF3728F3A7D0AF2E08 /* FirebaseInstanceID.framework */,
+				A5C079CB703AA07D9D332A786334C71D /* FirebaseCore.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F72444E6FB034C662874AAE6855C2DE7 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				BA9DD2105C15856CCF750CDD57CFF890 /* FIRInstanceID.h */,
+				92C8D4F899496CC1CA829ACA83A08072 /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		453CAA37B2009A60DCD7ACAA4AE0FC85 /* Headers */ = {
+		1706EE17FEA60C1F3AF186F4D4293935 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88262F72C35382C4759ABE6AB7A49AA0 /* IQDropDownTextField-umbrella.h in Headers */,
-				A8F8946A6F64129C417D88F89A2BAEB0 /* IQDropDownTextField.h in Headers */,
+				65CE32DA90BAEA21AEDFD7BB266A18C8 /* Pods-Detroit-School-Transport-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,32 +365,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FBF25A3683D1CBD4FB22C4A986072B21 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B03156EA5410876897007E929E788C8F /* Pods-Detroit-School-Transport-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3511258FF1DED3401C4B456024D5FA41 /* IQDropDownTextField */ = {
+		00B6CB7698DCC27A6BAAA8DB267CDBD9 /* Pods-Detroit-School-Transport */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CB6149B6ECE563D2DD9104189DD505D9 /* Build configuration list for PBXNativeTarget "IQDropDownTextField" */;
+			buildConfigurationList = F60EE095E22F368C34742AFB1E3B5EC5 /* Build configuration list for PBXNativeTarget "Pods-Detroit-School-Transport" */;
 			buildPhases = (
-				93DFE152EF704B1927B6FB2D11035FB5 /* Sources */,
-				069C7F3D87D15B937BEEB611C31A3C74 /* Frameworks */,
-				453CAA37B2009A60DCD7ACAA4AE0FC85 /* Headers */,
+				9A36953981E0ABC81B950D94BDEE756C /* Sources */,
+				865E4F625BDB46BD52A0C8EE012FFC72 /* Frameworks */,
+				1706EE17FEA60C1F3AF186F4D4293935 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = IQDropDownTextField;
-			productName = IQDropDownTextField;
-			productReference = 0C7BFB1BEEA89ABB808D96A4CF9C3A29 /* IQDropDownTextField.framework */;
+			name = "Pods-Detroit-School-Transport";
+			productName = "Pods-Detroit-School-Transport";
+			productReference = B9CD055AFA4DA18F03D376A33D28D2BA /* Pods_Detroit_School_Transport.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5993423CF1A7BB99D05600FA1C88D145 /* Pods-Detroit-School-TransportTests */ = {
@@ -466,25 +399,7 @@
 			);
 			name = "Pods-Detroit-School-TransportTests";
 			productName = "Pods-Detroit-School-TransportTests";
-			productReference = 8EB9CF9691AAF09BD9130F729300E143 /* Pods_Detroit_School_TransportTests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A70D9F43BCCA5B178AED136B3CB21957 /* Pods-Detroit-School-Transport */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 15327DE70D3E17425E5AEE5F09A9610E /* Build configuration list for PBXNativeTarget "Pods-Detroit-School-Transport" */;
-			buildPhases = (
-				D52BBBE3CACC92FFE1432CFAB347042B /* Sources */,
-				C2C06FF076C51291295C01D4E8DB06F6 /* Frameworks */,
-				FBF25A3683D1CBD4FB22C4A986072B21 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6F518DC1366B35A1489E459F8FCDBA55 /* PBXTargetDependency */,
-			);
-			name = "Pods-Detroit-School-Transport";
-			productName = "Pods-Detroit-School-Transport";
-			productReference = 28185E33DC97671019C79F641D6F3864 /* Pods_Detroit_School_Transport.framework */;
+			productReference = 568D1007AAD032B4FAD98B34D33BCE5D /* Pods_Detroit_School_TransportTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F6F174773DCB9E5455A51B1ACACBAAA6 /* Pods-Detroit-School-TransportUITests */ = {
@@ -501,7 +416,7 @@
 			);
 			name = "Pods-Detroit-School-TransportUITests";
 			productName = "Pods-Detroit-School-TransportUITests";
-			productReference = 177A0EFC585591ED7E9EDB63A3AB1056 /* Pods_Detroit_School_TransportUITests.framework */;
+			productReference = 74C51A9EBABEEC7921C23234BB8F638A /* Pods_Detroit_School_TransportUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -521,12 +436,11 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = B95E3AA287F736A710F76C4018998DCC /* Products */;
+			productRefGroup = 5609B4E3EA5FABBD45B816891F2CD45F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3511258FF1DED3401C4B456024D5FA41 /* IQDropDownTextField */,
-				A70D9F43BCCA5B178AED136B3CB21957 /* Pods-Detroit-School-Transport */,
+				00B6CB7698DCC27A6BAAA8DB267CDBD9 /* Pods-Detroit-School-Transport */,
 				5993423CF1A7BB99D05600FA1C88D145 /* Pods-Detroit-School-TransportTests */,
 				F6F174773DCB9E5455A51B1ACACBAAA6 /* Pods-Detroit-School-TransportUITests */,
 			);
@@ -542,12 +456,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		93DFE152EF704B1927B6FB2D11035FB5 /* Sources */ = {
+		9A36953981E0ABC81B950D94BDEE756C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBCCB33035E0DCFE918E763DCD4A7945 /* IQDropDownTextField-dummy.m in Sources */,
-				F385107C2E0C111A61F2AFDAB8F9E4FA /* IQDropDownTextField.m in Sources */,
+				2757B9C3A72D230545E156EC10E915A6 /* Pods-Detroit-School-Transport-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,24 +472,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D52BBBE3CACC92FFE1432CFAB347042B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3CAB0D61610F4EF31862BF21C668E777 /* Pods-Detroit-School-Transport-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		6F518DC1366B35A1489E459F8FCDBA55 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = IQDropDownTextField;
-			target = 3511258FF1DED3401C4B456024D5FA41 /* IQDropDownTextField */;
-			targetProxy = 6A0F7AB269D61CF08EDA4FF3A08254C8 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1ADEC27576BB2C35F7FFAC5B159B95A7 /* Release */ = {
@@ -683,40 +579,7 @@
 			};
 			name = Debug;
 		};
-		709B21B3E4416E878BC3AF42B565FCBB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8C74807802B3C6BB11583CF65D3540F /* Pods-Detroit-School-Transport.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Detroit-School-Transport/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Detroit-School-Transport/Pods-Detroit-School-Transport.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Detroit_School_Transport;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		806C33DE5789D65FF6BA553737FBB03F /* Release */ = {
+		A68C7A5A6630A30FBA1C53952E610205 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D4327E7248A233EBEDF33BE8206DDFC8 /* Pods-Detroit-School-Transport.release.xcconfig */;
 			buildSettings = {
@@ -857,9 +720,9 @@
 			};
 			name = Release;
 		};
-		CF41D84B9BD714A06C9C765C6212A760 /* Debug */ = {
+		D2224031D51F9E215215062F940C50E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D835A120D667371672F3816AA9F99269 /* IQDropDownTextField.xcconfig */;
+			baseConfigurationReference = E8C74807802B3C6BB11583CF65D3540F /* Pods-Detroit-School-Transport.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -870,14 +733,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/IQDropDownTextField/IQDropDownTextField-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/IQDropDownTextField/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Detroit-School-Transport/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/IQDropDownTextField/IQDropDownTextField.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Detroit-School-Transport/Pods-Detroit-School-Transport.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = IQDropDownTextField;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Detroit_School_Transport;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -886,47 +753,9 @@
 			};
 			name = Debug;
 		};
-		DE0879D50F5B95962AE4E46746218A38 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D835A120D667371672F3816AA9F99269 /* IQDropDownTextField.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/IQDropDownTextField/IQDropDownTextField-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/IQDropDownTextField/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/IQDropDownTextField/IQDropDownTextField.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = IQDropDownTextField;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		15327DE70D3E17425E5AEE5F09A9610E /* Build configuration list for PBXNativeTarget "Pods-Detroit-School-Transport" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				709B21B3E4416E878BC3AF42B565FCBB /* Debug */,
-				806C33DE5789D65FF6BA553737FBB03F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -954,11 +783,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CB6149B6ECE563D2DD9104189DD505D9 /* Build configuration list for PBXNativeTarget "IQDropDownTextField" */ = {
+		F60EE095E22F368C34742AFB1E3B5EC5 /* Build configuration list for PBXNativeTarget "Pods-Detroit-School-Transport" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CF41D84B9BD714A06C9C765C6212A760 /* Debug */,
-				DE0879D50F5B95962AE4E46746218A38 /* Release */,
+				D2224031D51F9E215215062F940C50E5 /* Debug */,
+				A68C7A5A6630A30FBA1C53952E610205 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

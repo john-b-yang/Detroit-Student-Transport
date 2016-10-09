@@ -23,7 +23,6 @@ class BeginTripViewController: UIViewController, CLLocationManagerDelegate {
     var timeArray = [String]()
     var locationDictionary: Dictionary = [String: [String: Double]]()
     
-    
     //Firebase Database Reference
     var ref: FIRDatabaseReference!
     
