@@ -19,6 +19,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D13-zE-05x">
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Have a safe trip!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dao-5f-jVE">
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.89194212429999997" green="0.70890700849999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="IzK-nq-t0e"/>
+                                    <constraint firstItem="Dao-5f-jVE" firstAttribute="centerY" secondItem="D13-zE-05x" secondAttribute="centerY" constant="10" id="U8L-d0-WkV"/>
+                                    <constraint firstItem="Dao-5f-jVE" firstAttribute="centerX" secondItem="D13-zE-05x" secondAttribute="centerX" id="e4O-V6-XXT"/>
+                                </constraints>
+                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iS7-Cn-U8N">
                                 <color key="backgroundColor" red="1" green="0.62616619990916922" blue="0.53680283621952185" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -62,26 +77,22 @@
                                     <constraint firstAttribute="width" constant="150" id="cjC-3y-NJK"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Have a safe trip!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dao-5f-jVE">
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="0.97232806060516119" blue="0.75052674261135788" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="kVe-vf-QrJ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="120" id="0mm-X0-OKo"/>
                             <constraint firstItem="8vr-mS-Vcc" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="0oq-3Y-Ck1"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="D13-zE-05x" secondAttribute="trailing" constant="-20" id="8qb-IR-AEm"/>
                             <constraint firstItem="iS7-Cn-U8N" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BZX-yh-KQd"/>
-                            <constraint firstItem="Dao-5f-jVE" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="FZR-cX-0Xm"/>
                             <constraint firstItem="iS7-Cn-U8N" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="120" id="LIz-lD-2dr"/>
                             <constraint firstItem="upV-t3-AeD" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-120" id="M3V-aL-iWu"/>
                             <constraint firstItem="yce-94-rN5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NRC-1Y-33f"/>
                             <constraint firstItem="yce-94-rN5" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-120" id="UeS-un-cSb"/>
                             <constraint firstItem="upV-t3-AeD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="2" id="ZzV-Xp-TDu"/>
-                            <constraint firstItem="Dao-5f-jVE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eJr-0J-QBM"/>
                             <constraint firstItem="8vr-mS-Vcc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jis-fe-pTW"/>
+                            <constraint firstItem="D13-zE-05x" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="n5l-ct-wGx"/>
                             <constraint firstItem="kVe-vf-QrJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oQG-oB-K48"/>
+                            <constraint firstItem="D13-zE-05x" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="tbQ-Yd-aib"/>
                         </constraints>
                     </view>
                     <connections>
@@ -292,7 +303,7 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.97232806059999999" blue="0.75052674259999996" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="6MB-7x-0nF" firstAttribute="leading" secondItem="s4O-66-yvl" secondAttribute="leadingMargin" constant="-20" id="0YD-sb-gMW"/>
                             <constraint firstItem="b4W-fm-wGg" firstAttribute="top" secondItem="6MB-7x-0nF" secondAttribute="bottom" constant="10" id="Dpg-st-4GW"/>

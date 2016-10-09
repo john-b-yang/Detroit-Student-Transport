@@ -71,7 +71,6 @@ class BeginTripViewController: UIViewController, CLLocationManagerDelegate {
         let pauseTime = 1.0
         timer = Timer(timeInterval: pauseTime, target: self, selector: #selector(BeginTripViewController.compareLocation), userInfo: nil, repeats: true)
         RunLoop.current.add(timer, forMode: RunLoopMode.commonModes)
-        animationImageView.image = UIImage(named: "Driving.gif")
     }
     
     @IBAction func didTapStopButton(_ sender: AnyObject) {
@@ -107,5 +106,7 @@ class BeginTripViewController: UIViewController, CLLocationManagerDelegate {
                 counter += 1
             }
         }
+        animationImageView.isHidden = !animationImageView.isHidden
+        print(animationImageView.isHidden)
     }
 }
