@@ -43,6 +43,10 @@ class TripDataViewController: UIViewController, UITextFieldDelegate, CLLocationM
     override func viewDidLoad() {
         super.viewDidLoad()
 //        retrieveBusStops()
+        locationManager = CLLocationManager()
+        locationManager.delegate = self
+        locationManager.requestAlwaysAuthorization()
+        locationManager.startUpdatingLocation()
         
         //Background Views
         instantiateBackground(backgroundView: startBackground)
