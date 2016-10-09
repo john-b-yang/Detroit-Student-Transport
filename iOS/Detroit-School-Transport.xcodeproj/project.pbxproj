@@ -11,6 +11,7 @@
 		72C86E3FF79D3402F2C521BB /* Pods_Detroit_School_TransportUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2ADDFEA9AEA5C70E085D5E6 /* Pods_Detroit_School_TransportUITests.framework */; };
 		99A5F7DC55998A8733F60672 /* Pods_Detroit_School_TransportTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBEB0B867E5604B8A412190F /* Pods_Detroit_School_TransportTests.framework */; };
 		A06D34941DAA25CB00FD07E8 /* CompletedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06D34931DAA25CB00FD07E8 /* CompletedViewController.swift */; };
+		A06D34961DAA37DA00FD07E8 /* DestinationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06D34951DAA37DA00FD07E8 /* DestinationTableViewCell.swift */; };
 		A0A054151DA8D04300ED1F03 /* BeginTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A054141DA8D04300ED1F03 /* BeginTripViewController.swift */; };
 		A0AFF35B1DA9FF9C00B64AB3 /* DetroitTransitDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AFF35A1DA9FF9C00B64AB3 /* DetroitTransitDataSource.swift */; };
 		A0B0D1851DA9D0940029BD48 /* TripHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B0D1841DA9D0940029BD48 /* TripHistoryViewController.swift */; };
@@ -44,6 +45,7 @@
 		53B66A37D07FE0AD6651EBC8 /* Pods-Detroit-School-Transport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Detroit-School-Transport.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Detroit-School-Transport/Pods-Detroit-School-Transport.debug.xcconfig"; sourceTree = "<group>"; };
 		77958C46CCD7235D16AA1C99 /* Pods-Detroit-School-TransportTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Detroit-School-TransportTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Detroit-School-TransportTests/Pods-Detroit-School-TransportTests.release.xcconfig"; sourceTree = "<group>"; };
 		A06D34931DAA25CB00FD07E8 /* CompletedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompletedViewController.swift; sourceTree = "<group>"; };
+		A06D34951DAA37DA00FD07E8 /* DestinationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DestinationTableViewCell.swift; sourceTree = "<group>"; };
 		A0A054141DA8D04300ED1F03 /* BeginTripViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeginTripViewController.swift; sourceTree = "<group>"; };
 		A0AFF35A1DA9FF9C00B64AB3 /* DetroitTransitDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetroitTransitDataSource.swift; sourceTree = "<group>"; };
 		A0B0D1841DA9D0940029BD48 /* TripHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripHistoryViewController.swift; sourceTree = "<group>"; };
@@ -122,8 +124,8 @@
 		A0A054161DA8D0BF00ED1F03 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				A0A054141DA8D04300ED1F03 /* BeginTripViewController.swift */,
 				A0ECD6361DA982E200132B7D /* TripDataViewController.swift */,
+				A0A054141DA8D04300ED1F03 /* BeginTripViewController.swift */,
 				A0B0D1841DA9D0940029BD48 /* TripHistoryViewController.swift */,
 				A0AFF35A1DA9FF9C00B64AB3 /* DetroitTransitDataSource.swift */,
 				A06D34931DAA25CB00FD07E8 /* CompletedViewController.swift */,
@@ -171,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				A0ED15421DA9999900954412 /* SwiftHEXColors.swift */,
+				A06D34951DAA37DA00FD07E8 /* DestinationTableViewCell.swift */,
 			);
 			name = "Helper Classes";
 			sourceTree = "<group>";
@@ -450,6 +453,7 @@
 				A0AFF35B1DA9FF9C00B64AB3 /* DetroitTransitDataSource.swift in Sources */,
 				A0ECD6371DA982E200132B7D /* TripDataViewController.swift in Sources */,
 				A06D34941DAA25CB00FD07E8 /* CompletedViewController.swift in Sources */,
+				A06D34961DAA37DA00FD07E8 /* DestinationTableViewCell.swift in Sources */,
 				A0ED15431DA9999900954412 /* SwiftHEXColors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

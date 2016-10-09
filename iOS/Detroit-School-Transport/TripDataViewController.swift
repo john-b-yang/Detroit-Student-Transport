@@ -56,6 +56,9 @@ class TripDataViewController: UIViewController, UITextFieldDelegate, CLLocationM
         endBackground.backgroundColor = UIColor.init(hexString: "F4D35E")
         
         greetingLabel.text = "Hello, John"
+        
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(TripDataViewController.dismissKeyboard))
+        view.addGestureRecognizer(tap)
     }
     
     func firebaseConfig() {
@@ -71,5 +74,10 @@ class TripDataViewController: UIViewController, UITextFieldDelegate, CLLocationM
     func instantiateBackground(backgroundView: UIView) {
         backgroundView.layer.cornerRadius = 10
         backgroundView.backgroundColor = UIColor.gray
+    }
+    
+    func dismissKeyboard() {
+        //Causes the view (or one of its embedded text fields) to resign the first responder status and drop into background
+        view.endEditing(true)
     }
 }
