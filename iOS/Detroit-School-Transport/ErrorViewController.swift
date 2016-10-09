@@ -7,15 +7,38 @@
 //
 
 import UIKit
+import Firebase
 
-class ErrorViewController: UIViewController {
+class ErrorViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet weak var submitBackground: UIView!
+    @IBOutlet weak var feedbackTextView: UITextView!
+    @IBOutlet weak var feedbackTableView: UITableView!
+    
+    var ref: FIRDatabaseReference!
+    let user = "John"
+    var complaints:[String] = ["1", "2", "3"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        //Firebase
+        ref = FIRDatabase.database().reference()
+        self.ref.child("users/\(user)/issue").setValue("True")
+        
+        //Format Views
+        feedbackTableView.layer.cornerRadius = 10
+        feedbackTextView.layer.cornerRadius = 10
         submitBackground.layer.cornerRadius = 100
+        
+        //Table View
+        self.feedbackTableView.delegate = self
+        self.feedbackTableView.dataSource = self
+        self.feedbackTableView.allowsMultipleSelection = true
+        
+        //Keyboard Tap Relation
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(TripDataViewController.dismissKeyboard))
+        view.addGestureRecognizer(tap)
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,7 +46,18 @@ class ErrorViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func checkClicked(_ sender: AnyObject) {
+        let feedback:String = feedbackTextView.text
+        if !(feedback.isEmpty) {
+            self.ref.child("users/\(user)/complaint").setValue(feedback)
+        }
+    }
 
+    func dismissKeyboard() {
+        //Causes the view (or one of its embedded text fields) to resign the first responder status and drop into background
+        view.endEditing(true)
+    }
+    
     /*
     // MARK: - Navigation
 
@@ -33,4 +67,22 @@ class ErrorViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return complaints.count
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = self.feedbackTableView.dequeueReusableCell(withIdentifier: "complaintCell", for: indexPath) as! ComplaintTableViewCell
+        cell.complaintLabel.text = complaints[indexPath.section]
+        return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print(indexPath.count)
+    }
 }

@@ -9,6 +9,7 @@
 import UIKit
 import MapKit
 import CoreLocation
+import Firebase
 
 class EmergencyViewController: UIViewController, CLLocationManagerDelegate {
 
@@ -16,10 +17,15 @@ class EmergencyViewController: UIViewController, CLLocationManagerDelegate {
     @IBOutlet weak var mapView: MKMapView!
     
     var locationManager: CLLocationManager!
+    var ref: FIRDatabaseReference!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        ref = FIRDatabase.database().reference()
+        let user = "John"
+        self.ref.child("users/\(user)/emergency").setValue("true")
+        
         locationManager = CLLocationManager()
         locationManager.delegate = self
         locationManager.requestAlwaysAuthorization()

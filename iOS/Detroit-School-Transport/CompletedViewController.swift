@@ -15,7 +15,6 @@ class CompletedViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         redoBackground.layer.cornerRadius = 30
     }
 }

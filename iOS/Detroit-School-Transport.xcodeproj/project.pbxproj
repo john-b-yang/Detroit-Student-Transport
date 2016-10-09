@@ -14,6 +14,7 @@
 		A06D34961DAA37DA00FD07E8 /* DestinationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06D34951DAA37DA00FD07E8 /* DestinationTableViewCell.swift */; };
 		A06D34981DAA413600FD07E8 /* ErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06D34971DAA413600FD07E8 /* ErrorViewController.swift */; };
 		A06D349A1DAA43BC00FD07E8 /* EmergencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06D34991DAA43BC00FD07E8 /* EmergencyViewController.swift */; };
+		A06D349C1DAA68E900FD07E8 /* ComplaintTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06D349B1DAA68E900FD07E8 /* ComplaintTableViewCell.swift */; };
 		A0A054151DA8D04300ED1F03 /* BeginTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A054141DA8D04300ED1F03 /* BeginTripViewController.swift */; };
 		A0AFF35B1DA9FF9C00B64AB3 /* DetroitTransitDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AFF35A1DA9FF9C00B64AB3 /* DetroitTransitDataSource.swift */; };
 		A0B0D1851DA9D0940029BD48 /* TripHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B0D1841DA9D0940029BD48 /* TripHistoryViewController.swift */; };
@@ -50,10 +51,11 @@
 		A06D34951DAA37DA00FD07E8 /* DestinationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DestinationTableViewCell.swift; sourceTree = "<group>"; };
 		A06D34971DAA413600FD07E8 /* ErrorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorViewController.swift; sourceTree = "<group>"; };
 		A06D34991DAA43BC00FD07E8 /* EmergencyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmergencyViewController.swift; sourceTree = "<group>"; };
+		A06D349B1DAA68E900FD07E8 /* ComplaintTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComplaintTableViewCell.swift; sourceTree = "<group>"; };
 		A0A054141DA8D04300ED1F03 /* BeginTripViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeginTripViewController.swift; sourceTree = "<group>"; };
 		A0AFF35A1DA9FF9C00B64AB3 /* DetroitTransitDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetroitTransitDataSource.swift; sourceTree = "<group>"; };
 		A0B0D1841DA9D0940029BD48 /* TripHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripHistoryViewController.swift; sourceTree = "<group>"; };
-		A0E834001DA8C756001A45EF /* Detroit-School-Transport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Detroit-School-Transport.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0E834001DA8C756001A45EF /* DST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DST.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0E834031DA8C756001A45EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0E834081DA8C756001A45EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0E8340A1DA8C756001A45EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -154,7 +156,7 @@
 		A0E834011DA8C756001A45EF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A0E834001DA8C756001A45EF /* Detroit-School-Transport.app */,
+				A0E834001DA8C756001A45EF /* DST.app */,
 				A0E834141DA8C756001A45EF /* Detroit-School-TransportTests.xctest */,
 				A0E8341F1DA8C756001A45EF /* Detroit-School-TransportUITests.xctest */,
 			);
@@ -180,6 +182,7 @@
 			children = (
 				A0ED15421DA9999900954412 /* SwiftHEXColors.swift */,
 				A06D34951DAA37DA00FD07E8 /* DestinationTableViewCell.swift */,
+				A06D349B1DAA68E900FD07E8 /* ComplaintTableViewCell.swift */,
 			);
 			name = "Helper Classes";
 			sourceTree = "<group>";
@@ -204,7 +207,7 @@
 			);
 			name = "Detroit-School-Transport";
 			productName = "Detroit-School-Transport";
-			productReference = A0E834001DA8C756001A45EF /* Detroit-School-Transport.app */;
+			productReference = A0E834001DA8C756001A45EF /* DST.app */;
 			productType = "com.apple.product-type.application";
 		};
 		A0E834131DA8C756001A45EF /* Detroit-School-TransportTests */ = {
@@ -458,6 +461,7 @@
 				A0A054151DA8D04300ED1F03 /* BeginTripViewController.swift in Sources */,
 				A0AFF35B1DA9FF9C00B64AB3 /* DetroitTransitDataSource.swift in Sources */,
 				A06D349A1DAA43BC00FD07E8 /* EmergencyViewController.swift in Sources */,
+				A06D349C1DAA68E900FD07E8 /* ComplaintTableViewCell.swift in Sources */,
 				A0ECD6371DA982E200132B7D /* TripDataViewController.swift in Sources */,
 				A06D34941DAA25CB00FD07E8 /* CompletedViewController.swift in Sources */,
 				A06D34961DAA37DA00FD07E8 /* DestinationTableViewCell.swift in Sources */,
@@ -619,7 +623,7 @@
 				INFOPLIST_FILE = "Detroit-School-Transport/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "johnyang.Detroit-School-Transport";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DST;
 				SWIFT_OBJC_BRIDGING_HEADER = "Detroit-School-Transport-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
@@ -634,7 +638,7 @@
 				INFOPLIST_FILE = "Detroit-School-Transport/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "johnyang.Detroit-School-Transport";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DST;
 				SWIFT_OBJC_BRIDGING_HEADER = "Detroit-School-Transport-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};

@@ -19,7 +19,7 @@ import UITextField_Shake
 class TripDataViewController: UIViewController, UITextFieldDelegate, CLLocationManagerDelegate {
     
     var locationManager: CLLocationManager!
-    let user = "Megan"
+    let user = "John"
     
     @IBOutlet weak var headerBackground: UIView!
     @IBOutlet weak var startBackground: UIView!
@@ -116,6 +116,8 @@ class TripDataViewController: UIViewController, UITextFieldDelegate, CLLocationM
             self.ref.child("users/\(user)/route/busLine").setValue(line)
             self.ref.child("users/\(user)/route/stop").setValue(stop)
             self.ref.child("users/\(user)/route/end").setValue(end)
+            self.ref.child("users/\(user)/emergency").setValue("false")
+            self.ref.child("users/\(user)/issues").setValue("false")
             performSegue(withIdentifier: "allDataEntered", sender: nil)
         }
     }

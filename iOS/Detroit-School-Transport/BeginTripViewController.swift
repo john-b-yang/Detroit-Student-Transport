@@ -28,7 +28,7 @@ class BeginTripViewController: UIViewController, CLLocationManagerDelegate {
     
     //Firebase Database Reference
     var ref: FIRDatabaseReference!
-    let user = "Megan"
+    let user = "John"
     
     //Background Views
     @IBOutlet weak var startBackground: UIView!
@@ -86,7 +86,7 @@ class BeginTripViewController: UIViewController, CLLocationManagerDelegate {
         
         //Send Data to Firebase
         self.ref.child("users/\(user)/age").setValue(18)
-        self.ref.child("users/\(user)/name").setValue("\(user) Gamino")
+        self.ref.child("users/\(user)/name").setValue("\(user) Yang")
         
         //Artificially populate timeArray and locationArray since they are blank
         timeArray = [String(describing: Date()), String(describing: Date()), String(describing: Date())]

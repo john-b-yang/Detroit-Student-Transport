@@ -11,7 +11,7 @@
         <!--Begin Trip View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="BeginTripViewController" customModule="Detroit_School_Transport" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="BeginTripViewController" customModule="DST" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -136,7 +136,7 @@
         <!--Trip History View Controller-->
         <scene sceneID="LQ3-PS-dYC">
             <objects>
-                <viewController id="Om3-kI-9ei" customClass="TripHistoryViewController" customModule="Detroit_School_Transport" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Om3-kI-9ei" customClass="TripHistoryViewController" customModule="DST" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="JVu-gW-HB2"/>
                         <viewControllerLayoutGuide type="bottom" id="pjF-0P-OJV"/>
@@ -206,7 +206,7 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="pcM-rz-6pP">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="wnL-BF-WUm" customClass="DestinationTableViewCell" customModule="Detroit_School_Transport" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="wnL-BF-WUm" customClass="DestinationTableViewCell" customModule="DST" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="343" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wnL-BF-WUm" id="GfR-dB-5Xw">
@@ -297,7 +297,7 @@
         <!--Emergency View Controller-->
         <scene sceneID="K9f-sL-cbr">
             <objects>
-                <viewController id="tJv-WH-c4n" customClass="EmergencyViewController" customModule="Detroit_School_Transport" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="tJv-WH-c4n" customClass="EmergencyViewController" customModule="DST" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xoA-ZU-lsE"/>
                         <viewControllerLayoutGuide type="bottom" id="b6z-LP-1ZH"/>
@@ -328,7 +328,7 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Help is on the Way.  Stay calm, find a safe place, and stay there." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gdn-6W-owA">
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -364,7 +364,7 @@
         <!--Error View Controller-->
         <scene sceneID="2qp-Ou-bC5">
             <objects>
-                <viewController id="3zp-bw-dut" customClass="ErrorViewController" customModule="Detroit_School_Transport" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="3zp-bw-dut" customClass="ErrorViewController" customModule="DST" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="iHS-sX-w9B"/>
                         <viewControllerLayoutGuide type="bottom" id="MEW-w2-wXV"/>
@@ -397,6 +397,7 @@
                                         </constraints>
                                         <state key="normal" image="Check"/>
                                         <connections>
+                                            <action selector="checkClicked:" destination="3zp-bw-dut" eventType="touchUpInside" id="Hjv-tR-Pv0"/>
                                             <segue destination="aMr-HP-mlc" kind="show" id="aFB-yl-1aL"/>
                                         </connections>
                                     </button>
@@ -406,38 +407,90 @@
                                     <constraint firstAttribute="height" constant="120" id="Bhy-r6-peD"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What Went Wrong?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FbO-C2-utP">
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Our apologies. What went wrong?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FbO-C2-utP">
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" dataMode="prototypes" style="plain" allowsMultipleSelection="YES" rowHeight="30" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="clB-FQ-khw">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="VrE-cb-Vkt"/>
+                                </constraints>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationWidth="0.0" reuseIdentifier="complaintCell" id="dpB-Dd-1sW" customClass="ComplaintTableViewCell" customModule="DST" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="303" height="30"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dpB-Dd-1sW" id="lbO-Dm-5sq">
+                                            <frame key="frameInset" width="303" height="29"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C6N-kD-kRS">
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="C6N-kD-kRS" firstAttribute="leading" secondItem="lbO-Dm-5sq" secondAttribute="leadingMargin" constant="15" id="SPD-WV-b4R"/>
+                                                <constraint firstItem="C6N-kD-kRS" firstAttribute="centerY" secondItem="lbO-Dm-5sq" secondAttribute="centerY" id="V5Y-fX-YLb"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="complaintLabel" destination="C6N-kD-kRS" id="ySA-gG-WHc"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <sections/>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Additional Feedback?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HfB-OA-fEt">
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" text="Any input is appreciated!" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="MJM-lc-W7r">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.97232806059999999" blue="0.75052674259999996" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="FbO-C2-utP" firstAttribute="top" secondItem="552-bs-slL" secondAttribute="bottom" constant="20" id="4PM-Pp-WW7"/>
+                            <constraint firstItem="clB-FQ-khw" firstAttribute="leading" secondItem="E2X-Bd-jOz" secondAttribute="leadingMargin" constant="20" id="89O-c7-x0m"/>
                             <constraint firstItem="MEW-w2-wXV" firstAttribute="top" secondItem="9Rp-Ea-2mu" secondAttribute="bottom" constant="-60" id="9dy-n2-iDS"/>
                             <constraint firstItem="FbO-C2-utP" firstAttribute="centerX" secondItem="E2X-Bd-jOz" secondAttribute="centerX" id="9nB-hk-EYp"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="MJM-lc-W7r" secondAttribute="trailing" constant="20" id="B9H-0T-Tdz"/>
                             <constraint firstItem="tEZ-2c-iGg" firstAttribute="centerX" secondItem="E2X-Bd-jOz" secondAttribute="centerX" id="Kif-nW-z41"/>
                             <constraint firstItem="9Rp-Ea-2mu" firstAttribute="leading" secondItem="E2X-Bd-jOz" secondAttribute="leadingMargin" constant="-20" id="LqY-mE-loj"/>
+                            <constraint firstItem="clB-FQ-khw" firstAttribute="top" secondItem="FbO-C2-utP" secondAttribute="bottom" constant="10" id="OmY-bJ-7yK"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="clB-FQ-khw" secondAttribute="trailing" constant="20" id="PDK-Mk-zTf"/>
+                            <constraint firstItem="MJM-lc-W7r" firstAttribute="leading" secondItem="E2X-Bd-jOz" secondAttribute="leadingMargin" constant="20" id="SZb-0O-HYj"/>
                             <constraint firstAttribute="trailingMargin" secondItem="9Rp-Ea-2mu" secondAttribute="trailing" constant="-20" id="Wts-nP-jff"/>
                             <constraint firstAttribute="trailingMargin" secondItem="552-bs-slL" secondAttribute="trailing" constant="-20" id="Yq7-Bk-qsx"/>
+                            <constraint firstItem="9Rp-Ea-2mu" firstAttribute="top" secondItem="MJM-lc-W7r" secondAttribute="bottom" constant="20" id="Zte-kU-zlQ"/>
+                            <constraint firstItem="HfB-OA-fEt" firstAttribute="top" secondItem="clB-FQ-khw" secondAttribute="bottom" constant="30" id="bAs-XR-wqe"/>
                             <constraint firstItem="552-bs-slL" firstAttribute="leading" secondItem="E2X-Bd-jOz" secondAttribute="leadingMargin" constant="-20" id="blX-j8-B2Q"/>
+                            <constraint firstItem="MJM-lc-W7r" firstAttribute="top" secondItem="HfB-OA-fEt" secondAttribute="bottom" constant="10" id="fFU-p0-H0J"/>
                             <constraint firstItem="552-bs-slL" firstAttribute="top" secondItem="iHS-sX-w9B" secondAttribute="bottom" constant="-20" id="ijm-d5-GeU"/>
+                            <constraint firstItem="HfB-OA-fEt" firstAttribute="centerX" secondItem="E2X-Bd-jOz" secondAttribute="centerX" id="rxR-gK-rDX"/>
                             <constraint firstItem="MEW-w2-wXV" firstAttribute="top" secondItem="tEZ-2c-iGg" secondAttribute="bottom" constant="10" id="tq2-zA-HDr"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="feedbackTableView" destination="clB-FQ-khw" id="kCh-q8-5bY"/>
+                        <outlet property="feedbackTextView" destination="MJM-lc-W7r" id="aND-eC-hgi"/>
                         <outlet property="submitBackground" destination="9Rp-Ea-2mu" id="nAO-UP-xBZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tcb-Vq-lns" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2846" y="858"/>
+            <point key="canvasLocation" x="2845.5999999999999" y="857.72113943028489"/>
         </scene>
         <!--Completed View Controller-->
         <scene sceneID="ipe-3h-2Cd">
             <objects>
-                <viewController id="aMr-HP-mlc" customClass="CompletedViewController" customModule="Detroit_School_Transport" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="aMr-HP-mlc" customClass="CompletedViewController" customModule="DST" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hcS-3M-24a"/>
                         <viewControllerLayoutGuide type="bottom" id="OgC-iv-l9x"/>
@@ -558,7 +611,7 @@
         <!--Trip Data View Controller-->
         <scene sceneID="Net-89-Twe">
             <objects>
-                <viewController id="4I3-WA-Zjr" customClass="TripDataViewController" customModule="Detroit_School_Transport" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="4I3-WA-Zjr" customClass="TripDataViewController" customModule="DST" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xKs-gt-s0A"/>
                         <viewControllerLayoutGuide type="bottom" id="hA9-hH-xu7"/>
