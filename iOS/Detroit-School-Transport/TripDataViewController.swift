@@ -14,6 +14,7 @@ import Foundation
 import Firebase
 import UIKit
 import CoreLocation
+import UITextField_Shake
 
 class TripDataViewController: UIViewController, UITextFieldDelegate, CLLocationManagerDelegate {
     
@@ -83,5 +84,28 @@ class TripDataViewController: UIViewController, UITextFieldDelegate, CLLocationM
     func dismissKeyboard() {
         //Causes the view (or one of its embedded text fields) to resign the first responder status and drop into background
         view.endEditing(true)
+    }
+    
+    @IBAction func goButtonClicked(_ sender: AnyObject) {
+        var moveOn = true
+        if(startTextField.text?.isEmpty)! {
+            startTextField.shake(10, withDelta: 5.0, speed: 0.03)
+            moveOn = false
+        }
+        else if(lineTextField.text?.isEmpty)! {
+            lineTextField.shake(10, withDelta: 5.0, speed: 0.03)
+            moveOn = false
+        }
+        else if(stopTextField.text?.isEmpty)! {
+            stopTextField.shake(10, withDelta: 5.0, speed: 0.03)
+            moveOn = false
+        }
+        else if(endTextField.text?.isEmpty)! {
+            endTextField.shake(10, withDelta: 5.0, speed: 0.03)
+            moveOn = false
+        }
+        if (moveOn) {
+            performSegue(withIdentifier: "allDataEntered", sender: nil)
+        }
     }
 }

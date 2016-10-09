@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6D51BE09D19E69AB56BD7939EDE00372"
-               BuildableName = "Pods_Detroit_School_Transport.framework"
-               BlueprintName = "Pods-Detroit-School-Transport"
+               BlueprintIdentifier = "D1BBDF78983F94E395489CBC0E5A83DF"
+               BuildableName = "UITextField_Shake.framework"
+               BlueprintName = "UITextField+Shake"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6D51BE09D19E69AB56BD7939EDE00372"
-            BuildableName = "Pods_Detroit_School_Transport.framework"
-            BlueprintName = "Pods-Detroit-School-Transport"
+            BlueprintIdentifier = "D1BBDF78983F94E395489CBC0E5A83DF"
+            BuildableName = "UITextField_Shake.framework"
+            BlueprintName = "UITextField+Shake"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

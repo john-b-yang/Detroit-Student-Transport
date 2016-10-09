@@ -327,7 +327,7 @@
                                     <constraint firstAttribute="height" constant="120" id="H8n-Nl-oEb"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Help is on the Way.  Stay calm, find a safe place, and stay there.  Make sure you are ok before helping others" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gdn-6W-owA">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Help is on the Way.  Stay calm, find a safe place, and stay there." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gdn-6W-owA">
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -703,7 +703,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="BYZ-38-t0r" kind="show" id="xrJ-XJ-GNl"/>
+                                            <action selector="goButtonClicked:" destination="4I3-WA-Zjr" eventType="touchUpInside" id="YDC-YO-Wf2"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -742,11 +742,12 @@
                         <outlet property="startTextField" destination="RRK-QK-q96" id="8gq-mN-1xO"/>
                         <outlet property="stopBackground" destination="Erz-pw-7fb" id="LT8-Y0-Gad"/>
                         <outlet property="stopTextField" destination="djy-ih-aD6" id="3yP-YU-SLr"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="allDataEntered" id="4mE-xA-jyV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9PY-f5-9yK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1302" y="156"/>
+            <point key="canvasLocation" x="1311" y="154"/>
         </scene>
     </scenes>
     <resources>
