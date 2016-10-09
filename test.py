@@ -5,9 +5,10 @@ import urllib2
 #sets up firebase
 firebase = firebase.FirebaseApplication('https://detroit-student-transport.firebaseio.com/', None)
 
-#how to GET url data
+#how to GET url data--returns HTML as type STRING 
 response = urllib2.urlopen('http://python.org/')
 html = response.read()
+
 
 
 
@@ -44,8 +45,3 @@ print specificNameTwo
 
 specificAge = firebase.get('/users', '-KTbLsXptmi0XmHq9qfC')['age']
 print specificAge
-
-
-#still trying to get this type of thing to work but theoretically returns user from search
-specificUserAfterSearch = firebase.get('/users', None, {'age': 20})
-print specificUserAfterSearch
