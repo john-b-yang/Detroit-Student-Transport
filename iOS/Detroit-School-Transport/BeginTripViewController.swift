@@ -19,6 +19,7 @@ class BeginTripViewController: UIViewController, CLLocationManagerDelegate {
     //UI Elements
     @IBOutlet weak var trackButton: UIButton!
     @IBOutlet weak var stopButton: UIButton!
+    @IBOutlet weak var reportButton: UIButton!
     
     //Location Management and Trip History
     var locationManager: CLLocationManager!
@@ -31,9 +32,11 @@ class BeginTripViewController: UIViewController, CLLocationManagerDelegate {
     //Background Views
     @IBOutlet weak var startBackground: UIView!
     @IBOutlet weak var finishBackground: UIView!
+    @IBOutlet weak var reportBackground: UIView!
     
     //Image aka Gif
     @IBOutlet weak var animationImageView: UIImageView!
+    var fading = true
     
     //Timer
     var timer = Timer()
@@ -60,6 +63,7 @@ class BeginTripViewController: UIViewController, CLLocationManagerDelegate {
         //background view color
         startBackground.layer.cornerRadius = 25
         finishBackground.layer.cornerRadius = 25
+        reportBackground.layer.cornerRadius = 100
     }
     
     /*
@@ -70,7 +74,9 @@ class BeginTripViewController: UIViewController, CLLocationManagerDelegate {
         print("Record")
         let pauseTime = 1.0
         timer = Timer(timeInterval: pauseTime, target: self, selector: #selector(BeginTripViewController.compareLocation), userInfo: nil, repeats: true)
+        let anotherTimer = Timer(timeInterval: 0.1, target: self, selector: #selector(BeginTripViewController.fade), userInfo: nil, repeats: true)
         RunLoop.current.add(timer, forMode: RunLoopMode.commonModes)
+        RunLoop.current.add(anotherTimer, forMode: RunLoopMode.commonModes)
     }
     
     @IBAction func didTapStopButton(_ sender: AnyObject) {
@@ -106,7 +112,16 @@ class BeginTripViewController: UIViewController, CLLocationManagerDelegate {
                 counter += 1
             }
         }
-        animationImageView.isHidden = !animationImageView.isHidden
-        print(animationImageView.isHidden)
+    }
+    
+    func fade() {
+        if(fading) {
+            animationImageView.alpha -= 0.2
+        } else {
+            animationImageView.alpha += 0.2
+        }
+        if(animationImageView.alpha >= 1 || animationImageView.alpha <= 0.2) {
+            fading = !fading
+        }
     }
 }

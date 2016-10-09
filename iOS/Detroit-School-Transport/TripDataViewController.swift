@@ -27,6 +27,7 @@ class TripDataViewController: UIViewController, UITextFieldDelegate, CLLocationM
     @IBOutlet weak var buttonBackground: UIView!
     @IBOutlet weak var goButton: UIButton!
     
+    
     @IBOutlet weak var startTextField: UITextField!
     @IBOutlet weak var lineTextField: UITextField!
     @IBOutlet weak var stopTextField: UITextField!

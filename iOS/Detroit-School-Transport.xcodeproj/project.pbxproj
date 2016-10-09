@@ -10,6 +10,7 @@
 		167D610B03D37A6C850E764C /* Pods_Detroit_School_Transport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A48737979C11C62A69B5D0 /* Pods_Detroit_School_Transport.framework */; };
 		72C86E3FF79D3402F2C521BB /* Pods_Detroit_School_TransportUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2ADDFEA9AEA5C70E085D5E6 /* Pods_Detroit_School_TransportUITests.framework */; };
 		99A5F7DC55998A8733F60672 /* Pods_Detroit_School_TransportTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBEB0B867E5604B8A412190F /* Pods_Detroit_School_TransportTests.framework */; };
+		A06D34941DAA25CB00FD07E8 /* CompletedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06D34931DAA25CB00FD07E8 /* CompletedViewController.swift */; };
 		A0A054151DA8D04300ED1F03 /* BeginTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A054141DA8D04300ED1F03 /* BeginTripViewController.swift */; };
 		A0AFF35B1DA9FF9C00B64AB3 /* DetroitTransitDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AFF35A1DA9FF9C00B64AB3 /* DetroitTransitDataSource.swift */; };
 		A0B0D1851DA9D0940029BD48 /* TripHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B0D1841DA9D0940029BD48 /* TripHistoryViewController.swift */; };
@@ -20,7 +21,6 @@
 		A0ECD6371DA982E200132B7D /* TripDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ECD6361DA982E200132B7D /* TripDataViewController.swift */; };
 		A0ED15431DA9999900954412 /* SwiftHEXColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ED15421DA9999900954412 /* SwiftHEXColors.swift */; };
 		EEA829091DAA1792008B853D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EEA829081DAA1792008B853D /* GoogleService-Info.plist */; };
-		EEA8290B1DAA17A4008B853D /* Driving.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEA8290A1DAA17A4008B853D /* Driving.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +43,7 @@
 /* Begin PBXFileReference section */
 		53B66A37D07FE0AD6651EBC8 /* Pods-Detroit-School-Transport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Detroit-School-Transport.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Detroit-School-Transport/Pods-Detroit-School-Transport.debug.xcconfig"; sourceTree = "<group>"; };
 		77958C46CCD7235D16AA1C99 /* Pods-Detroit-School-TransportTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Detroit-School-TransportTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Detroit-School-TransportTests/Pods-Detroit-School-TransportTests.release.xcconfig"; sourceTree = "<group>"; };
+		A06D34931DAA25CB00FD07E8 /* CompletedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompletedViewController.swift; sourceTree = "<group>"; };
 		A0A054141DA8D04300ED1F03 /* BeginTripViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeginTripViewController.swift; sourceTree = "<group>"; };
 		A0AFF35A1DA9FF9C00B64AB3 /* DetroitTransitDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetroitTransitDataSource.swift; sourceTree = "<group>"; };
 		A0B0D1841DA9D0940029BD48 /* TripHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripHistoryViewController.swift; sourceTree = "<group>"; };
@@ -64,7 +65,6 @@
 		C68BE7B1BF758069DFDB3AA8 /* Pods-Detroit-School-Transport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Detroit-School-Transport.release.xcconfig"; path = "Pods/Target Support Files/Pods-Detroit-School-Transport/Pods-Detroit-School-Transport.release.xcconfig"; sourceTree = "<group>"; };
 		DBEB0B867E5604B8A412190F /* Pods_Detroit_School_TransportTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Detroit_School_TransportTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEA829081DAA1792008B853D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		EEA8290A1DAA17A4008B853D /* Driving.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Driving.gif; sourceTree = "<group>"; };
 		F7528F882E0B6901912443B2 /* Pods-Detroit-School-TransportUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Detroit-School-TransportUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Detroit-School-TransportUITests/Pods-Detroit-School-TransportUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,14 +119,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A07FBACC1DA9F0AF00D7E653 /* Gif Files */ = {
-			isa = PBXGroup;
-			children = (
-				EEA8290A1DAA17A4008B853D /* Driving.gif */,
-			);
-			name = "Gif Files";
-			sourceTree = "<group>";
-		};
 		A0A054161DA8D0BF00ED1F03 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +126,7 @@
 				A0ECD6361DA982E200132B7D /* TripDataViewController.swift */,
 				A0B0D1841DA9D0940029BD48 /* TripHistoryViewController.swift */,
 				A0AFF35A1DA9FF9C00B64AB3 /* DetroitTransitDataSource.swift */,
+				A06D34931DAA25CB00FD07E8 /* CompletedViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -163,7 +156,6 @@
 		A0E834021DA8C756001A45EF /* Detroit-School-Transport */ = {
 			isa = PBXGroup;
 			children = (
-				A07FBACC1DA9F0AF00D7E653 /* Gif Files */,
 				A0ED15441DA999A300954412 /* Helper Classes */,
 				A0A054161DA8D0BF00ED1F03 /* View Controllers */,
 				A0E834031DA8C756001A45EF /* AppDelegate.swift */,
@@ -305,7 +297,6 @@
 				A0E8340B1DA8C756001A45EF /* Assets.xcassets in Resources */,
 				EEA829091DAA1792008B853D /* GoogleService-Info.plist in Resources */,
 				A0E834091DA8C756001A45EF /* Main.storyboard in Resources */,
-				EEA8290B1DAA17A4008B853D /* Driving.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,6 +449,7 @@
 				A0A054151DA8D04300ED1F03 /* BeginTripViewController.swift in Sources */,
 				A0AFF35B1DA9FF9C00B64AB3 /* DetroitTransitDataSource.swift in Sources */,
 				A0ECD6371DA982E200132B7D /* TripDataViewController.swift in Sources */,
+				A06D34941DAA25CB00FD07E8 /* CompletedViewController.swift in Sources */,
 				A0ED15431DA9999900954412 /* SwiftHEXColors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
