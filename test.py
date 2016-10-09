@@ -1,6 +1,13 @@
 from firebase import firebase
 import requests
+import urllib2
+
+#sets up firebase
 firebase = firebase.FirebaseApplication('https://detroit-student-transport.firebaseio.com/', None)
+
+#how to GET url data
+response = urllib2.urlopen('http://python.org/')
+html = response.read()
 
 
 
