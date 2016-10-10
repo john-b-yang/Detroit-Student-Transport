@@ -1,4 +1,4 @@
-# Detroit-Student-Transport
+# Detroit-Student-Transport :oncoming-bus:
 MHacks 8 Project
 
 Detroit School Transit (DST) enables students to take control of their transit schedule. By turning on location tracking 
@@ -10,3 +10,9 @@ platform to view student transit reports.
 Web Application: http://detroit-school-transit-administrator-pl.webflow.io/
 
 Devpost: http://devpost.com/software/detroit-student-transit
+
+![Entering your data](./Helper\ Files/Screenshots/Trip-Data.png)
+![Tracking your location](./Helper\ Files/Screenshots/Location-Tracking.png)
+![Trip summary](./Helper\ Files/Screenshots/Summary.png)
+![Feedback](./Helper\ Files/Screenshots/Feedback.png)
+![Finished your trip](./Helper\ Files/Screenshots/Trip-Completed.png)
