@@ -11,8 +11,8 @@ Web Application: http://detroit-school-transit-administrator-pl.webflow.io/
 
 Devpost: http://devpost.com/software/detroit-student-transit
 
-![Entering your data](./Helper\ Files/Screenshots/Trip-Data.png=200x355.73)
-![Tracking your location](./Helper\ Files/Screenshots/Location-Tracking.png=200x355.73)
-![Trip summary](./Helper\ Files/Screenshots/Summary.png=200x355.73)
-![Feedback](./Helper\ Files/Screenshots/Feedback.png=200x355.73)
-![Finished your trip](./Helper\ Files/Screenshots/Trip-Completed.png=200x355.73)
+![Entering your data](./Helper\ Files/Screenshots/Trip-Data.png =200x355)
+![Tracking your location](./Helper\ Files/Screenshots/Location-Tracking.png =200x355)
+![Trip summary](./Helper\ Files/Screenshots/Summary.png =200x355)
+![Feedback](./Helper\ Files/Screenshots/Feedback.png =200x355)
+![Finished your trip](./Helper\ Files/Screenshots/Trip-Completed.png =200x355)
