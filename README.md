@@ -1,4 +1,4 @@
-# Detroit-Student-Transport :oncoming-bus:
+# Detroit-Student-Transport :oncoming_bus:
 MHacks 8 Project
 
 Detroit School Transit (DST) enables students to take control of their transit schedule. By turning on location tracking 
