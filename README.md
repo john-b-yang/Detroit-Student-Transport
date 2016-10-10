@@ -8,4 +8,5 @@ can also track the commute and know when their children get to school safely. Th
 platform to view student transit reports.
 
 Web Application: http://detroit-school-transit-administrator-pl.webflow.io/
+
 Devpost: http://devpost.com/software/detroit-student-transit
