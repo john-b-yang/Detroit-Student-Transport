@@ -1,0 +1,20 @@
+{
+  "users": {
+    "Harshita": {
+      "name": "Harshita Gupta",
+      "route": {}
+    },
+    "Lauren": {
+      "name": "Lauren Weldon",
+      "route": {}
+    },
+    "Megan": {
+      "name": "Megan Gamino",
+      "route": {}
+    },
+    "John": {
+      "name": "John Yang",
+      "route": {}
+    }
+  }
+}
